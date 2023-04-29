@@ -1585,7 +1585,7 @@ def passwrd():
 	global prog,des
 	print('')
 	urut = []
-	print(M+'<------------------------------------------------------------------------>')
+	print(M+'<------------------------------------------------------------------------------------->')
 	wa.print(Columns(urut))
 	cetak(panel(f'[bold cyan]        On/Off Mode Pesawat Jika Tidak Ada Hasil!!!',width=90,title=f"[bold red][ [bold green]Informasi [bold red]]",subtitle=f"[bold red][[bold green] Proses Crack [bold red]]",style=f"bold red"))
 	prog = Progress(SpinnerColumn('clock'),TextColumn('{task.description}'),BarColumn(),TextColumn('{task.percentage:.0f}%'))
