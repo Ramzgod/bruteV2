@@ -630,10 +630,11 @@ def crack_file():
 			id.append(xid)
 		setting()
 def info_ngentod():
-	print(p+""+h+"   ["+m+" >>"+k+"The Javu Avokados"+m+"<< "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
-	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
+	
+	print("\x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mp+""+h+"   ["+m+" >>"+k+"The Javu Avokados"+m+"<< "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(p+"___________________________________________________________________________________________________________________________________");time.sleep(0.03)
 	print(p+""+h+"   ["+k+" Info Created and Team "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
-	print(p+""+h+"   ["+k+" XNX-CODE Team 2021 "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(p+""+h+"   ["+k+" XNX-CODE Team 2023 "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
 	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
 	print(p+""+h+"   ["+k+"    Created Script "+h+"]");time.sleep(0.03)
 	print(p+""+m+"• "+h+"Sanz-Tzy");time.sleep(0.03)
