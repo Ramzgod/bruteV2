@@ -454,7 +454,7 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]BintangTzy[bold cyan] Yang Telah Membuat Script Ini, Premium Multi Brute Facebook',width=90,style=f"bold white"))
 	cetak(panel(f'[bold white][[bold green]•[/][bold white]][/] [bold cyan]Username : [bold yellow]{my_name}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Idz : [bold yellow]{my_id}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Ip  : [bold yellow]{ip}[/][/][bold white]\n[[bold green]•[/][bold white]][/] [bold cyan]Status   : [bold green]Premium ',width=90,title=f"[bold green]Infomasi",style=f"bold white"))
-	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack Publick OR Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack Massal Or Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack Username [bold yellow]5000IDZ[bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/] [bold cyan]Crack Grup [bold yellow]5000IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/] [bold cyan]Crack Followers [bold yellow]5000IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/] [bold cyan]Crack Email [bold yellow]5000IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/] [bold cyan]Crack File [bold yellow]5000IDZ [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/] [bold cyan]Crack Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/] [bold cyan]Cek Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/] [bold cyan]Chekpoint Detecktor [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/] [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/] [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/] [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/] [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/] [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold red]00[/][bold white]][/] [bold red]Hapus Cookies [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold green]List Menu",style=f"bold white"))
+	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack Publick OR Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack Massal Or Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack Username [bold yellow]5000IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/] [bold cyan]Crack Grup [bold yellow]5000IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/] [bold cyan]Crack Followers [bold yellow]5000IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/] [bold cyan]Crack Email [bold yellow]5000IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/] [bold cyan]Crack File [bold yellow]5000IDZ [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/] [bold cyan]Crack Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/] [bold cyan]Cek Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/] [bold cyan]Chekpoint Detecktor [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/] [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/] [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/] [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/] [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/] [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold red]00[/][bold white]][/] [bold red]Hapus Cookies [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold green]List Menu",style=f"bold white"))
 	cetak(panel(f'\t[bold Red]Warning[bold cyan] Gunakan Script Ini Dengan Baik Jangan Di Salah Gunakan [bold green]By XyzonXD',width=90,title=f"[bold green]Informasi Crack",style=f"bold white"))
 	_____xyzon___xd____ = input(f' {P}[{H}+{P}] \33[1;96mPilih Menu Crack : {P}')
 	if _____xyzon___xd____ in ['1','01']:
@@ -486,6 +486,8 @@ def menu(my_name,my_id):
 	elif _____xyzon___xd____ in('14','14'):
 		spam_wa()
 	elif _____xyzon___xd____ in('15','15'):
+		info_ngentod()
+	elif _____xyzon___xd____ in('16','16'):
 		cetak(panel(f"[bold cyan]Apapun Bug Pada Script Tolong Laporkan Kepada Saya Agar Bisa Mengembangkan Sc Ini Semakin Dikit Bugnya Semakin Baik Sc Ini , Anda Akan Di Arahkan Ke WhatsApp",width=90,title=f"[bold green]Report Bug",padding=(0,3),style=f"bold white"))
 		os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
 		time.sleep(3)
@@ -566,11 +568,11 @@ def lacak_ip():
     exit()
 #------------------[ CRACK NOMOR ]-------------------# 
 def crack_nomor():
-	cetak(nel('  Crack Menggunakan Nomor Wajib Menggunakan Sandi Manual Saat Crack ',width=90,padding=(0,8),style=f"bold white"))
-	depan = input(' [+] Awalan Nomor : ')
+	cetak(nel('  [bold cyan]Crack Menggunakan Nomor Wajib Menggunakan Sandi Manual Saat Crack ',width=90,padding=(0,8),style=f"bold white"))
+	depan = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96m Awalan Nomor :\x1b[1;97m ')
 	if len(depan)==3:pass
-	else:exit(f' [+] Contoh Awalan Nomor 089')
-	jumla = input(' [+] Jumlah : ')
+	else:exit(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mContoh Awalan Nomor 08 (Kosong Delapan)')
+	jumla = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mJumlah :\x1b[1;97m ')
 	for x in range(int(jumla)):
 		rr = random.randint
 		A = depan
@@ -590,11 +592,11 @@ def doa_halal():
 def crack_file():
 	try:vin = os.listdir('DUMP')
 	except FileNotFoundError:
-		print(' [+] File Tidak Ditemukan ')
+		print(' [+] \x1b[1;91mFile Tidak Ditemukan ')
 		time.sleep(2)
 		back()
 	if len(vin)==0:
-		print(' [+] Kamu Tidak Memiliki File Dump ')
+		print(' [+] \x1b[1;91mKamu Tidak Memiliki File Dump ')
 		time.sleep(2)
 		back()
 	else:
@@ -613,20 +615,72 @@ def crack_file():
 				lol.update({str(cih):str(isi)})
 				print('['+str(cih)+'] '+isi+' [ '+str(len(hem))+' Account ]'+x)
 				print(' [+] %s. %s ({h} %s {x}idz) '%(cih,isi,len(hem)))
-		geeh = input(' [+] Pilih : ')
+		geeh = input(' [+] \x1b[1;96mPilih :\x1b[1;97m ')
 		try:geh = lol[geeh]
 		except KeyError:
-			print(f' [+] Pilih Yang Bener Kontol {x}')
+			print(f' [+] \x1b[1;91mPilih Yang Bener Kontol {x}')
 			time.sleep(3)
 			back()
 		try:lin = open('DUMP/'+geh,'r').read().splitlines()
 		except:
-			print(' [+] File Tidak Ditemukan, Coba Lagi Nanti ')
+			print(' [+] \x1b[1;91mFile Tidak Ditemukan, Coba Lagi Nanti ')
 			time.sleep(2)
 			back()
 		for xid in lin:
 			id.append(xid)
 		setting()
+def info_ngentod():
+	print(p+""+h+"   ["+m+" >>"+k+"The Javu Avokados"+m+"<< "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
+	print(p+""+h+"   ["+k+" Info Created and Team "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(p+""+h+"   ["+k+" XNX-CODE Team 2021 "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
+	print(p+""+h+"   ["+k+"    Created Script "+h+"]");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Sanz-Tzy");time.sleep(0.03)
+	print(p+""+m+"• "+h+"YumasaaTzy");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Haris-Ganz");time.sleep(0.03)
+	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
+	print(p+""+h+"   ["+k+" Team Script "+h+"]");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Ang-Cyber");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Faiss Ganss");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Fenzz");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Yuume");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Mbokey Bhizer");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Alpinn");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Jarr-XD");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Indraa");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Hikmatt");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Ditzy");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Rafii-XD");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Denni");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Godong Bodin");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Rahmad_XD");time.sleep(0.03)
+	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
+	print(p+""+h+"   ["+k+" Donasi Ngabb "+h+"]");time.sleep(0.03)
+	print(p+""+h+"   ["+k+" Bagi Yang Mau "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Whatsapp "+k+": "+p+"+6283801923083");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Telepon  "+k+": "+p+"+6283801923083");time.sleep(0.03)
+	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
+	print(p+""+h+"   ["+k+" Follow Github Me "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(p+""+m+"• "+h+"github "+k+": "+p+"https://github.com/YumasaaTzy");time.sleep(0.03)
+	print(p+""+m+"• "+h+"github "+k+": "+p+"https://github.com/YakuzaaTzy");time.sleep(0.03)
+	print(p+""+m+"• "+h+"github "+k+": "+p+"https://github.com/Sanz-Tzy");time.sleep(0.03)
+	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
+	print(p+""+h+"   ["+k+" Follow Facebook Me "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Facebook "+k+": "+p+"Gatau");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Link Fb  "+k+": "+p+"https://www.facebook.com/rendi.gerot.1");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Facebook "+k+": "+p+"Bintang Tzy");time.sleep(0.03)
+	print(p+""+m+"• "+h+"Link Fb  "+k+": "+p+"https://www.facebook.com/bintangt.zy.92");time.sleep(0.03)
+	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
+	print(p+""+h+" ["+k+" Please Support and Follow We!! "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(p+""+h+" ["+k+" Please Give A Star On My Github");time.sleep(0.03)
+	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
+	print(p+""+h+" ["+k+" Don't Forget To Follow My Facebook And Github "+h+"]");time.sleep(0.03)
+	print(p+""+h+" ["+k+" Thanks You "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(p+"════════════════════════════════════════════════════");time.sleep(0.03)
+#	raw_input (" [ ENTER ]")
+	sayangku = input(p+"["+h+" ["+k+" Tekan Enter Untuk Ke Menu "+h+"] ")
+	menu()
 ###----------[ DUMP PENGIKUT ]---------- ###
 def pengikut():
 	try:
