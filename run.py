@@ -109,7 +109,9 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
-	print('[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mXyzonXD')
+	print('\x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \x1b[1;96mLu Kagak Ada paket anjirt sihlakan beli paket di sugeng kalo mau carck')
+	print('\x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \x1b[1;96mBtw Lu Miskin Yak Beli Paket Aja Kagak Mampu Awokawokawokawok')
+	print('\x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \x1b[1;96mSalam Dari BintangTzy And XyzonXD ')
 prox=open('.prox.txt','r').read().splitlines()
 ###----------[ GENERATE USERAGENT ]---------- ###
 for xd in range(10000) :
@@ -374,7 +376,7 @@ def login():
 		except KeyError:
 			login123()
 		except requests.exceptions.ConnectionError:
-			li = ' \33[1;91m Problem Internet Connection, Check And Try Again'
+			li = ' Lu Kagak Ada Sinyal Anjirt Silahkan Beli Sinyal Di Sugeng Kalo Mau Carck'
 			lo = mark(li, style='red')
 			sol().print(lo, style='cyan')
 			exit()
@@ -452,7 +454,7 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]BintangTzy[bold cyan] Yang Telah Membuat Script Ini, Premium Multi Brute Facebook',width=90,style=f"bold white"))
+	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]BintangTzy[bold cyan] Yang Telah Membuat Script Ini, Xyzon Multi Brute Force',width=90,style=f"bold white"))
 	cetak(panel(f'[bold white][[bold green]•[/][bold white]][/] [bold cyan]Username : [bold yellow]{my_name}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Idz : [bold yellow]{my_id}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Ip  : [bold yellow]{ip}[/][/][bold white]\n[[bold green]•[/][bold white]][/] [bold cyan]Status   : [bold green]Premium ',width=90,title=f"[bold green]Infomasi",style=f"bold white"))
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack Publick OR Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack Massal OR Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack Username [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/] [bold cyan]Crack Grup [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/] [bold cyan]Crack Followers [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/] [bold cyan]Crack Email [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/] [bold cyan]Crack File [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/] [bold cyan]Crack Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/] [bold cyan]Cek Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/] [bold cyan]Chekpoint Detecktor [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/] [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/] [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/] [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/] [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/] [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]16[/][bold white]][/] [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold red]00[/][bold white]][/] [bold red]Hapus Cookies [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold green]List Menu",style=f"bold white"))
 	cetak(panel(f'\t[bold Red]Warning[bold cyan] Gunakan Script Ini Dengan Baik Jangan Di Salah Gunakan [bold green]By XyzonXD',width=90,title=f"[bold green]Informasi Crack",style=f"bold white"))
@@ -673,7 +675,7 @@ def info_ngentod():
 	jalan(          p+""+m+"   • "+h+"github "+k+": "+O+"https://github.com/BrayennnXD");time.sleep(0.03)
 	jalan(          p+""+m+"   • "+h+"github "+k+": "+O+"https://github.com/A-lvino");time.sleep(0.03)
 	print(P+"________________________________________________________________________________________");time.sleep(0.03)
-	jalan(          p+""+h+"         ["+k+" Follow Facebook Me "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	jalan(          p+""+h+"         ["+k+" Follow Facebook Me "+O+"(>•,•<) "+h+"]");time.sleep(0.03)
 	jalan(          p+""+m+"   • "+h+"Facebook "+k+": "+O+"XyzonXD");time.sleep(0.03)
 	jalan(          p+""+m+"   • "+h+"Link Fb  "+k+": "+O+"https://www.facebook.com/100077866622074");time.sleep(0.03)
 	jalan(          p+""+m+"   • "+h+"Facebook "+k+": "+O+"BrayennnXD");time.sleep(0.03)
