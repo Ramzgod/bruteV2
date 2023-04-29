@@ -326,13 +326,13 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	cetak(panel(f"""
-[bold white]                  __   ____   __ ______ _____  _   _ 
-[bold white]                  \ \ / /\ \ / /|___  /|  _  || \ | |
-[bold white]                   \ V /  \ V /    / / | | | ||  \| |
-[bold cyan]                   /   \   \ /    / /  | | | || . ` |
-[bold cyan]                  / /^\ \  | |  ./ /___\ \_/ /| |\  |
-[bold cyan]                  \/   \/  \_/  \_____/ \___/ \_| \_/
-             """,width=90,title=f"LOGO",style=f"bold white"))
+[bold white]                __   ____   __ ______ _____  _   _       
+[bold white]                \ \ / /\ \ / /|___  /|  _  || \ | |
+[bold white]                 \ V /  \ V /    / / | | | ||  \| |            [bold green]PremiumXD
+[bold cyan]                 /   \   \ /    / /  | | | || . ` |               [bold cyan]By XyzonXD
+[bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.1
+[bold cyan]                \/   \/  \_/  \_____/ \___/ \_| \_/
+             """,width=90,title=f"[bold green]LOGO",subtitle=f"[bold cyan]SELAMAT DATANG DI LAYANAN KAMI BOSSKU",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
 	os.system('clear')
