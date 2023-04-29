@@ -332,7 +332,7 @@ def banner():
 [bold red]      ▄▄▄▄     [bold white] \ \ / /\ \ / /|___  /|  _  || \ | |
 [bold white]      ▀▀▀▀  [bold red]     \ V /  \ V /    / / | | | ||  \| |        [bold green]PremiumXD
 [bold red]                 /   \   \ /    / /  | | | || . ` |        [bold cyan]By XyzonXD
-[bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.4
+[bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.5
 [bold cyan]                \/   \/  \_/  \_____/ \___/ \_| \_/
                  [bold red]▪︎[bold yellow]▪︎[bold green]▪︎[bold cyan] XYZON [bold yellow]MULTI [bold green]BRUTE [bold red]FORCE [bold red]▪︎[bold yellow]▪︎[bold green]▪︎
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
