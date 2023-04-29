@@ -329,10 +329,10 @@ def banner():
 [bold white]                __   ____   __ ______ _____  _   _       
 [bold white]                \ \ / /\ \ / /|___  /|  _  || \ | |
 [bold white]                 \ V /  \ V /    / / | | | ||  \| |        [bold green]PremiumXD
-[bold cyan]                 /   \   \ /    / /  | | | || . ` |         [bold cyan]By XyzonXD
+[bold cyan]                 /   \   \ /    / /  | | | || . ` |        [bold cyan]By XyzonXD
 [bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.1
 [bold cyan]                \/   \/  \_/  \_____/ \___/ \_| \_/
-                   {m}▪︎{k}▪︎{h}▪︎{sir} XYZON MULTI BRUTE FORCE {x}{m}▪︎{k}▪︎{h}▪︎{x}
+                 [bold red]▪︎[bold yellow]▪︎[bold green]▪︎{sir} XYZON MULTI BRUTE FORCE {x}[bold red]▪︎[bold yellow]▪︎[bold green]▪︎{x}
              """,width=90,title=f"[bold green]LOGO",subtitle=f"[bold cyan]SELAMAT DATANG DI LAYANAN KAMI BOSSKU",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
