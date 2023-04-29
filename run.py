@@ -1521,6 +1521,7 @@ def dump_massal():
 def setting():
 	print('')
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack Idz Old-New [bold white][[bold red]Not Recommended[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack Idz New [bold white][[bold green]Very Recommended[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack Idz Random [bold white][[bold green]Recommended[bold white]][/]',width=90,title=f"[bold red][[bold green] Setting Urutan Idz [bold red]]",style=f"bold red"))
+	hu = input(f' {P}[{H}+{P}] \33[1;96mPilih Urutan Idz : {P}')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)
