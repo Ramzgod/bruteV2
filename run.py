@@ -329,8 +329,8 @@ def back():
 def banner():
 	cetak(panel(f"""
 [bold white]                __   ____   __ ______ _____  _   _       
-[bold red]▄▄▄▄     [bold white] \ \ / /\ \ / /|___  /|  _  || \ | |
-[bold white]▀▀▀▀       \ V /  \ V /    / / | | | ||  \| |        [bold green]PremiumXD
+[bold red]     ▄▄▄▄     [bold white] \ \ / /\ \ / /|___  /|  _  || \ | |
+[bold white]     ▀▀▀▀       \ V /  \ V /    / / | | | ||  \| |        [bold green]PremiumXD
 [bold cyan]                 /   \   \ /    / /  | | | || . ` |        [bold cyan]By XyzonXD
 [bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.4
 [bold cyan]                \/   \/  \_/  \_____/ \___/ \_| \_/
