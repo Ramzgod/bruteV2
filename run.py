@@ -668,7 +668,7 @@ def info_ngentod():
 	print(P+"________________________________________________________________________________________");time.sleep(0.03)
 	jalan(           p+""+h+"   ["+k+" Hubungi Saya Di "+h+"]");time.sleep(0.03)
 	jalan(           p+""+h+"   ["+k+" Nomor Di Bawah Ini "+O+"(>•,•<) "+h+"]");time.sleep(0.03)
-	jalan(           p+""+m+"   • "+h+"Whatsapp¹ "+k+": "+O+"+62 821-8392-9059");time.sleep(0.03)
+	jalan(           p+""+m+"   • "+h+"Whatsapp¹  "+k+": "+O+"+62 821-8392-9059");time.sleep(0.03)
 	jalan(           p+""+m+"   • "+h+"Whatsapp²  "+k+": "+O+"+62 821-8041-7034");time.sleep(0.03)
 	print(P+"________________________________________________________________________________________");time.sleep(0.03)
 	jalan(          p+""+h+"   ["+k+" Follow Github Me "+O+"(>•,•<) "+h+"]");time.sleep(0.03)
