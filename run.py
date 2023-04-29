@@ -332,7 +332,7 @@ def banner():
 [bold cyan]                 /   \   \ /    / /  | | | || . ` |        [bold cyan]By XyzonXD
 [bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.1
 [bold cyan]                \/   \/  \_/  \_____/ \___/ \_| \_/
-                 [bold red]▪︎[bold yellow]▪︎[bold green]▪︎{sir} XYZON MULTI BRUTE FORCE {x}[bold red]▪︎[bold yellow]▪︎[bold green]▪︎{x}
+                 [bold red]▪︎[bold yellow]▪︎[bold green]▪︎{sir} XYZON MULTI BRUTE FORCE [bold red]▪︎[bold yellow]▪︎[bold green]▪︎
              """,width=90,title=f"[bold green]LOGO",subtitle=f"[bold cyan]SELAMAT DATANG DI LAYANAN KAMI BOSSKU",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
