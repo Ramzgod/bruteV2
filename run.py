@@ -631,7 +631,7 @@ def crack_file():
 		setting()
 def info_ngentod():
 	
-	print(\n                                     p+""+h+"       ["+m+" >>"+k+"The Javu Avokados"+m+"<< "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
+	print(                                     p+""+h+"       ["+m+" >>"+k+"The Javu Avokados"+m+"<< "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
 	print(P+"_____________________________________________________________________________________________________");time.sleep(0.03)
 	print(            p+""+h+"        ["+k+" Info Created and Team "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
 	print(            p+""+h+"        ["+k+" TERMUX INDONESIA Team 2023 "+p+"(>•,•<) "+h+"]");time.sleep(0.03)
