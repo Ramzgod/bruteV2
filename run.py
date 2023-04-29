@@ -2361,7 +2361,7 @@ class get_data_web:
 
 #-----------------------[ SYSTEM-CONTROL ]--------------------#Gak Boleh Di Ubah yg Di bawah Ini kontol
 if __name__=='__main__':
-	try:os.system('git xyzon')
+	try:os.system('git pull')
 	except:pass
 	try:os.mkdir('OK')
 	except:pass
