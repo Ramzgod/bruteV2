@@ -483,7 +483,7 @@ def menu(my_name,my_id):
 	elif _____xyzon___xd____ in('13','13'):
 		spam_sms()
 	elif _____xyzon___xd____ in('14','14'):
-        spam_wa()
+        spam_wa() 
 	elif _____xyzon___xd____ in('15','15'):
 		cetak(panel(f"\33[1;96mApapun Bug Pada Script Tolong Laporkan Kepada Saya Agar Bisa Mengembangkan Sc Ini Semakin Dikit Bugnya Semakin Baik Sc Ini , Anda Akan Di Arahkan Ke WhatsApp",width=90,title=f"[bold green]Report Bug",padding=(0,3),style=f"bold cyan"))
 		os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
@@ -1031,7 +1031,7 @@ class sxp_sms:
 		cetak(panel(f"Sukses Spam SMS Ke No : +62{nomor}",width=90,padding=(0,2),style=f"bold white"))
 
 #------------------[ DEFF SPAM WA ]-------------------# 
-    
+
 def spam_wa():
 	global nomor
 	cetak(panel(f''' [bold cyan]  Masukan Nomor Target Yang Ingin Di Spam Contoh : +6281234567xxx''',width=90,padding=(0,8),style=f"bold white"))
