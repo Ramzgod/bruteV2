@@ -336,13 +336,13 @@ def banner():
 [bold cyan]                \/   \/  \_/  \_____/ \___/ \_| \_/
                  [bold red]▪︎[bold yellow]▪︎[bold green]▪︎[bold cyan] XYZON [bold yellow]MULTI [bold green]BRUTE [bold red]FORCE [bold red]▪︎[bold yellow]▪︎[bold green]▪︎
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
-#------------------[ LOGO-LAKNAT ]-----------------#
+#------------------[ LOGO-LAKNAT V2]-----------------#
 def logo():
 	cetak(panel(f"""
 [bold white]                  _____  _____  _____  _   __ _____  _____  _____ 
 [bold red]      ▄▄▄▄     [bold white] /  __ \|  _  ||  _  || | / /|_   _||  ___|/  ___|
 [bold white]      ▀▀▀▀  [bold red]    | /  \/| | | || | | || |/ /   | |  | |__  \ `--.       [bold green]PremiumXD
-[bold red]                 | |    | | | || | | ||    \   | |  |  __|  `--. \       [bold cyan]By XyzonXD
+[bold red]                | |    | | | || | | ||    \   | |  |  __|  `--. \       [bold cyan]By XyzonXD
 [bold cyan]               | \__/\\ \_/ /\ \_/ /| |\  \ _| |_ | |___ /\__/ /        [bold white]V.2.5
 [bold cyan]                \____/ \___/  \___/ \_| \_/ \___/ \____/ \____/ 
                  [bold red]▪︎[bold yellow]▪︎[bold green]▪︎[bold cyan] XYZON [bold yellow]MULTI [bold green]BRUTE [bold red]FORCE [bold red]▪︎[bold yellow]▪︎[bold green]▪︎
