@@ -1633,7 +1633,7 @@ def passwrd():
 						pwv.append(frs+'sayang')
 						pwv.append(frs+'cantik')
 						pwv.append('memek')
-					    pwv.append('sayang')
+						pwv.append('sayang')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
