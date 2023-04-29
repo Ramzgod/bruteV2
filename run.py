@@ -482,8 +482,6 @@ def menu(my_name,my_id):
 		siu()
 	elif _____xyzon___xd____ in('13','13'):
 		spam_sms()
-	elif _____xyzon___xd____ in('14','14'):
-        spam_wa() 
 	elif _____xyzon___xd____ in('15','15'):
 		cetak(panel(f"\33[1;96mApapun Bug Pada Script Tolong Laporkan Kepada Saya Agar Bisa Mengembangkan Sc Ini Semakin Dikit Bugnya Semakin Baik Sc Ini , Anda Akan Di Arahkan Ke WhatsApp",width=90,title=f"[bold green]Report Bug",padding=(0,3),style=f"bold cyan"))
 		os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
