@@ -330,7 +330,7 @@ def banner():
 [bold white]                \ \ / /\ \ / /|___  /|  _  || \ | |
 [bold white]                 \ V /  \ V /    / / | | | ||  \| |        [bold green]PremiumXD
 [bold cyan]                 /   \   \ /    / /  | | | || . ` |        [bold cyan]By XyzonXD
-[bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.1
+[bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.4
 [bold cyan]                \/   \/  \_/  \_____/ \___/ \_| \_/
                  [bold red]▪︎[bold yellow]▪︎[bold green]▪︎[bold cyan] XYZON [bold yellow]MULTI [bold green]BRUTE [bold red]FORCE [bold red]▪︎[bold yellow]▪︎[bold green]▪︎
              """,width=90,title=f"[bold green]LOGO",subtitle=f"[bold cyan]SELAMAT DATANG DI LAYANAN KAMI BOSSKU",style=f"bold white"))
@@ -2353,7 +2353,7 @@ class get_data_web:
         print("next = '%s'"%(post))
         print("post = requests.Session().post(next,headers=head,data=data,cookies=cookie)")
 
-#-----------------------[ SYSTEM-CONTROL ]--------------------#
+#-----------------------[ SYSTEM-CONTROL ]--------------------#Gak Boleh Di Ubah yg Di bawah Ini kontol
 if __name__=='__main__':
 	try:os.system('git pull')
 	except:pass
@@ -2368,4 +2368,4 @@ if __name__=='__main__':
 	try:os.system('clear')
 	except:pass
 	login()
-	
+  
