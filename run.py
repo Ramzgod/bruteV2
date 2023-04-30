@@ -468,7 +468,7 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]BintangTzy[bold cyan] Yang Telah Membuat Script Ini, Xyzon Multi Brute Force',width=90,style=f"bold red"))
 	cetak(panel(f'[bold white][[bold green]•[/][bold white]][/] [bold cyan]Username : [bold yellow]{my_name}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Idz : [bold yellow]{my_id}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Ip  : [bold yellow]{ip}[/][/][bold white]\n[[bold green]•[/][bold white]][/] [bold cyan]Status   : [bold green]Premium ',width=90,title=f"[bold red][[bold green] Informasi pengguna [bold red]]",style=f"bold red"))
-	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack Publick OR Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack Massal OR Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack Username [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/] [bold cyan]Crack Grup [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/] [bold cyan]Crack Followers [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/] [bold cyan]Crack Email [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/] [bold cyan]Crack File [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/] [bold cyan]Crack Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/] [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/] [bold cyan]Menu Tambahan [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold red][[bold green] List menu [bold red]]",style=f"bold red"))
+	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack Publick OR Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack Massal OR Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack Username [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/] [bold cyan]Crack Grup [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/] [bold cyan]Crack Followers [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/] [bold cyan]Crack Email [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/] [bold cyan]Crack File [bold yellow]5000 IDZ [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/] [bold cyan]Crack Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/] [bold cyan]Cek Hasil Crack [bold white][[bold green] ON [bold white]]\[bold white][[bold green]10[/][bold white]][/] [bold cyan]Chekpoint Detector [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/] [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/] [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/] [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/] [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/] [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]16[/][bold white]][/] [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold red]00[/][bold white]][/] [bold red]Hapus Cookies [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold red][[bold green] List menu [bold red]]",style=f"bold red"))
 	cetak(panel(f'\t[bold Red]Warning[bold cyan] Gunakan Script Ini Dengan Baik Jangan Di Salah Gunakan [bold green]By XyzonXD',width=90,title=f"[bold red][[bold green] Informasi Crack [bold red]]",style=f"bold red"))
 	_____xyzon___xd____ = input(f' {P}[{H}+{P}] \33[1;96mPilih Menu Crack : {P}')
 	if _____xyzon___xd____ in ['1','01']:
@@ -488,9 +488,24 @@ def menu(my_name,my_id):
 	elif _____xyzon___xd____ in('8','08'):
 		crack_nomor()
 	elif _____xyzon___xd____ in('9','09'):
-		siu()
+		result()
 	elif _____xyzon___xd____ in('10','010'):
-		lampungcakculay()
+		file_cp()
+	elif _____xyzon___xd____ in('11','011'):
+		siu()
+	elif _____xyzon___xd____ in('12','012'):
+		lacak_ip()
+	elif _____xyzon___xd____ in('13','013'):
+		spam_sms()
+	elif _____xyzon___xd____ in('14','014'):
+		spam_wa()
+	elif _____xyzon___xd____ in('15','015'):
+		info_ngentod()
+	elif _____xyzon___xd____ in('16','016'):
+		cetak(panel(f"[bold cyan]Apapun Bug Pada Script Tolong Laporkan Kepada Saya Agar Bisa Mengembangkan Sc Ini Semakin Dikit Bugnya Semakin Baik Sc Ini , Anda Akan Di Arahkan Ke WhatsApp",width=90,title=f"[bold red][[bold green] Report Bug [bold red]]",style=f"bold red"))
+		os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
+		time.sleep(3)
+		exit()
 	elif _____xyzon___xd____ in('ahhh','vvvk'):
 		os.system("xdg-open https://yandex.eu/")
 	elif _____xyzon___xd____ in('0','00'):
@@ -506,33 +521,6 @@ def error():
 	print(f' [+]\33[1;91m Maaf Fitur Ini Masih Di Perbaiki')
 	time.sleep(4)
 	back() 
-#----------------------[ MENU CRACK ]----------------------#
-def lampungcakculay():
-	cetak(panel(f"[bold white][[bold green]01[/][bold white]][/] [bold cyan]Cek Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Chekpoint Detecktor [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/] [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/] [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/] [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/] [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold red]00[/][bold white]][/] [bold red]Kembali [bold white][[bold green] ON [bold white]]",width=90,title=f"[bold red][[bold green] Tambahan [bold red]]",style=f"bold red"))
-	_____xyzon___xd____ = input(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mPilih Menu Crack : \x1b[1;97m')
-	if _____xyzon___xd____ in(''):
-		print(' [+] Pilih Yang Bener Asu ')
-		time.sleep(3)
-		back()
-	if _____xyzon___xd____ in('01','1'):
-		result()
-	elif _____xyzon___xd____ in('02','2'):
-		file_cp()
-	elif _____xyzon___xd____ in('03','3'):
-		lacak_ip()
-	elif _____xyzon___xd____ in('04','4'):
-		spam_sms()
-	elif _____xyzon___xd____ in('05','5'):
-		spam_wa()
-	elif _____xyzon___xd____ in('06','6'):
-		info_ngentod()
-	elif _____xyzon___xd____ in('07','7'):
-		cetak(panel(f"[bold cyan]Apapun Bug Pada Script Tolong Laporkan Kepada Saya Agar Bisa Mengembangkan Sc Ini Semakin Dikit Bugnya Semakin Baik Sc Ini , Anda Akan Di Arahkan Ke WhatsApp",width=90,title=f"[bold red][[bold green] Report Bug [bold red]]",style=f"bold red"))
-		os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
-		time.sleep(3)
-		exit()
-	elif _____xyzon___xd____ in('00','0'):
-		back()
 #----------------HEADERSS-----------------#
 def siu():
 	start()
