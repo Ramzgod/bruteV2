@@ -1599,7 +1599,7 @@ def passwrd():
 	urut = []
 	print(M+' <------------------------------------------------------------------------------------->')
 	wa.print(Columns(urut))
-	cetak(panel(f'\t[bold cyan]          On/Off Mode Pesawat Jika Tidak Ada Hasil!!!',width=90,title=f"[bold red][ [bold green]Informasi [bold red]]",subtitle=f"[bold red][[bold green] Proses Crack [bold red]]",style=f"bold red"))
+	cetak(panel(f'\t[bold cyan]          On/Off Mode Pesawat Jika Tidak Ada Hasil!!!',width=90,title=f"[bold red][ [bold green]Informasi [bold red]]",subtitle=f"",style=f"bold red"))
 	prog = Progress(SpinnerColumn('clock'),TextColumn('{task.description}'),BarColumn(),TextColumn('{task.percentage:.0f}%'))
 	des = prog.add_task('',total=len(id2))
 	with prog:
@@ -1613,6 +1613,7 @@ def passwrd():
 						pass
 					else:
 						pwv.append(nmf)
+						pwv.append(frs+'1')
 						pwv.append(frs+'01')
 						pwv.append(frs+'02')
 						pwv.append(frs+'03')
@@ -1623,33 +1624,17 @@ def passwrd():
 						pwv.append(frs+'08')
 						pwv.append(frs+'09')
 						pwv.append(frs+'12')
-						pwv.append(frs+'123')
 						pwv.append(frs+'321')
 						pwv.append(frs+'4321')
-						pwv.append(frs+'54321')
-						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
-						pwv.append(frs+'sayang')
-						pwv.append(frs+'cantik')
-						pwv.append('memek')
-						pwv.append('sayang')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+'01')
-						pwv.append(frs+'02')
-						pwv.append(frs+'03')
-						pwv.append(frs+'04')
-						pwv.append(frs+'05')
-						pwv.append(frs+'09')
 						pwv.append(frs+'12')
 						pwv.append(frs+'321')
+						pwv.append(frs+'4321')
 						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
-						pwv.append(frs+'54321')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
