@@ -1599,7 +1599,7 @@ def passwrd():
 	urut = []
 	print(M+' <------------------------------------------------------------------------------------->')
 	wa.print(Columns(urut))
-	cetak(panel(f'\t\x1b[1;96mHasil {h}OK{x} \x1b[1;96mTersimpan Di : {h}OK/%s {x}\x1b[1;96mHasil {k}CP{x} \x1b[1;96mTersimpan Di : {k}CP/%s {x}     {O}Mainkan Mode Pesawat Setiap {K2}1000 ID {O}Selama 10 Detik !'width=90,title=f"[bold red][[bold green] Tutorial Cookies [bold red]]",style=f"bold red"))%(okc))%(cpc))))
+	cetak(panel(f'\t\x1b[1;96mHasil {h}OK{x} \x1b[1;96mTersimpan Di : {h}OK/%s {x}\x1b[1;96mHasil {k}CP{x} \x1b[1;96mTersimpan Di : {k}CP/%s {x}     {O}Mainkan Mode Pesawat Setiap {K2}1000 ID {O}Selama 10 Detik !'width=90,title=f"[bold red][[bold green] Tutorial Cookies [bold red]]",style=f"bold red"))%(okc))%(cpc))
 	prog = Progress(SpinnerColumn('clock'),TextColumn('{task.description}'),BarColumn(),TextColumn('{task.percentage:.0f}%'))
 	des = prog.add_task('',total=len(id2))
 	with prog:
