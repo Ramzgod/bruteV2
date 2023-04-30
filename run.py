@@ -1669,7 +1669,7 @@ def crack(idf,pwv):
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	prog.update(des,description=f"{h}Xyzon{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
+	prog.update(des,description=f"{h}Xyzon{x} [bold cyan]{loop}[bold white]/[bold cyan]{len(id)} [bold green][OK[bold red]-:[bold green]{ok}[bold green]][/][bold cyan] - [bold yellow][CP[bold red]-:[bold yellow]{cp}[bold yellow]][/]")
 	prog.advance(des) 
 	for pw in pwv:
 		try:
@@ -1713,7 +1713,7 @@ def crackbapi(idf,pwv):
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	prog.update(des,description=f"{h}Xyzon{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
+	prog.update(des,description=f"{h}Xyzon{x} [bold cyan]{loop}[bold white]/[bold cyan]{len(id)} [bold green][OK[bold red]-:[bold green]{ok}[bold green]][/][bold cyan] - [bold yellow][CP[bold red]-:[bold yellow]{cp}[bold yellow]][/]")
 	prog.advance(des) 
 	for pw in pwv:
 		try:
@@ -1836,7 +1836,7 @@ def crackfree(idf,pwv):
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	prog.update(des,description=f"{h}Xyzon{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
+	prog.update(des,description=f"{h}Xyzon{x} [bold cyan]{loop}[bold white]/[bold cyan]{len(id)} [bold green][OK[bold red]-:[bold green]{ok}[bold green]][/][bold cyan] - [bold yellow][CP[bold red]-:[bold yellow]{cp}[bold yellow]][/]")
 	prog.advance(des) 
 	for pw in pwv:
 		try:
@@ -1880,7 +1880,7 @@ def crackasync(idf,pwv):
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	prog.update(des,description=f"{h}Xyzon{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
+	prog.update(des,description=f"{h}Xyzon{x} [bold cyan]{loop}[bold white]/[bold cyan]{len(id)} [bold green][OK[bold red]-:[bold green]{ok}[bold green]][/][bold cyan] - [bold yellow][CP[bold red]-:[bold yellow]{cp}[bold yellow]][/]")
 	prog.advance(des) 
 	for pw in pwv:
 		try:
@@ -1943,7 +1943,7 @@ def crackreguler(idf,pwv):
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	prog.update(des,description=f"{h}Xyzon{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
+	prog.update(des,description=f"{h}Xyzon{x} [bold cyan]{loop}[bold white]/[bold cyan]{len(id)} [bold green][OK[bold red]-:[bold green]{ok}[bold green]][/][bold cyan] - [bold yellow][CP[bold red]-:[bold yellow]{cp}[bold yellow]][/]")
 	prog.advance(des) 
 	for pw in pwv:
 		try:
