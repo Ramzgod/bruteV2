@@ -1773,7 +1773,7 @@ def crackmbasic(idf,pwv):
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	prog.update(des,description=f"{h}Xyzon{x} {loop}/{len(id)} OK-:[bold green]{ok}[/] CP-:[bold yellow]{cp}[/]")
+	prog.update(des,description=f"{h}Xyzon{x} [bold cyan]{loop}[bold white]/[bold cyan]{len(id)} [bold green][OK[bold red]-:[bold green{ok}][/][bold cyan] — [bold yellow]CP[bold red]-:[bold yellow]{cp}[/]")
 	prog.advance(des) 
 	for pw in pwv:
 		try:
