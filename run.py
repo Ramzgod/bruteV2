@@ -1,6 +1,7 @@
 # pengkodean = python
 # coding oleh BintangTzy
 # Izin dlu lah bro kalau mau recode, gk ngotak njir_-
+#Jangan Di Decompile anjir kagak ngotak goblok
 # Note : jangan di ubah lagi! nanti error, script nya udah enak
 #-----------------[ IMPORT - PREMIUM ]-------------------
 import requests,bs4,json,os,sys,random,datetime,time,re
@@ -330,6 +331,60 @@ def clear():
 	os.system('clear')
 def back():
 	login()
+#INGFO AUTHOR KONTOL
+def ingfoh():
+	print (
+f"""{Hj}
+ • Info script :
+ 	
+ - author      : Romi Afrizal
+ - instagram   : romz_xyz
+ - facebook    : facebook.com/romi.afrizal.102
+ - fanspage    : facebook.com/100022086172556
+ - whatsap     : +6282371648186
+ - github      : github.com/Mark-Zuck
+ - script name : bff-2
+ - version     : 1.3
+ - update pada : 21 Februari 2022
+ 
++ ---------------------------------------- +
+            TENTANG METODE CRACK
++ ---------------------------------------- +
+ - b-api: Metode ini proses nya sangat cepat
+          tapi rawan spam jadi wajar hasil nya
+          tidak memuaskan dan jarang dapat hasil
+
+- mbasic: Metode ini proses nya lumayan lambat
+          tapi jika menggunakan metode ini hasil 
+          yg di dapat memuaskan dan jarang kena
+          spam
+
+- mobile: Metode ini proses nya sangat lambat 
+          tapi jika menggunakan metode ini hasil
+          yg di dapat sangat memuaskan dan jarang 
+          kena spam
+
++ ---------------------------------------- +
+             TIDAK SUPORT KARTU 
++ ---------------------------------------- +
+- Kartu Telkomsel tidak suport untuk crack
+  jadi wajar jika tidak dapat hasil atau lama
+  pada saat crack, Karena rawan spam.
+  Rekomendasi kartu Axis, XL.
+ 
++ ---------------------------------------- +
+                MODE PESAWAT
++ ---------------------------------------- +
+- Jika gunakan mode pesawat itu guna nya 
+  akan melewati beberapa ID dan merubah IP 
+  kita pada saat proses crack. Cukup gunakan
+  mode pesawat 1-2 detik saja. Jika gunakan 
+  mode pesawat terlalu lama maka akan semakin
+  banyak ID yg terlewatkan. Maka dari itu cukup
+  gunakan 1-2 detik saja.
+  
+{Mr}!{Mt} Jika bug/error pada script harap lapor saya
+""")
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	cetak(panel(f"""
@@ -505,7 +560,7 @@ def menu(my_name,my_id):
 	elif _____xyzon___xd____ in('14','014'):
 		spam_wa()
 	elif _____xyzon___xd____ in('15','015'):
-		info_ngentod()
+		ingfoh()
 	elif _____xyzon___xd____ in('16','016'):
 		cetak(panel(f"[bold cyan]Apapun Bug Pada Script Tolong Laporkan Kepada Saya Agar Bisa Mengembangkan Sc Ini Semakin Dikit Bugnya Semakin Baik Sc Ini , Anda Akan Di Arahkan Ke WhatsApp",width=90,title=f"[bold red][[bold green] Report Bug [bold red]]",style=f"bold red"))
 		os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
