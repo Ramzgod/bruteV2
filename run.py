@@ -349,9 +349,9 @@ def logo():
 	cetak(panel(f"""
 [bold white]                 _____  _____  _____  _   __ _____  _____  _____ 
 [bold red]      ▄▄▄▄    [bold white] /  __ \|  _  ||  _  || | / /|_   _||  ___|/  ___|
-[bold white]      ▀▀▀▀  [bold red]   | /  \/| | | || | | || |/ /   | |  | |__  \ `--.       [bold green]PremiumXD
+[bold white]      ▀▀▀▀  [bold red]   | /  \/| | | || | | || |/ /   | |  | |__  \ `--.        [bold green]PremiumXD
 [bold red]               | |    | | | || | | ||    \   | |  |  __|  `--. \       [bold cyan]By XyzonXD
-[bold cyan]               | \__/\\ \_/ /\ \_/ /| |\  \ _| |_ | |___ /\__/ /        [bold white]V.2.5
+[bold cyan]               | \__/\\\_/ / \ \_/ /| |\  \ _| |_ | |___ /\__/ /       [bold white]V.2.5
 [bold cyan]                \____/ \___/  \___/ \_| \_/ \___/ \____/ \____/ 
                  [bold red]▪︎[bold yellow]▪︎[bold green]▪︎[bold cyan] XYZON [bold yellow]MULTI [bold green]BRUTE [bold red]FORCE [bold red]▪︎[bold yellow]▪︎[bold green]▪︎
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
@@ -1373,7 +1373,7 @@ def dump_grup(url):
 #-----------------[ HASIL-CRACK ]-----------------#
 def result():
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Hasil OK[/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Hasil CP[/]\n[bold white][[bold green]00[/][bold white]][/] [bold red]Kembali[/]',width=90,title=f"[bold red][[bold green] Hasil Result [bold red]]",style=f"bold red"))
-	kz = input(f'{P}[{H}+{P}]\33[1;96m Pilih : {P}')
+	kz = input(f' {P}[{H}+{P}]\33[1;96m Pilih : {P}')
 	if kz in ['2','02']:
 		try:vin = os.listdir('CP')
 		except FileNotFoundError:
