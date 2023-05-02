@@ -1591,13 +1591,13 @@ def setting():
 	else:
 		pwpluss.append('no')
 	
-	uatambah = input(f' {P}[{H}+{P}] \33[1;96mApakah Anda Ingin Mengunakan User-Agent Manual Y/T{P} ')
+	uatambah = input(f' {P}[{H}+{P}] \33[1;96mApakah Anda Ingin Mengunakan User-Agent Manual Y/T :{P} ')
 	if uatambah in ['y','Ya','ya','Y']:
 		ualuh.append('ya')
 		bzer = input(f' {P}[{H}+{P}] \33[1;96mMasukan User-Agent :{P} ')
 		ualu.append(bzer)
 	elif uatambah in ['T','TIDAK','tidak','t']:
-		cetak(panel(f'[bold cyan] Anda Akan Mengunakan User-Agent Script Ini Untuk Crack Account Facebook',width=90,title=f"[bold red][[bold green] Setting User-Agent [bold red]]",style=f"bold red"));time.sleep(0.03)
+		cetak(panel(f'[bold cyan]  Anda Akan Mengunakan User-Agent Bawaan Script Ini Untuk Crack Account Facebook',width=90,title=f"[bold red][[bold green] Info u-a [bold red]]",style=f"bold red"));time.sleep(0.05)
 	else:
 		ualuh.append('tidak')
 	passwrd()
