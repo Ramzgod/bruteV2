@@ -613,7 +613,7 @@ def lacak_ip():
     jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96m Link Google Maps :" + ma)
     jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mInfo Lengkap : http://ip-api.com/#" + ip)
     sayangku = input(p+""+P+" ["+O+" Tekan Enter "+P+"] ")
-	back()
+    back()
 #------------------[ CRACK NOMOR ]-------------------# 
 def crack_nomor():
 	cetak(nel('  [bold cyan]Crack Menggunakan Nomor Wajib Menggunakan Sandi Manual Saat Crack ',width=90,title=f"[bold red][[bold green] Crack Nomor [bold red]]",style=f"bold red"))
