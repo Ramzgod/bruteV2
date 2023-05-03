@@ -553,9 +553,7 @@ def lacak_ip():
     if b in [""]:
         jalan("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] Isi Yang Benar !")
         menu()
-    latitude = data['lat']
-	longitude = data['lon']
-	google_maps_url = 'https://www.google.com/maps/place/' + str(latitude) + '+' + str(longitude)
+	google_maps_url = 'https://www.google.com/maps/place/' + str(a)
     a = requests.get("http://ip-api.com/json/"+b,headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
     try:
         ip = a["query"]
