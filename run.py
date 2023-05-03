@@ -1608,6 +1608,7 @@ def setting():
 	if uatambah in ['y','Ya','ya','Y']:
 		ualuh.append('ya')
 		bzer = input(f' {P}[{H}+{P}] \33[1;96mMasukan User-Agent :{P} ')
+		cetak(panel(f'[bold cyan] Anda Akan Mengunakan User-Agent Anda Sendiri Untuk Melakukan Crack Account Facebook ',width=90,title=f"[bold red][[bold green] info u-a [bold red]]",style=f"bold red"));time.sleep(0.05)
 		ualu.append(bzer)
 	elif uatambah in ['T','TIDAK','tidak','t']:
 		cetak(panel(f'[bold cyan]   Anda Akan Mengunakan User-Agent Bawaan Script Ini Untuk Crack Account Facebook',width=90,title=f"[bold red][[bold green] info u-a [bold red]]",style=f"bold red"));time.sleep(0.05)
