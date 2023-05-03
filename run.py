@@ -549,60 +549,31 @@ def siu():
 	akhir()
 #----------------------[ LACAK IP ]----------------------#
 def lacak_ip():
-    b = input(f' \x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mMasukkan IP Target : \x1b[1;93m')
-    if b in [""]:
-        jalan("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] Isi Yang Benar !")
-        menu()
-        google_maps_url = 'https://www.google.com/maps/place/'
-    a = requests.get("http://ip-api.com/json/"+b,headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
-    try:
-        ip = a["query"]
-    except KeyError:
-        ip = " "
-    try:
-        bn = a["status"]
-    except KeyError:
-        bn = " "
-    try:
-        ng = a["country"]
-    except KeyError:
-        ng = " "
-    try:
-        cc = a["countryCode"]
-    except KeyError:
-        cc = " "
-    try:
-        pr = a["regionName"]
-    except KeyError:
-        pr = " "
-    try:
-        kt = a["city"]
-    except KeyError:
-        kt = " "
-    try:
-        kb = a["zip"]
-    except KeyError:
-        kb = " "
-    try:
-        tz = a["timezone"]
-    except KeyError:
-        tz = " "
-    try:
-        sp = a["isp"]
-    except KeyError:
-        sp = " "
-    jalan("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mStatus : \x1b[1;93m" + bn)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mIP Target : \x1b[1;93m" + ip)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mNegara : \x1b[1;93m" + ng)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mKode Negara : \x1b[1;93m" + cc)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mProvinsi : \x1b[1;93m" + pr)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mKota : \x1b[1;93m" + kt)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mKode Pos : \x1b[1;93m" + kb)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mZona Waktu : \x1b[1;93m" + tz)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mProvider : \x1b[1;93m" + sp)
-    jalan(" [+] Link Google Maps :", google_maps_url)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mInfo Lengkap : http://ip-api.com/#" + ip)
-    exit()
+    link = input(f' [+] Masukan Ip : ')
+	url = 'http://ip-api.com/json/' + link
+	r = requests.get(url)
+	data = json.loads(r.text)
+	latitude = data['lat']
+	longitude = data['lon']
+	google_maps_url = 'https://www.google.com/maps/place/' + str(latitude) + '+' + str(longitude)
+	try:
+		request = requests.get(url)
+		response = request.json()
+	except (requests.ConnectionError):
+		print(" [+] Koneksi Error")
+		exit()
+	if response['status'] == 'success':
+		print('')
+		print(" [+] Alamat IP : " + response['query'])
+		print(" [+] Kota : " + response['city'])
+		print(" [+] Negara : " + response['country'])
+		print(" [+] Kode Negara : " + response['countryCode'])
+		print(" [+] Latitude : " + str(response['lat']))
+		print(" [+] Longitude : " + str(response['lon']))
+		print(" [+] ISP : " + response['isp'])
+		print(" [+] Link Google Maps :", google_maps_url)
+	else:
+		print(" [+] Alamat IP Yang Dimasukkan Salah")
 #------------------[ CRACK NOMOR ]-------------------# 
 def crack_nomor():
 	cetak(nel('  [bold cyan]Crack Menggunakan Nomor Wajib Menggunakan Sandi Manual Saat Crack ',width=90,title=f"[bold red][[bold green] Crack Nomor [bold red]]",style=f"bold red"))
