@@ -481,9 +481,9 @@ def menu(my_name,my_id):
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Cookies Kadaluarsa ')
 		time.sleep(5)
 		login()
-	os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089mp3")
-	os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089mp3")
-	os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089mp3")
+	os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
+	os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
+	os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
