@@ -590,7 +590,8 @@ def lacak_ip():
         sp = a["isp"]
     except KeyError:
         sp = " "
-    ma = a["maps"]
+    try:
+        ma = a["maps"]
     except KeyError:
         ma = " "
     jalan("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mStatus : \x1b[1;93m" + bn)
