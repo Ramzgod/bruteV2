@@ -123,7 +123,6 @@ for xd in range(10000):
 	e=random.randrange(40,150)
 	uaku=f'Mozilla/5.0 (Linux; Android {a}; SAMSUNG SM-A305FN) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 	ugen2.append(uaku)
-    rr = random.randint
     a = f"Mozilla/5.0 (Linux; U; Android {str(rr(2,13))}; zh-cn; MI CC 9e Build/QKQ1.190910.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(50,150))}.0.{str(rr(438,4389))}.{str(rr(116,1163))} Mobile Safari/537.36 XiaoMi/MiuiBrowser/15.5.8"
     b = f"Mozilla/5.0 (Linux; U; Android {str(rr(2,13))}; en-US; MI CC {str(rr(2,13))}e Build/PKQ1.190416.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(50,150))}.0.{str(rr(438,4389))}.{str(rr(116,1163))} UCBrowser/13.4.0.1306 Mobile Safari/537.36"
     c = f"Mozilla/5.0 (Linux; U; Android {str(rr(2,10))}.0; Infinix X571 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(50,150))}.0.{str(rr(438,4389))}.{str(rr(116,1163))} Mobile Safari/537.36 OPR/66.2.2254.64268"
