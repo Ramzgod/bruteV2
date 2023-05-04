@@ -1,5 +1,5 @@
 # pengkodean = python
-# coding oleh BintangTzy
+# coding oleh Xyzon Dev
 # Makan Dulu Sebelum Ngerecode
 # Izin dlu lah bro kalau mau recode, gk ngotak njir_-
 # Jangan Di Decompile anjir kagak ngotak goblok
@@ -112,9 +112,12 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
-	print('[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mRifaiXD')
+	print('\x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \x1b[1;96mLu Kagak Ada paket anjirt sihlakan beli paket di sugeng kalo mau carck')
+	print('\x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \x1b[1;96mBtw Lu Miskin Yak Beli Paket Aja Kagak Mampu Awokawokawokawok')
+	print('\x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \x1b[1;96mSalam Dari BintangTzy And Xyzon Dev ')
 prox=open('.prox.txt','r').read().splitlines()
 ###----------[ GENERATE USERAGENT ]---------- ###
+#JANGAN DI GANTI CUY NANTI EROR
 for xd in range(10000):
 	a=random.choice(['3.0','4.4.2','4.4.4','5.0.1','8.0','7.0','6.0','5.0','4.0','4.3.4','7.0.1','8.0.1','3','4','5','6','7','8','9','10','11','12','13'])
 	b=random.choice(['3.0','4.4.2','4.4.4','5.0.1','8.0','7.0','6.0','5.0','4.0','4.3.4','7.0.1','8.0.1','3','4','5','6','7','8','9','10','11','12','13'])
@@ -125,6 +128,8 @@ for xd in range(10000):
 	ugen2.append(uaku)
 
 #------------[ UBAH UA DIH SINI OM ]---------------#
+#USER-AGENT NYA JANGAN DI UBAH BRE UDAH ENAK SOAL NYA WKWKKWKW
+#SALAM XYZON DEV
 for t in range(10000):
 	a=random.choice(['3.0','4.4.2','4.4.4','5.0.1','8.0','7.0','6.0','5.0','4.0','4.3.4','7.0.1','8.0.1','3','4','5','6','7','8','9','10','11','12','13'])
 	b=random.choice(['JZO54K','LMY47V','LMY48B','LRX22C','LRX21V','LRX22G','LRX21T'])
@@ -134,55 +139,55 @@ for t in range(10000):
 	f=random.randrange(4200,4900)
 	g=random.randrange(40,150)
 	random1=random.choice(['SAMSUNG SM-T530','SAMSUNG SM-T530','SAMSUNG SM-T805','SAMSUNG SM-G928F','SAMSUNG SM-W2021','SAMSUNG-SM-G530AZ','SAMSUNG SM-G925K','SAMSUNG SM-G925L','SAMSUNG SM-G925T','SAMSUNG-SM-T337A','SAMSUNG SM-J110F','SAMSUNG-SM-G890A','SAMSUNG SM-T355Y','SAMSUNG SM-T817T','SAMSUNG SM-G925F','GT-I9000'])
-	rifai1=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai2=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai3=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai4=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai5=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai6=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai7=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai8=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.6 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai9=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.7 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai10=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.8 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai11=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.9 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai12=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai13=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai14=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai15=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.2 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai16=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.3 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai17=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.4 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai18=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.5 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai19=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.6 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai20=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.7 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai21=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.8 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai22=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.9 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai23=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/1.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai24=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/1.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai25=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/1.2 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai26=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai27=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai28=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai29=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.3 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai30=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai31=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai32=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai33=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.5 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai34=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.6 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai35=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.7 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai36=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.8 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai37=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.8 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai38=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.9 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai39=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai40=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai41=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai42=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/20.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai43=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/21.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai44=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/18.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai45=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/17.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai46=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai47=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/15.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	rifai48=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
-	uaku2 = random.choice([rifai1,rifai2,rifai3,rifai4,rifai5,rifai6,rifai7,rifai8,rifai9,rifai10,rifai11,rifai12,rifai13,rifai14,rifai15,rifai16,rifai17,rifai18,rifai19,rifai20,rifai21,rifai22,rifai23,rifai24,rifai25,rifai26,rifai27,rifai28,rifai29,rifai30,rifai31,rifai32,rifai33,rifai34,rifai35,rifai36,rifai37,rifai38,rifai39,rifai40,rifai41,rifai42,rifai43,rifai44,rifai45,rifai46,rifai47,rifai48])
+	xyzon1=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon2=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon3=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon4=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon5=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon6=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon7=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon8=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.6 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon9=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.7 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon10=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.8 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon11=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.9 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon12=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon13=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon14=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon15=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.2 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon16=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.3 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon17=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.4 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon18=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.5 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon19=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.6 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon20=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.7 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon21=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.8 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon22=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.9 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon23=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/1.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon24=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/1.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon25=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/1.2 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon26=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon27=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon28=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon29=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.3 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon30=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon31=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon32=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon33=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.5 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon34=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.6 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon35=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.7 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon36=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.8 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon37=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.8 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon38=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.9 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon39=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon40=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.1 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon41=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon42=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/20.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon43=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/21.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon44=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/18.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon45=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/17.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon46=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon47=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/15.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	xyzon48=f'Mozilla/5.0 (Linux; Android {a}; {random1} Build/{b}.{c}.0{d}; wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.0 Chrome/{e}.0.{f}.{g} Mobile Safari/537.36'
+	uaku2 = random.choice([xyzon1,xyzon2,xyzon3,xyzon4,xyzon5,xyzon6,xyzon7,xyzon8,xyzon9,xyzon10,xyzon11,xyzon12,xyzon13,xyzon14,xyzon15,xyzon16,xyzon17,xyzon18,xyzon19,xyzon20,xyzon21,xyzon22,xyzon23,xyzon24,xyzon25,xyzon26,xyzon27,xyzon28,xyzon29,xyzon30,xyzon31,xyzon32,xyzon33,xyzon34,xyzon35,xyzon36,xyzon37,xyzon38,xyzon39,xyzon40,xyzon41,xyzon42,xyzon43,xyzon44,xyzon45,xyzon46,xyzon47,xyzon48])
 	ugen.append(uaku2)
 		
 for x in range(10):
@@ -290,8 +295,8 @@ def banner():
 [bold white]                __   ____   __ ______ _____  _   _       
 [bold red]      ▄▄▄▄     [bold white] \ \ / /\ \ / /|___  /|  _  || \ | |
 [bold white]      ▀▀▀▀  [bold red]     \ V /  \ V /    / / | | | ||  \| |        [bold green]PremiumXD
-[bold red]                 /   \   \ /    / /  | | | || . ` |        [bold cyan]By XyzonXD
-[bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.6
+[bold red]                 /   \   \ /    / /  | | | || . ` |        [bold cyan]By Xyzon Dev
+[bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.7
 [bold cyan]                \/   \/  \_/  \_____/ \___/ \_| \_/
                  [bold red]▪︎[bold yellow]▪︎[bold green]▪︎[bold cyan] XYZON [bold yellow]MULTI [bold green]BRUTE [bold red]FORCE [bold red]▪︎[bold yellow]▪︎[bold green]▪︎
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
@@ -301,8 +306,8 @@ def logo():
 [bold white]                 _____  _____  _____  _   __ _____  _____  _____ 
 [bold red]      ▄▄▄▄    [bold white] /  __ \|  _  ||  _  || | / /|_   _||  ___|/  ___|
 [bold white]      ▀▀▀▀  [bold red]   | /  \/| | | || | | || |/ /   | |  | |__  \ `--.       [bold green]PremiumXD
-[bold red]               | |    | | | || | | ||    \   | |  |  __|  `--. \      [bold cyan]By XyzonXD
-[bold cyan]               | \__/\\\_/ / \ \_/ /| |\  \ _| |_ | |___ /\__/ /      [bold white]V.2.6
+[bold red]               | |    | | | || | | ||    \   | |  |  __|  `--. \      [bold cyan]By Xyzon Dev
+[bold cyan]               | \__/\\\_/ / \ \_/ /| |\  \ _| |_ | |___ /\__/ /      [bold white]V.2.7
 [bold cyan]                \____/ \___/  \___/ \_| \_/ \___/ \____/ \____/ 
                  [bold red]▪︎[bold yellow]▪︎[bold green]▪︎[bold cyan] XYZON [bold yellow]MULTI [bold green]BRUTE [bold red]FORCE [bold red]▪︎[bold yellow]▪︎[bold green]▪︎
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
@@ -311,7 +316,7 @@ def login123():
 	os.system('clear')
 	logo()
 	cetak(panel(f"[bold white][[bold green]01[bold white]] [bold cyan]Login Menggunakan Cookies [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]02[bold white]] [bold cyan]Doa Sebelum Crack [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]03[bold white]] [bold cyan]Cara Mengambil Cookies Facebook [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]04[bold white]] [bold cyan]Cek Hasil Crack [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]05[bold white]] [bold cyan]Hubungi Admin [bold white][[bold green] ON [/][bold white]][/]",width=90,title=f"[bold red][[bold green] Menu Login [bold red]]",style=f"bold red"))
-	cetak(panel(f'[bold cyan]Anda Wajib Login Menggunakan Cookies Untuk Unlock Semua Fitur Spesial Yang Ada Di Script Ini [bold green]By XyzonXD',width=90,title=f"[bold red][[bold green] Informasi [bold red]]",style=f"bold red"))
+	cetak(panel(f'[bold cyan]Anda Wajib Login Menggunakan Cookies Untuk Unlock Semua Fitur Spesial Yang Ada Di Script Ini [bold green]By Xyzon Dev',width=90,title=f"[bold red][[bold green] Informasi [bold red]]",style=f"bold red"))
 	vevek = input(f' {P}[{H}+{P}]\33[1;96m Pilih Menu : {P}')
 	if vevek in ['1','01']:
 		laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadimariketemupepekkudajanganlarislebewindonesiaandlampungnihbossenggoldongnantimatiawokawokawokaowkawokawokawokawok()
@@ -431,7 +436,7 @@ def menu(my_name,my_id):
 	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]Xyzon Dev[bold cyan] Yang Telah Membuat Script Ini [bold yellow]Xyzon Multi Brute Force',width=90,style=f"bold red"))
 	cetak(panel(f'[bold white][[bold green]•[/][bold white]][/] [bold cyan]Username : [bold yellow]{my_name}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Idz : [bold yellow]{my_id}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Ip  : [bold yellow]{ip}[/][/][bold white]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]Tanggal  : [bold yellow]{tgl} {bln} {thn}[/][/][bold white]\n[[bold green]•[/][bold white]][/] [bold cyan]Status   : [bold green]Premium ',width=90,title=f"[bold red][[bold green] {Definisi__Waktu()} [bold red]]",style=f"bold red"))
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack ID From Pubilc Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack ID From Random Massal [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack ID From Username [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/] [bold cyan]Crack ID From Member Grup [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/] [bold cyan]Crack ID From Total Followers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/] [bold cyan]Crack ID From Email Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/] [bold cyan]Crack ID From File Kita [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/] [bold cyan]Crack ID From Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/] [bold cyan]Crack ID From Komen Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/] [bold cyan]Check Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/] [bold cyan]Chekpoint Detector [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/] [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/] [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/] [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/] [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]16[/][bold white]][/] [bold cyan]Bot Komen Facebook [bold white][[bold green] ON [bold white]][bold white]\n[[bold green]17[/][bold white]][/] [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]18[/][bold white]][/] [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]RM[/][bold white]][/] [bold cyan]Remove Data Login [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold red]00[/][bold white]][/] [bold red]Hapus Cookies [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold red][[bold green] List Menu [bold red]]",style=f"bold red"))
-	cetak(panel(f'    [bold Red]Warning[bold cyan] Gunakan Script Ini Dengan Baik Jangan Di Salah Gunakan [bold green]By XyzonXD',width=90,title=f"[bold red][[bold green] Informasi Crack [bold red]]",style=f"bold red"))
+	cetak(panel(f'    [bold Red]Warning[bold cyan] Gunakan Script Ini Dengan Baik Jangan Di Salah Gunakan [bold green]By Xyzon Dev',width=90,title=f"[bold red][[bold green] Informasi Crack [bold red]]",style=f"bold red"))
 	_____xyzon___xd____ = input(f' {P}[{H}+{P}] \33[1;96mPilih Menu Crack : {P}')
 	if _____xyzon___xd____ in ['1','01']:
 		xyzoncrackpublik()
@@ -722,7 +727,7 @@ def info_ngentod():
 	jalan(          p+""+m+"   • "+h+"github³ "+k+": "+O+"https://github.com/Al-vino");time.sleep(0.03)
 	print(M+"________________________________________________________________________________________");time.sleep(0.03)
 	jalan(          p+""+h+"         ["+k+" Follow Facebook Me "+O+"(>•,•<) "+h+"]");time.sleep(0.03)
-	jalan(          p+""+m+"   • "+h+"Facebook "+k+": "+O+"XyzonXD");time.sleep(0.03)
+	jalan(          p+""+m+"   • "+h+"Facebook "+k+": "+O+"Xyzon Dev");time.sleep(0.03)
 	jalan(          p+""+m+"   • "+h+"Link Fb  "+k+": "+O+"https://www.facebook.com/100077866622074");time.sleep(0.03)
 	jalan(          p+""+m+"   • "+h+"Facebook "+k+": "+O+"BrayennnXD");time.sleep(0.03)
 	jalan(          p+""+m+"   • "+h+"Link Fb  "+k+": "+O+"https://www.facebook.com/raihan.cayankkmu");time.sleep(0.03)
