@@ -1754,16 +1754,15 @@ def passwrd():
 					pool.submit(crackmbasic,idf,pwv)
 		print('')
 	print(M+' <------------------------------------------------------------------------------------->')
-	print(f'{x}  [{h}•{x}]{h} \33[1;96mCrack Telah Selesai,Kalo Dapet \33[1;96mOK{x} \33[1;96mJangan Lupa Bagi Dua Ama Gua')
+	print(f'{x}  [{h}•{x}]{h} \33[1;96mCrack Telah Selesai,Kalo Dapet \33[1;92mOK{x} \33[1;96mJangan Lupa Bagi Dua Ama Gua')
 	print(f'{x}  [{h}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}  [{h}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
-	print('\x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mApakah Anda Ingin Crack Facebook Lagi Y/T')
-	xyzondsini = input('\x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mPilih : \x1b[1;93m')
+	xyzondsini = input('\x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mApakah Anda Ingin Crack Facebook Lagi Y/T : \x1b[1;93m')
 	if xyzondsini in ['y','Y']:
 		back()
 	else:
-		print(f'   {K}>>{O} Selamat Tinggal {P}| {H}Xyzon Dev {K} << ')
+		print(f'  {K}>>{O} Selamat Tinggal {P}| {H}Xyzon Dev {K} << ')
 		time.sleep(2)
 		exit()
 #--------------------[ METODE MOBILE ]-----------------#
