@@ -812,6 +812,7 @@ U = '\x1b[1;95m'
 O = '\x1b[1;96m'
 N = '\x1b[0m'    
 Z = "\033[1;30m"
+KJ = "\x1b[1;91m>"
 sir = '\033[41m\x1b[1;97m'
 x = '\33[m' # DEFAULT
 m = '\x1b[1;91m' #RED +
@@ -849,18 +850,18 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""__ __  __ __  _____   ___   ____       ___      ___  __ __ 
-  |  T  T|  T  T|     T /   \ |    \     |   \    /  _]|  T  |
-  |  |  ||  |  |l__/  |Y     Y|  _  Y    |    \  /  [_ |  |  |
-  l_   _j|  ~  ||   __j|  O  ||  |  |    |  D  YY    _]|  |  |
-  |     |l___, ||  /  ||     ||  |  |    |     ||   [_ l  :  !
-  |  |  ||     !|     |l     !|  |  |    |     ||     T \   / 
-  |__j__|l____/ l_____j \___/ l__j__j    l_____jl_____j  \_/
-                     Informations Author [ And ] Developer                          
- Author    : Risky [ Dumai-991 ]
- Developer : A-Haganezuka [ Denventa ]
- Update By : Afriliyan Haganezuka & Merch Elz
- Facebook  : Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY
+	cetak(panel(f"""     __ __  __ __  _____   ___   ____       ___      ___  __ __ 
+     |  T  T|  T  T|     T /   \ |    \     |   \    /  _]|  T  |
+     |  |  ||  |  |l__/  |Y     Y|  _  Y    |    \  /  [_ |  |  |
+     l_   _j|  ~  ||   __j|  O  ||  |  |    |  D  YY    _]|  |  |
+     |     |l___, ||  /  ||     ||  |  |    |     ||   [_ l  :  !
+     |  |  ||     !|     |l     !|  |  |    |     ||     T \   / 
+     |__j__|l____/ l_____j \___/ l__j__j    l_____jl_____j  \_/
+[bold yellow]                     Informations Author [ And ] Developer                          
+[bold cyan] Author    \x1b[1;91m> [bold yellowRisky [ Dumai-991 ]
+[bold cyan] Developer \x1b[1;91m> [bold yellow]A-Haganezuka [ Denventa ]
+[bold cyan]] Update By \x1b[1;91m> [bold yellow]Afriliyan Haganezuka & Merch Elz
+[bold cyan Facebook  \x1b[1;91m> [bold yellow]Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
 #------------------[ LOGO-LAKNAT-V2]-----------------#
 def logo():
