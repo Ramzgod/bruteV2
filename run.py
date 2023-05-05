@@ -856,11 +856,11 @@ def banner():
   |     |l___, ||  /  ||     ||  |  |    |     ||   [_ l  :  !
   |  |  ||     !|     |l     !|  |  |    |     ||     T \   / 
   |__j__|l____/ l_____j \___/ l__j__j    l_____jl_____j  \_/
-                    {GOD} Informations Author [ And ] Developer {GOD}                         
-{WOR} Author    {AA}: {II}Risky [ Dumai-991 ]
-{WOR} Developer {AA}: {II}A-Haganezuka [ Denventa ]
-{WOR} Update By {AA}: {II}Afriliyan Haganezuka & Merch Elz
-{WOR} Facebook  {AA}: {II}Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY
+                     Informations Author [ And ] Developer {GOD}                         
+ Author    : {II}Risky [ Dumai-991 ]
+ Developer : {II}A-Haganezuka [ Denventa ]
+ Update By : {II}Afriliyan Haganezuka & Merch Elz
+ Facebook  : {II}Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
 #------------------[ LOGO-LAKNAT-V2]-----------------#
 def logo():
