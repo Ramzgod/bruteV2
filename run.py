@@ -857,10 +857,10 @@ def banner():
   |  |  ||     !|     |l     !|  |  |    |     ||     T \   / 
   |__j__|l____/ l_____j \___/ l__j__j    l_____jl_____j  \_/
                      Informations Author [ And ] Developer                          
- Author    : {II}Risky [ Dumai-991 ]
- Developer : {II}A-Haganezuka [ Denventa ]
- Update By : {II}Afriliyan Haganezuka & Merch Elz
- Facebook  : {II}Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY
+ Author    : Risky [ Dumai-991 ]
+ Developer : A-Haganezuka [ Denventa ]
+ Update By : Afriliyan Haganezuka & Merch Elz
+ Facebook  : Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
 #------------------[ LOGO-LAKNAT-V2]-----------------#
 def logo():
