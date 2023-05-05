@@ -1042,6 +1042,7 @@ def menu(my_name,my_id):
 		os.system('rm -rf .cookie.txt')
 		jalan(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]{m} Sukses Menghapus Data Script{x}')
 		time.sleep(5)
+		login123()
 	elif _____xyzon___xd____ in('ahhh','vvvk'):
 		os.system("xdg-open https://www.xnxx.luxe/")
 	elif _____xyzon___xd____ in('0','00'):
