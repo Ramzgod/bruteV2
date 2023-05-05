@@ -2650,51 +2650,51 @@ def GetData():
         nmaa = x['name']
     except (KeyError,IOError):
         nmaa = ('-')
-    print ('\x1b[1;91m──────────────────────────────────────────────────────────────')
+    print(M+"________________________________________________________________________________________");time.sleep(0.03)
     print (' \x1b[1;96m  Informasi Akun ');time.sleep(0.03)
-    print ('\n \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m nama lengkap : '+nmaa);time.sleep(0.03)
+    print ('\n \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m\33[1;96m Nama Lengkap \x1b[1;91m>\33[1;97m '+nmaa);time.sleep(0.03)
     try:
         ndpn = x['first_name']
     except (KeyError,IOError):
         ndpn = ('-')
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m nama depan   : %s'%ndpn);time.sleep(0.03)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mnama depan   \x1b[1;91m>\33[1;97m %s'%ndpn);time.sleep(0.03)
     try:
         nmbl = x['last_name']
     except (KeyError,IOError):
         nmbl = '-'
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m nama belakang: %s'%nmbl);time.sleep(0.03)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mnama belakang\x1b[1;91m>\33[1;97m %s'%nmbl);time.sleep(0.03)
     try:
         hwhs = x['username']
     except (KeyError,IOError):
         hwhs = '-'
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m username fb  : '+hwhs);time.sleep(0.03)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96musername fb  \x1b[1;91m>\33[1;97m '+hwhs);time.sleep(0.03)
     try:
         ___xxz___jeeck___ = x['id']
     except (KeyError,IOError):
         ___xxz___jeeck___ = '?'
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m id facebook  : %s'%___xxz___jeeck___);time.sleep(0.03)
-    print ('\x1b[1;91m──────────────────────────────────────────────────────────────')
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mid facebook  \x1b[1;91m>\33[1;97m %s'%___xxz___jeeck___);time.sleep(0.03)
+    print(M+"________________________________________________________________________________________");time.sleep(0.03)
     print ('\x1b[1;96m   Data-Data Akun  \n');time.sleep(0.03)
     try:
         emai = x['email']
     except (KeyError,IOError):
         emai = '-'
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m gmail facebook : %s'%emai);time.sleep(0.03)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mgmail facebook \x1b[1;91m>\33[1;97m %s'%emai);time.sleep(0.03)
     try:
         nmrr = x['mobile_phone']
     except (KeyError,IOError):
         nmrr = '-'
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m nomor telepon  : %s'%nmrr);time.sleep(0.03)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mnomor telepon  \x1b[1;91m>\33[1;97m %s'%nmrr);time.sleep(0.03)
     try:
         ttll = x['birthday']
     except (KeyError,IOError,NameError):
         ttll = '-/-/-'
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m tanggal lahir  : %s '%ttll);time.sleep(0.03)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mtanggal lahir  \x1b[1;91m>\33[1;97m %s '%ttll);time.sleep(0.03)
     try:
         jenis = x['gender'].replace("female","Betina").replace("male","Jantan")
     except (KeyError,IOError):
         jenis = '-'
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m jenis kelamin  : %s '%jenis)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mjenis kelamin  \x1b[1;91m>\33[1;97m %s '%jenis)
     try:
         r = requests.get('https://graph.facebook.com/'+idt+'/friends?limit=10000&access_token='+token)
         z = json.loads(r.text)
@@ -2706,19 +2706,19 @@ def GetData():
                continue
     except:
         pass
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m Total pertemnan: %s'%(len(id)))
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mTotal pertemnan\x1b[1;91m>\33[1;97m %s'%(len(id)))
     try:
         b = requests.get('https://graph.facebook.com/'+idt+'/subscribers?access_token='+token)
         A = json.loads(b.text)
         pengikut = A["summary"]["total_count"]
     except (KeyError, IOError):
         pengikut = '-'
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m Total pengikut : %s'%pengikut)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mTotal pengikut \x1b[1;91m>\33[1;97m %s'%pengikut)
     try:
         lins = x['link']
     except (KeyError,IOError):
         lins = '-'
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m link facebook  : %s'%lins);time.sleep(0.03)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mlink facebook  \x1b[1;91m>\33[1;97m %s'%lins);time.sleep(0.03)
     try:
         stas = x['relationship_status']
     except (TypeError,KeyError,IOError):
@@ -2729,42 +2729,42 @@ def GetData():
         dgn = '-'
     except:
         pass
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m status hubungan: '+stas+' dengan '+dgn);time.sleep(0.03)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mstatus hubungan \x1b[1;91m>\33[1;97m '+stas+' dengan '+dgn);time.sleep(0.03)
     try:
         bioo = x['about']
     except (KeyError,IOError):
         bioo = '-'
     except:
         pass
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m tentang status : %s'%bioo);time.sleep(0.03)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mtentang status\x1b[1;91m>\33[1;97m %s'%bioo);time.sleep(0.03)
     try:
         dari = x['hometown']['name']
     except (KeyError,IOError):
         dari = '-'
     except:
         pass
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m kota asal      : %s'%dari)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mkota asal      \x1b[1;91m>\33[1;97m %s'%dari)
     try:
         tigl = x['location']['name']
     except (KeyError,IOError):
         tigl = '-'
     except:
         pass
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m tinggal di     : %s'%tigl)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mtinggal di     \x1b[1;91m>\33[1;97m %s'%tigl)
     try:
         lopeDela = x["location"]["id"]
     except (KeyError,IOError):
         lopeDela = '-'
     except:
         pass
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m id lokasi      : %s'%lopeDela)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mid lokasi      \x1b[1;91m>\33[1;97m %s'%lopeDela)
     try:
         tzim = x['timezone']
     except (KeyError,IOError):
         tzim = '-'
     except:
         pass
-    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m zona waktu     : %s'%tzim);time.sleep(0.03)
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mzona waktu     \x1b[1;91m>\33[1;97m %s'%tzim);time.sleep(0.03)
     try:
         jam  = x['updated_time'][11:19]
         uptd = x['updated_time'][:10]
@@ -2776,10 +2776,10 @@ def GetData():
         day = '-'
     except:
         pass
-    print (" \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ Terakhir Online Tanggal \x1b[1;97m"+uptd+"\x1b[1;95m Jam \x1b[1;97m"+jam)
-    print ('\x1b[1;97m──────────────────────────────────────────────────────────────')
-    input('\n\x1b[1;95m  [ \x1b[1;97mKEMBALI \x1b[1;95m] ')
-    menu()
+    print (" \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ \33[1;96mTerakhir Online Tanggal \x1b[1;93m"+uptd+"\x1b[1;96m Jam \x1b[1;93m"+jam)
+    print(M+"________________________________________________________________________________________");time.sleep(0.03)
+    input('\n\x1b[1;95m  [ \x1b[1;96mKEMBALI \x1b[1;95m] ')
+    back()
 #-----------------------[ DEF CEK OPSI ]--------------------#
 import requests, shutil, os, re, bs4, sys, json, time, platform ,random, datetime, subprocess, logging, base64
 import hmac, hashlib, urllib, stdiomask, urllib.request, uuid
