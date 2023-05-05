@@ -2624,12 +2624,13 @@ def cek_apk(kuki):
 		print ("\r    %s \033[0mcookie invalid"%(M))
 #AMBIL DATA ORANG
 def GetData():
-	try:
-		token = open('.token.txt','r').read()
-		cok = open('.cok.txt','r').read()
-	except IOError:
-		exit()
-	try:
+    try:
+        token = open(".token.txt","r").read()
+    except IOError:
+        jalan(m+" Cookie Kadaluarsa")
+        time.sleep(0.5)
+        login()
+    try:
         user = input ( "\033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\033[0;00m Id Target : ")
         if user == '':
             print ( " \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Masukan dengan benar bro");GetData()
@@ -2779,7 +2780,6 @@ def GetData():
     print ('\x1b[1;97m──────────────────────────────────────────────────────────────')
     input('\n\x1b[1;95m  [ \x1b[1;97mKEMBALI \x1b[1;95m] ')
     menu()
-
 #-----------------------[ DEF CEK OPSI ]--------------------#
 import requests, shutil, os, re, bs4, sys, json, time, platform ,random, datetime, subprocess, logging, base64
 import hmac, hashlib, urllib, stdiomask, urllib.request, uuid
