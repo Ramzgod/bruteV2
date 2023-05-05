@@ -985,7 +985,7 @@ def menu(my_name,my_id):
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Cookies Kadaluarsa ')
 		time.sleep(5)
 		login()
-	#os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
+	os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
 	#os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
 	#os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
 	os.system('clear')
@@ -2651,7 +2651,7 @@ def GetData():
     except (KeyError,IOError):
         nmaa = ('-')
     print(M+"________________________________________________________________________________________");time.sleep(0.03)
-    print (' \x1b[1;96m  Informasi Akun ');time.sleep(0.03)
+    print (' \x1b[1;96m  Informasi Akun Akun Pengguna Facebook');time.sleep(0.03)
     print ('\n \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m\33[1;96m Nama Lengkap \x1b[1;91m>\33[1;97m '+nmaa);time.sleep(0.03)
     try:
         ndpn = x['first_name']
@@ -2674,7 +2674,7 @@ def GetData():
         ___xxz___jeeck___ = '?'
     print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m \33[1;96mid facebook  \x1b[1;91m>\33[1;97m %s'%___xxz___jeeck___);time.sleep(0.03)
     print(M+"________________________________________________________________________________________");time.sleep(0.03)
-    print ('\x1b[1;96m   Data-Data Akun  \n');time.sleep(0.03)
+    print ('\x1b[1;96m   Data-Data Akun Facebook.  \n');time.sleep(0.03)
     try:
         emai = x['email']
     except (KeyError,IOError):
