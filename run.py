@@ -856,7 +856,7 @@ def banner():
   |     |l___, ||  /  ||     ||  |  |    |     ||   [_ l  :  !
   |  |  ||     !|     |l     !|  |  |    |     ||     T \   / 
   |__j__|l____/ l_____j \___/ l__j__j    l_____jl_____j  \_/
-                     Informations Author [ And ] Developer {GOD}                         
+                     Informations Author [ And ] Developer                          
  Author    : {II}Risky [ Dumai-991 ]
  Developer : {II}A-Haganezuka [ Denventa ]
  Update By : {II}Afriliyan Haganezuka & Merch Elz
