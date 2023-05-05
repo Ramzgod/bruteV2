@@ -849,14 +849,18 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""
-[bold white]                __   ____   __ ______ _____  _   _       
-[bold red]      ▄▄▄▄     [bold white] \ \ / /\ \ / /|___  /|  _  || \ | |
-[bold white]      ▀▀▀▀  [bold red]     \ V /  \ V /    / / | | | ||  \| |        [bold green]PremiumXD
-[bold red]                 /   \   \ /    / /  | | | || . ` |        [bold cyan]By Xyzon Dev
-[bold cyan]                / /^\ \  | |  ./ /___\ \_/ /| |\  |        [bold white]V.2.7
-[bold cyan]                \/   \/  \_/  \_____/ \___/ \_| \_/
-                 [bold red]▪︎[bold yellow]▪︎[bold green]▪︎[bold cyan] XYZON [bold yellow]MULTI [bold green]BRUTE [bold red]FORCE [bold red]▪︎[bold yellow]▪︎[bold green]▪︎
+	cetak(panel(f"""__ __  __ __  _____   ___   ____       ___      ___  __ __ 
+  |  T  T|  T  T|     T /   \ |    \     |   \    /  _]|  T  |
+  |  |  ||  |  |l__/  |Y     Y|  _  Y    |    \  /  [_ |  |  |
+  l_   _j|  ~  ||   __j|  O  ||  |  |    |  D  YY    _]|  |  |
+  |     |l___, ||  /  ||     ||  |  |    |     ||   [_ l  :  !
+  |  |  ||     !|     |l     !|  |  |    |     ||     T \   / 
+  |__j__|l____/ l_____j \___/ l__j__j    l_____jl_____j  \_/
+                    {GOD} Informations Author [ And ] Developer {GOD}                         
+{WOR} Author    {AA}: {II}Risky [ Dumai-991 ]
+{WOR} Developer {AA}: {II}A-Haganezuka [ Denventa ]
+{WOR} Update By {AA}: {II}Afriliyan Haganezuka & Merch Elz
+{WOR} Facebook  {AA}: {II}Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
 #------------------[ LOGO-LAKNAT-V2]-----------------#
 def logo():
