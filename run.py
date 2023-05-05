@@ -2627,7 +2627,7 @@ def GetData():
     try:
         cookie = open(".cookie.txt","r").read()
     except IOError:
-        jalan(balmond+m+" cookie Kadaluarsa")
+        jalan(m+" cookie Kadaluarsa")
         time.sleep(0.5)
         login()
     try:
