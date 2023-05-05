@@ -2065,7 +2065,7 @@ def xyzoncrackpublik():
 			try:id.append(pi['id']+'|'+pi['name'])
 			except:continue
 		print('')
-		print(f' {P}[{H}+{P}]\33[1;96m Total ID yang Terkumpul : {h}'+str(len(id)))
+		print(f' {P}[{H}+{P}]\33[1;96m Total ID yang \x1b[1;91m> {h}'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Internet Lu Gak Ada Anjing')
@@ -2124,7 +2124,7 @@ def dump_massal():
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
 	print('')
-	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold cyan]Crack Idz Old-New [bold white][[bold red]Not Good[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold cyan]Crack Idz New-Old [bold white][[bold green]Very Good[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold cyan]Crack Idz Random [bold white][[bold green]Good[bold white]][/]',width=90,title=f"[bold red][[bold green] Setting Urutan Idz [bold red]]",style=f"bold red"))
+	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Crack Idz Old-New [bold white][[bold red]Not Good[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Crack Idz New-Old [bold white][[bold green]Very Good[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Crack Idz Random [bold white][[bold green]Good[bold white]][/]',width=90,title=f"[bold red][[bold green] Setting Urutan Idz [bold red]]",style=f"bold red"))
 	hu = input(f' {P}[{H}+{P}] \33[1;96mPilih Urutan Idz \x1b[1;91m> {P}')
 	if hu in ['1','01']:
 		for tua in sorted(id):
