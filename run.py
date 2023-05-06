@@ -857,7 +857,7 @@ def banner():
      [bold cyan]  |     |l___, ||  /  ||     ||  |  |  [bold red]  |     ||   [_ l  :  !
     [bold cyan]   |  |  ||     !|     |l     !|  |  |    [bold yellow]|     ||     T \   / 
   [bold cyan]     |__j__|l____/ l_____j \___/ l__j__j  [bold yellow]  l_____jl_____j  \_/
-             """,width=90,title=f"[bold red][[bold cyan] {Devinisi_Waktu()} [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
+             """,width=90,title=f"[bold red][[bold cyan] {Definisi__Waktu()} [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
 #------------------[ LOGO-LAKNAT-V2]-----------------#
 def logo():
 	cetak(panel(f"""
