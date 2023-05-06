@@ -2080,7 +2080,7 @@ def dump_massal():
 		exit()
 	try:
 		cetak(panel('\t          [bold cyan]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold red][[bold green] Crack Massal [bold red]]",style=f"bold red"))
-		jum = int(input(f' {P}[{H}+{P}]\33[1;96m Mau Berapa Idz Target  \x1b[1;91m>{P} '))
+		jum = int(input(f' {P}[{H}+{P}]\33[1;96m Mau Berapa Idz Target \x1b[1;91m>{P} '))
 	except ValueError:
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Wrong input ')
 		exit()
@@ -2191,7 +2191,7 @@ def passwrd():
 	print('')
 	urut = []
 	print(M+' <------------------------------------------------------------------------------------->')
-	cetak(panel(f' [bold white][[bold green]•[bold white]] [bold cyan]Akun [bold white][[bold green]OK[bold white]][bold cyan] Anda Akan Tersimpan Ke File Di Samping [bold red]> [bold green]{(okc)} [bold white]\n [bold white][[bold green]•[bold white]][bold cyan] Akun [bold white][[bold yellow]CP[bold white]][bold cyan] Anda Akan Tersimpan Ke File Di Samping [bold red]> [bold yellow]{(cpc)} [bold white] \n [bold white][[bold green]![bold white]] [bold cyan]Mainkan Mode Pesawat Setiap [bold yellow]1000 ID [bold cyan]Agar Tidak Spam IP Selama 2 Detik !',width=90,title=f"[bold red][[bold green] Info Crack [bold red]]",style=f"bold red"))
+	cetak(panel(f' [bold white][[bold green]•[bold white]] [bold cyan]Akun [bold white][[bold green]OK[bold white]][bold cyan] Anda Akan Tersimpan Ke File Di Samping [bold red]> [bold green]{(okc)} [bold white]\n [bold white][[bold green]•[bold white]][bold cyan] Akun [bold white][[bold yellow]CP[bold white]][bold cyan] Anda Akan Tersimpan Ke File Di Samping [bold red]> [bold yellow]{(cpc)} [bold white] \n [bold white][[bold green]![bold white]] [bold cyan]Mainkan Mode Pesawat Setiap [bold yellow]1000 ID [bold cyan]Agar Tidak Spam IP Selama 2 Detik !',width=90,title=f"",style=f"bold red"))
 	prog = Progress(SpinnerColumn('clock'),TextColumn('{task.description}'),BarColumn(),TextColumn('{task.percentage:.0f}%'))
 	des = prog.add_task('',total=len(id2))
 	with prog:
@@ -3132,4 +3132,4 @@ if __name__=='__main__':
 	except:pass
 	login()
   
-# jangan Di Dec Anjing
+# jangan Di Dec Anjing 
