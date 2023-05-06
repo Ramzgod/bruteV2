@@ -2163,9 +2163,6 @@ def setting():
 	    method.append('reguler')
 	else:
 		method.append('mobile')
-	else:
-		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pilih Yang Bener Kontooll ')
-		back()
 	cetak(panel('''[bold white][[bold green]01[bold white]]. [bold cyan]Pass Random           [bold white][[bold green]02[bold white]]. [bold cyan]Pass Otomatis          [bold white][[bold green]03[bold white]]. [bold cyan]Pass Manual ''',width=90,title=f"[bold red][[bold green] Setting Password[bold red]]",style=f"bold red"))
 	pwplus=input(f' {P}[{H}+{P}]\33[1;96m Pilih sandi \x1b[1;91m>{P} ')
 	if pwplus in ['03','3']:
@@ -2175,7 +2172,8 @@ def setting():
 		for xpw in pwkuh:
 			pwnya.append(xpw)
 	else:
-		pwpluss.append('no')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pilih Yang Bener Kontooll ')
+		back()
 	
 	uatambah = input(f' {P}[{H}+{P}] \33[1;96mApakah Anda Ingin Mengunakan User-Agent Manual Di Script Y/T \x1b[1;91m>{P} ')
 	if uatambah in ['y','Ya','ya','Y']:
