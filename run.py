@@ -850,13 +850,13 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""[bold cyan]        __ __  __ __  _____   ___   ____    [bold green]   ___      ___  __ __ 
-     [bold cyan]  |  T  T|  T  T|     T /   \ |    \   [bold green]  |   \    /  _]|  T  |
-       [bold cyan]|  |  ||  |  |l__/  |Y     Y|  _  Y  [bold green]  |    \  /  [_ |  |  |
-     [bold cyan]  l_   _j|  ~  ||   __j|  O  ||  |  | [bold red]   |  D  YY    _]|  |  |
-     [bold cyan]  |     |l___, ||  /  ||     ||  |  |  [bold red]  |     ||   [_ l  :  !
-    [bold cyan]   |  |  ||     !|     |l     !|  |  |    [bold yellow]|     ||     T \   / 
-  [bold cyan]     |__j__|l____/ l_____j \___/ l__j__j  [bold yellow]  l_____jl_____j  \_/
+	cetak(panel(f"""[bold cyan]           __ __  __ __  _____   ___   ____    [bold green]   ___      ___  __ __ 
+        [bold cyan]  |  T  T|  T  T|     T /   \ |    \   [bold green]  |   \    /  _]|  T  |
+          [bold cyan]|  |  ||  |  |l__/  |Y     Y|  _  Y  [bold green]  |    \  /  [_ |  |  |
+        [bold cyan]  l_   _j|  ~  ||   __j|  O  ||  |  | [bold red]   |  D  YY    _]|  |  |
+        [bold cyan]  |     |l___, ||  /  ||     ||  |  |  [bold red]  |     ||   [_ l  :  !
+       [bold cyan]   |  |  ||     !|     |l     !|  |  |    [bold yellow]|     ||     T \   / 
+     [bold cyan]     |__j__|l____/ l_____j \___/ l__j__j  [bold yellow]  l_____jl_____j  \_/
              """,width=90,title=f"[bold red][[bold cyan] {Definisi__Waktu()} [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
 #------------------[ LOGO-LAKNAT-V2]-----------------#
 def logo():
