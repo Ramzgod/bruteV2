@@ -6,58 +6,66 @@
 # Note : jangan di ubah lagi! nanti error, script nya udah enak
 # BANG BANG LU MAIN EPEP YA🗿
 # Recode Sc Orang Kagak Buat Lu Jago Dek-Dek
-#------------------[ IMPORT MODULE ]-------------------#
-import requests,bs4,json,os,sys,random,datetime,time,re,urllib3,rich,base64
+#-----------------[ IMPORT - PREMIUM ]-------------------
+import requests,bs4,json,os,sys,random,datetime,time,re
+import urllib3,rich,base64
+from concurrent.futures import ThreadPoolExecutor as tred
+from rich.table import Table as me
+from rich.console import Console as sol
+from bs4 import BeautifulSoup as sop
+from bs4 import BeautifulSoup as parser
+from bs4 import BeautifulSoup as par
+from concurrent.futures import ThreadPoolExecutor as tred
+from rich.console import Group as gp
+from rich.panel import Panel as panel
+from rich.panel import Panel as nel
+from rich.progress import track
 from time import sleep
-from rich import pretty
-from rich.tree import Tree
-from rich.panel import Panel
 from rich import print as cetak
+from concurrent.futures import ThreadPoolExecutor as XyzonXD
+from rich.panel import Panel
+from rich.markdown import Markdown as mark
+from rich.columns import Columns as col
+from rich.tree import Tree
 from rich import print as rprint
 from rich import print as prints
-from rich.progress import track
-from rich.text import Text as tekz
-from rich.console import Console
-from rich.columns import Columns
-from rich.panel import Panel as nel
-from rich.panel import Panel as panel
-from bs4 import BeautifulSoup as sop
-from bs4 import BeautifulSoup as par
-from rich.console import Group as gp
-from bs4 import BeautifulSoup as parser
-from rich.columns import Columns as col
+from rich import pretty
 from rich.console import Console as sol
-from rich.markdown import Markdown as mark
-from concurrent.futures import ThreadPoolExecutor as tred
-from concurrent.futures import ThreadPoolExecutor as BrayennnXD 
 from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn
-#------------------[  MODULE  ]-------------------#
+from rich.text import Text as tekz
+dump = []
+memek = []
+ualu,ualuh = [],[]
 try:
         import rich
 except ImportError:
-        cetak(nel('\t• Sedang Menginstall Modul Rich •'))
+        cetak(nel('\t• Sedang Menginstall Modul Rich â€¢'))
         os.system('pip install rich')
 try:
         import stdiomask
 except ImportError:
-        cetak(nel('\t• Sedang Menginstall Modul Stdiomask •'))
+        cetak(nel('\t• Sedang Menginstall Modul Stdiomask â€¢'))
         os.system('pip install stdiomask')
 try:
 	import requests
 except ImportError:
-	cetak(nel('\t• Sedang Menginstall Modul Requests •'))
+	cetak(nel('\t• Sedang Menginstall Modul Requests â€¢'))
 	os.system('pip install requests && pip install mechanize ')
-#------------------[ GLOBAL NAME ]-------------------#
-pretty.install()
-CON=sol()
-wa = Console()
-taplikasi=[]
-gabriel=[]
-BrayennnXD=[]
+try:
+	import requests
+except ImportError:
+	cetak(nel('\t• sedang menginstall play-audio â€¢'))
+	os.system('pkg install play-audio')
+	
+###----------[ IMPORT MODULE RICH ]---------- ###
+from rich.panel import Panel
+from rich.tree import Tree
+from rich import print as prints
+from rich.console import Console
+from rich.table import Table
+from rich.columns import Columns
+from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn,TimeElapsedColumn
 console = Console()
-ses=requests.Session()
-id,id2,loop,ok,cp,akun,oprek,lisensiku,tokenku,uid,lisensikuni,method,pwpluss,pwnya= [],[],0,0,0,[],[],[],[],[],[],[],[],[]
-ugen2,ugen,dia,cokbrut,dump,memek,ualu,ualuh,lisensikuni,lisensiku,princp=[],[],[],[],[],[],[],[],[],[],[]
 sys.stdout.write('\x1b]2; XMBF | Xyzon Multi Brute Facebook\x07')
 #---------Tahun---------#
 def tahun(fx):
@@ -985,13 +993,14 @@ def menu(my_name,my_id):
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Cookies Kadaluarsa ')
 		time.sleep(5)
 		login()
+	urut = []
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]Xyzon Dev[bold cyan] Yang Telah Membuat Script Ini [bold yellow]Xyzon Multi Brute Force',width=90,style=f"bold red"))
-	Brayenn.append(panel(f'[bold white][[bold green]+[/][bold white]][/] [bold cyan] Username : [bold green]{my_name}[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Idz : [bold green]{my_id}[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Ip  : [bold green]{ip}[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Sc  : [bold green]Spesial[/][/] ',width=43,padding=(0,3),style=f"bold white"))
-	Brayenn.append(panel(f'[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Author : [bold green]BintangTzy[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Recode : [bold green]XyzonXD[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Versi  : [bold green]2.1[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Status : [bold green]Premium[/][/] ',width=44,padding=(0,3),style=f"bold white"))
-	console.print(Columns(Brayenn))
+	urut.append(panel(f'[bold white][[bold green]+[/][bold white]][/] [bold cyan] Username : [bold green]{my_name}[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Idz : [bold green]{my_id}[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Ip  : [bold green]{ip}[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Sc  : [bold green]Spesial[/][/] ',width=43,padding=(0,3),style=f"bold white"))
+	urut.append(panel(f'[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Author : [bold green]BintangTzy[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Recode : [bold green]XyzonXD[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Versi  : [bold green]2.1[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Status : [bold green]Premium[/][/] ',width=44,padding=(0,3),style=f"bold white"))
+	wa.print(Columns(urut))
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Crack ID From Pubilc Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Crack ID From Random Massal [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Crack ID From Username [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Crack ID From Member Grup [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Crack ID From Total Followers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Crack ID From Email Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/]. [bold cyan]Crack ID From File Kita [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/]. [bold cyan]Crack ID From Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/]. [bold cyan]Crack ID From Komen Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/]. [bold cyan]Check Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/]. [bold cyan]Chekpoint Detector [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/]. [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/]. [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/]. [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/]. [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]16[/][bold white]][/]. [bold cyan]Bot Komen Facebook [bold white][[bold green] ON [bold white]][bold white]\n[bold white][[bold green]17[/][bold white]][/]. [bold cyan]Get Data Pengguna [bold green]Lain [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]18[/][bold white]][/]. [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]19[/][bold white]][/]. [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]RM[/][bold white]][/]. [bold cyan]Remove Data Login [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold red]00[/][bold white]][/]. [bold red]Keluar Script [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold red][[bold green] List Menu [bold red]]",style=f"bold red"))
 	cetak(panel(f'    [bold Red]Warning[bold cyan] Gunakan Script Ini Dengan Baik Jangan Di Salah Gunakan [bold green]By Xyzon Dev',width=90,title=f"[bold red][[bold green] Informasi Crack [bold red]]",style=f"bold red"))
 	_____xyzon___xd____ = input(f' {P}[{H}+{P}] \33[1;96mPilih Menu Crack \x1b[1;91m> {P}')
