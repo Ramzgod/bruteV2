@@ -2191,7 +2191,7 @@ def passwrd():
 	print('')
 	urut = []
 	print(M+' <------------------------------------------------------------------------------------->')
-	cetak(panel(f'\t        [bold green](okc) [bold white]\n         [bold yellow](cpc) [bold white] \n     [bold cyan]Mainkan Mode Pesawat Setiap [bold yellow]1000 ID [bold cyan]Selama 2 Detik !',width=90,title=f"[bold red][[bold green] Info Crack [bold red]]",style=f"bold red"))
+	cetak(panel(f'\t        [bold green]{(okc)} [bold white]\n         [bold yellow]{(cpc)} [bold white] \n     [bold cyan]Mainkan Mode Pesawat Setiap [bold yellow]1000 ID [bold cyan]Selama 2 Detik !',width=90,title=f"[bold red][[bold green] Info Crack [bold red]]",style=f"bold red"))
 	prog = Progress(SpinnerColumn('clock'),TextColumn('{task.description}'),BarColumn(),TextColumn('{task.percentage:.0f}%'))
 	des = prog.add_task('',total=len(id2))
 	with prog:
