@@ -2142,7 +2142,7 @@ def setting():
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)
 	else:
-		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91mPilih Yang Bener Kontooll ')
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pilih Yang Bener Kontooll ')
 		exit()
 	xyzondev = []
 	xyzondev.append(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Metode Mobile  [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Metode Mbasic [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Metode Free [bold white][[bold green]Very Slow[bold white]][/]',width=43,title=f"",style=f"bold red"))
@@ -2163,6 +2163,9 @@ def setting():
 	    method.append('reguler')
 	else:
 		method.append('mobile')
+	else:
+		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pilih Yang Bener Kontooll ')
+		back()
 	cetak(panel('''[bold white][[bold green]01[bold white]]. [bold cyan]Pass Random           [bold white][[bold green]02[bold white]]. [bold cyan]Pass Otomatis          [bold white][[bold green]03[bold white]]. [bold cyan]Pass Manual ''',width=90,title=f"[bold red][[bold green] Setting Password[bold red]]",style=f"bold red"))
 	pwplus=input(f' {P}[{H}+{P}]\33[1;96m Pilih sandi \x1b[1;91m>{P} ')
 	if pwplus in ['03','3']:
