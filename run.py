@@ -6,7 +6,7 @@
 # Note : jangan di ubah lagi! nanti error, script nya udah enak
 # BANG BANG LU MAIN EPEP YA🗿
 # Recode Sc Orang Kagak Buat Lu Jago Dek-Dek
-#-----------------[ IMPORT - PREMIUM ]-------------------
+#------------------[ IMPORT MODULE ]-------------------#
 import requests,bs4,json,os,sys,random,datetime,time,re,urllib3,rich,base64
 from time import sleep
 from rich import pretty
@@ -31,9 +31,7 @@ from rich.markdown import Markdown as mark
 from concurrent.futures import ThreadPoolExecutor as tred
 from concurrent.futures import ThreadPoolExecutor as BrayennnXD 
 from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn
-dump = []
-memek = []
-ualu,ualuh = [],[]
+#------------------[  MODULE  ]-------------------#
 try:
         import rich
 except ImportError:
@@ -49,12 +47,6 @@ try:
 except ImportError:
 	cetak(nel('\t• Sedang Menginstall Modul Requests •'))
 	os.system('pip install requests && pip install mechanize ')
-try:
-	import requests
-except ImportError:
-	cetak(nel('\t• sedang menginstall Modul play-audio •'))
-	os.system('pkg install play-audio')
-	
 #------------------[ GLOBAL NAME ]-------------------#
 pretty.install()
 CON=sol()
@@ -66,7 +58,7 @@ console = Console()
 ses=requests.Session()
 id,id2,loop,ok,cp,akun,oprek,lisensiku,tokenku,uid,lisensikuni,method,pwpluss,pwnya= [],[],0,0,0,[],[],[],[],[],[],[],[],[]
 ugen2,ugen,dia,cokbrut,dump,memek,ualu,ualuh,lisensikuni,lisensiku,princp=[],[],[],[],[],[],[],[],[],[],[]
-sys.stdout.write('\x1b]2;XMBF | XYZON MULTI BRUTE FORCE\x07')
+sys.stdout.write('\x1b]2; XMBF | Xyzon Multi Brute Facebook\x07')
 #---------Tahun---------#
 def tahun(fx):
 	if len(fx)==15:
