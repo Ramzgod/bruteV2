@@ -850,18 +850,13 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""        __ __  __ __  _____   ___   ____       ___      ___  __ __ 
-       |  T  T|  T  T|     T /   \ |    \     |   \    /  _]|  T  |
-       |  |  ||  |  |l__/  |Y     Y|  _  Y    |    \  /  [_ |  |  |
-       l_   _j|  ~  ||   __j|  O  ||  |  |    |  D  YY    _]|  |  |
-       |     |l___, ||  /  ||     ||  |  |    |     ||   [_ l  :  !
-       |  |  ||     !|     |l     !|  |  |    |     ||     T \   / 
-       |__j__|l____/ l_____j \___/ l__j__j    l_____jl_____j  \_/
-[bold yellow]                     Informations Author [ And ] Developer                          
-[bold cyan] Author    [bold red]> [bold yellow]Risky [ Dumai-991 ]
-[bold cyan] Developer [bold red]> [bold yellow]A-Haganezuka [ Denventa ]
-[bold cyan] Update By [bold red]> [bold yellow]Afriliyan Haganezuka & Merch Elz
-[bold cyan] Facebook  [bold red]> [bold yellow]Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY
+	cetak(panel(f"""        __ __  __ __  _____   ___   ____    [bold green]   ___      ___  __ __ 
+       |  T  T|  T  T|     T /   \ |    \   [bold green]  |   \    /  _]|  T  |
+       |  |  ||  |  |l__/  |Y     Y|  _  Y  [bold green]  |    \  /  [_ |  |  |
+       l_   _j|  ~  ||   __j|  O  ||  |  | [bold green]   |  D  YY    _]|  |  |
+       |     |l___, ||  /  ||     ||  |  |  [bold yellow]]  |     ||   [_ l  :  !
+       |  |  ||     !|     |l     !|  |  |    [bold yellow]|     ||     T \   / 
+       |__j__|l____/ l_____j \___/ l__j__j  [bold yellow  l_____jl_____j  \_/
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
 #------------------[ LOGO-LAKNAT-V2]-----------------#
 def logo():
