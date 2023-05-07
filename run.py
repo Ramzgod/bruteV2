@@ -3130,6 +3130,8 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
+	jalan(f'\n\t {O} Hi, I'm Xyzon Dev, I'm Writer of This Script, use this script well, don't abuse it :>{x} ')
+	time.sleep(3)
 	login()
   
 # jangan Di Dec Anjing 
