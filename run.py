@@ -1051,7 +1051,7 @@ def menu(my_name,my_id):
 def vvk():
 	print(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Maaf Anda Belum Premium Silahkan Beli File Premium Ke Admin')
 def error():
-	print(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Maaf Anda Belum Premium Silahkan Beli File Premium Ke Admin')
+	cetak(panel(f"[bold cyan]Anda Akan Di Arahkan Ke WhatsApp Admin Untuk Pembelian Script V2 Dengan Harga 100k Salam Code By [bold green]Bintang Cans [bold white]And [bold yellow]Xyzon Dev",width=90,title=f"[bold red][[bold green] Report Bug [bold red]]",style=f"bold red"))
 	os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Beli+File+Sc+Premium+Mu+Bang+Yang+100k")
 	time.sleep(3)
 	exit()
