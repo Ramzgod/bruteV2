@@ -997,7 +997,7 @@ def menu(my_name,my_id):
 	if _____xyzon___xd____ in ['1','01']:
 		vvk()
 	elif _____xyzon___xd____ in ['2','02']:
-		vvk()
+		dump_massal()
 	elif _____xyzon___xd____ in ['3','03']:
 		vvk()
 	elif _____xyzon___xd____ in('4','04'):
@@ -1015,7 +1015,7 @@ def menu(my_name,my_id):
 	elif _____xyzon___xd____ in('10','010'):
 		result()
 	elif _____xyzon___xd____ in('11','011'):
-		vvk()
+		file_cp()
 	elif _____xyzon___xd____ in('12','012'):
 		siu()
 	elif _____xyzon___xd____ in('13','013'):
